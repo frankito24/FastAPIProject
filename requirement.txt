@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlmodel
+alembic
+psycopg2-binary
+python-dotenv
+dbfread
+pandas
+selenium
+requests
+tqdm
+pyproj
