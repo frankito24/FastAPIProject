@@ -1,1084 +1,1084 @@
-hospital_name;year;type_activity;total
-hospital_universitario_del_henares;2012;Estancia media global;5.72
-hospital_universitario_del_henares;2013;Estancia media global;6.08
-hospital_universitario_del_henares;2014;Estancia media global;6.03
-hospital_universitario_del_henares;2015;Estancia media global;6.22
-hospital_universitario_del_henares;2016;Estancia media global;6.16
-hospital_universitario_del_henares;2017;Estancia media global;6.16
-hospital_universitario_del_henares;2018;Estancia media global;6.27
-hospital_universitario_del_henares;2019;Estancia media global;6.12
-hospital_universitario_del_henares;2020;Estancia media global;7.02
-hospital_universitario_del_henares;2021;Estancia media global;6.66
-hospital_universitario_del_henares;2022;Estancia media global;6.19
-hospital_universitario_del_henares;2012;Total ingresos;9968.0
-hospital_universitario_del_henares;2013;Total ingresos;9844.0
-hospital_universitario_del_henares;2014;Total ingresos;10124.0
-hospital_universitario_del_henares;2015;Total ingresos;10228.0
-hospital_universitario_del_henares;2016;Total ingresos;10778.0
-hospital_universitario_del_henares;2017;Total ingresos;11108.0
-hospital_universitario_del_henares;2018;Total ingresos;11367.0
-hospital_universitario_del_henares;2019;Total ingresos;11471.0
-hospital_universitario_del_henares;2020;Total ingresos;9620.0
-hospital_universitario_del_henares;2021;Total ingresos;10155.0
-hospital_universitario_del_henares;2022;Total ingresos;11258.0
-hospital_universitario_del_henares;2012;Ingresos urgentes;7530.0
-hospital_universitario_del_henares;2013;Ingresos urgentes;7182.0
-hospital_universitario_del_henares;2014;Ingresos urgentes;7669.0
-hospital_universitario_del_henares;2015;Ingresos urgentes;7771.0
-hospital_universitario_del_henares;2016;Ingresos urgentes;8330.0
-hospital_universitario_del_henares;2017;Ingresos urgentes;8613.0
-hospital_universitario_del_henares;2018;Ingresos urgentes;8705.0
-hospital_universitario_del_henares;2019;Ingresos urgentes;8770.0
-hospital_universitario_del_henares;2020;Ingresos urgentes;7944.0
-hospital_universitario_del_henares;2021;Ingresos urgentes;8173.0
-hospital_universitario_del_henares;2022;Ingresos urgentes;8906.0
-hospital_universitario_del_henares;2012;Ingresos programados;2438.0
-hospital_universitario_del_henares;2013;Ingresos programados;2662.0
-hospital_universitario_del_henares;2014;Ingresos programados;2455.0
-hospital_universitario_del_henares;2015;Ingresos programados;2457.0
-hospital_universitario_del_henares;2016;Ingresos programados;2448.0
-hospital_universitario_del_henares;2017;Ingresos programados;2495.0
-hospital_universitario_del_henares;2018;Ingresos programados;2662.0
-hospital_universitario_del_henares;2019;Ingresos programados;2701.0
-hospital_universitario_del_henares;2020;Ingresos programados;1676.0
-hospital_universitario_del_henares;2021;Ingresos programados;1982.0
-hospital_universitario_del_henares;2022;Ingresos programados;2352.0
-hospital_universitario_del_henares;2012;Urgencias totales;75952.0
-hospital_universitario_del_henares;2013;Urgencias totales;76323.0
-hospital_universitario_del_henares;2014;Urgencias totales;77897.0
-hospital_universitario_del_henares;2015;Urgencias totales;79879.0
-hospital_universitario_del_henares;2016;Urgencias totales;84440.0
-hospital_universitario_del_henares;2017;Urgencias totales;83565.0
-hospital_universitario_del_henares;2018;Urgencias totales;81932.0
-hospital_universitario_del_henares;2019;Urgencias totales;84351.0
-hospital_universitario_del_henares;2020;Urgencias totales;66773.0
-hospital_universitario_del_henares;2021;Urgencias totales;87400.0
-hospital_universitario_del_henares;2022;Urgencias totales;100515.0
-hospital_universitario_del_tajo;2012;Estancia media global;6.16
-hospital_universitario_del_tajo;2013;Estancia media global;6.03
-hospital_universitario_del_tajo;2014;Estancia media global;6.25
-hospital_universitario_del_tajo;2015;Estancia media global;6.22
-hospital_universitario_del_tajo;2016;Estancia media global;6.07
-hospital_universitario_del_tajo;2017;Estancia media global;6.08
-hospital_universitario_del_tajo;2018;Estancia media global;5.92
-hospital_universitario_del_tajo;2019;Estancia media global;6.03
-hospital_universitario_del_tajo;2020;Estancia media global;6.82
-hospital_universitario_del_tajo;2021;Estancia media global;6.65
-hospital_universitario_del_tajo;2022;Estancia media global;6.06
-hospital_universitario_del_tajo;2012;Total ingresos;4575.0
-hospital_universitario_del_tajo;2013;Total ingresos;4727.0
-hospital_universitario_del_tajo;2014;Total ingresos;4670.0
-hospital_universitario_del_tajo;2015;Total ingresos;4899.0
-hospital_universitario_del_tajo;2016;Total ingresos;4867.0
-hospital_universitario_del_tajo;2017;Total ingresos;4743.0
-hospital_universitario_del_tajo;2018;Total ingresos;4687.0
-hospital_universitario_del_tajo;2019;Total ingresos;4504.0
-hospital_universitario_del_tajo;2020;Total ingresos;4146.0
-hospital_universitario_del_tajo;2021;Total ingresos;4126.0
-hospital_universitario_del_tajo;2022;Total ingresos;4517.0
-hospital_universitario_del_tajo;2012;Ingresos urgentes;3920.0
-hospital_universitario_del_tajo;2013;Ingresos urgentes;3931.0
-hospital_universitario_del_tajo;2014;Ingresos urgentes;3963.0
-hospital_universitario_del_tajo;2015;Ingresos urgentes;4270.0
-hospital_universitario_del_tajo;2016;Ingresos urgentes;4268.0
-hospital_universitario_del_tajo;2017;Ingresos urgentes;4240.0
-hospital_universitario_del_tajo;2018;Ingresos urgentes;4084.0
-hospital_universitario_del_tajo;2019;Ingresos urgentes;3809.0
-hospital_universitario_del_tajo;2020;Ingresos urgentes;3630.0
-hospital_universitario_del_tajo;2021;Ingresos urgentes;3565.0
-hospital_universitario_del_tajo;2022;Ingresos urgentes;3984.0
-hospital_universitario_del_tajo;2012;Ingresos programados;655.0
-hospital_universitario_del_tajo;2013;Ingresos programados;796.0
-hospital_universitario_del_tajo;2014;Ingresos programados;707.0
-hospital_universitario_del_tajo;2015;Ingresos programados;629.0
-hospital_universitario_del_tajo;2016;Ingresos programados;599.0
-hospital_universitario_del_tajo;2017;Ingresos programados;503.0
-hospital_universitario_del_tajo;2018;Ingresos programados;603.0
-hospital_universitario_del_tajo;2019;Ingresos programados;695.0
-hospital_universitario_del_tajo;2020;Ingresos programados;516.0
-hospital_universitario_del_tajo;2021;Ingresos programados;561.0
-hospital_universitario_del_tajo;2022;Ingresos programados;533.0
-hospital_universitario_del_tajo;2012;Urgencias totales;48109.0
-hospital_universitario_del_tajo;2013;Urgencias totales;50136.0
-hospital_universitario_del_tajo;2014;Urgencias totales;51843.0
-hospital_universitario_del_tajo;2015;Urgencias totales;56316.0
-hospital_universitario_del_tajo;2016;Urgencias totales;58652.0
-hospital_universitario_del_tajo;2017;Urgencias totales;58890.0
-hospital_universitario_del_tajo;2018;Urgencias totales;59888.0
-hospital_universitario_del_tajo;2019;Urgencias totales;62157.0
-hospital_universitario_del_tajo;2020;Urgencias totales;48679.0
-hospital_universitario_del_tajo;2021;Urgencias totales;62990.0
-hospital_universitario_del_tajo;2022;Urgencias totales;68814.0
-hospital_universitario_infanta_sofia;2012;Estancia media global;5.98
-hospital_universitario_infanta_sofia;2013;Estancia media global;6.12
-hospital_universitario_infanta_sofia;2014;Estancia media global;5.61
-hospital_universitario_infanta_sofia;2015;Estancia media global;5.82
-hospital_universitario_infanta_sofia;2016;Estancia media global;5.72
-hospital_universitario_infanta_sofia;2017;Estancia media global;5.48
-hospital_universitario_infanta_sofia;2018;Estancia media global;5.48
-hospital_universitario_infanta_sofia;2019;Estancia media global;5.38
-hospital_universitario_infanta_sofia;2020;Estancia media global;6.0
-hospital_universitario_infanta_sofia;2021;Estancia media global;6.01
-hospital_universitario_infanta_sofia;2022;Estancia media global;5.65
-hospital_universitario_infanta_sofia;2012;Total ingresos;12608.0
-hospital_universitario_infanta_sofia;2013;Total ingresos;12784.0
-hospital_universitario_infanta_sofia;2014;Total ingresos;13399.0
-hospital_universitario_infanta_sofia;2015;Total ingresos;13882.0
-hospital_universitario_infanta_sofia;2016;Total ingresos;14229.0
-hospital_universitario_infanta_sofia;2017;Total ingresos;14592.0
-hospital_universitario_infanta_sofia;2018;Total ingresos;15193.0
-hospital_universitario_infanta_sofia;2019;Total ingresos;15826.0
-hospital_universitario_infanta_sofia;2020;Total ingresos;14969.0
-hospital_universitario_infanta_sofia;2021;Total ingresos;15501.0
-hospital_universitario_infanta_sofia;2022;Total ingresos;17053.0
-hospital_universitario_infanta_sofia;2012;Ingresos urgentes;9071.0
-hospital_universitario_infanta_sofia;2013;Ingresos urgentes;9220.0
-hospital_universitario_infanta_sofia;2014;Ingresos urgentes;9858.0
-hospital_universitario_infanta_sofia;2015;Ingresos urgentes;10418.0
-hospital_universitario_infanta_sofia;2016;Ingresos urgentes;10732.0
-hospital_universitario_infanta_sofia;2017;Ingresos urgentes;10747.0
-hospital_universitario_infanta_sofia;2018;Ingresos urgentes;11112.0
-hospital_universitario_infanta_sofia;2019;Ingresos urgentes;11562.0
-hospital_universitario_infanta_sofia;2020;Ingresos urgentes;11761.0
-hospital_universitario_infanta_sofia;2021;Ingresos urgentes;11789.0
-hospital_universitario_infanta_sofia;2022;Ingresos urgentes;12747.0
-hospital_universitario_infanta_sofia;2012;Ingresos programados;3537.0
-hospital_universitario_infanta_sofia;2013;Ingresos programados;3564.0
-hospital_universitario_infanta_sofia;2014;Ingresos programados;3541.0
-hospital_universitario_infanta_sofia;2015;Ingresos programados;3464.0
-hospital_universitario_infanta_sofia;2016;Ingresos programados;3497.0
-hospital_universitario_infanta_sofia;2017;Ingresos programados;3845.0
-hospital_universitario_infanta_sofia;2018;Ingresos programados;4081.0
-hospital_universitario_infanta_sofia;2019;Ingresos programados;4264.0
-hospital_universitario_infanta_sofia;2020;Ingresos programados;3208.0
-hospital_universitario_infanta_sofia;2021;Ingresos programados;3712.0
-hospital_universitario_infanta_sofia;2022;Ingresos programados;4306.0
-hospital_universitario_infanta_sofia;2012;Urgencias totales;109274.0
-hospital_universitario_infanta_sofia;2013;Urgencias totales;109778.0
-hospital_universitario_infanta_sofia;2014;Urgencias totales;112719.0
-hospital_universitario_infanta_sofia;2015;Urgencias totales;115479.0
-hospital_universitario_infanta_sofia;2016;Urgencias totales;119807.0
-hospital_universitario_infanta_sofia;2017;Urgencias totales;121142.0
-hospital_universitario_infanta_sofia;2018;Urgencias totales;121574.0
-hospital_universitario_infanta_sofia;2019;Urgencias totales;127625.0
-hospital_universitario_infanta_sofia;2020;Urgencias totales;96083.0
-hospital_universitario_infanta_sofia;2021;Urgencias totales;125540.0
-hospital_universitario_infanta_sofia;2022;Urgencias totales;143632.0
-hospital_universitario_de_fuenlabrada;2012;Estancia media global;5.98
-hospital_universitario_de_fuenlabrada;2013;Estancia media global;5.8
-hospital_universitario_de_fuenlabrada;2014;Estancia media global;5.88
-hospital_universitario_de_fuenlabrada;2015;Estancia media global;6.09
-hospital_universitario_de_fuenlabrada;2016;Estancia media global;6.15
-hospital_universitario_de_fuenlabrada;2017;Estancia media global;5.71
-hospital_universitario_de_fuenlabrada;2018;Estancia media global;5.77
-hospital_universitario_de_fuenlabrada;2019;Estancia media global;5.82
-hospital_universitario_de_fuenlabrada;2020;Estancia media global;6.21
-hospital_universitario_de_fuenlabrada;2021;Estancia media global;6.2
-hospital_universitario_de_fuenlabrada;2022;Estancia media global;5.79
-hospital_universitario_de_fuenlabrada;2012;Total ingresos;14849.0
-hospital_universitario_de_fuenlabrada;2013;Total ingresos;15072.0
-hospital_universitario_de_fuenlabrada;2014;Total ingresos;15109.0
-hospital_universitario_de_fuenlabrada;2015;Total ingresos;15605.0
-hospital_universitario_de_fuenlabrada;2016;Total ingresos;15815.0
-hospital_universitario_de_fuenlabrada;2017;Total ingresos;15886.0
-hospital_universitario_de_fuenlabrada;2018;Total ingresos;16311.0
-hospital_universitario_de_fuenlabrada;2019;Total ingresos;16277.0
-hospital_universitario_de_fuenlabrada;2020;Total ingresos;15634.0
-hospital_universitario_de_fuenlabrada;2021;Total ingresos;15226.0
-hospital_universitario_de_fuenlabrada;2022;Total ingresos;17183.0
-hospital_universitario_de_fuenlabrada;2012;Ingresos urgentes;11108.0
-hospital_universitario_de_fuenlabrada;2013;Ingresos urgentes;11145.0
-hospital_universitario_de_fuenlabrada;2014;Ingresos urgentes;11133.0
-hospital_universitario_de_fuenlabrada;2015;Ingresos urgentes;11668.0
-hospital_universitario_de_fuenlabrada;2016;Ingresos urgentes;11767.0
-hospital_universitario_de_fuenlabrada;2017;Ingresos urgentes;11624.0
-hospital_universitario_de_fuenlabrada;2018;Ingresos urgentes;11558.0
-hospital_universitario_de_fuenlabrada;2019;Ingresos urgentes;11564.0
-hospital_universitario_de_fuenlabrada;2020;Ingresos urgentes;11930.0
-hospital_universitario_de_fuenlabrada;2021;Ingresos urgentes;10921.0
-hospital_universitario_de_fuenlabrada;2022;Ingresos urgentes;12486.0
-hospital_universitario_de_fuenlabrada;2012;Ingresos programados;3741.0
-hospital_universitario_de_fuenlabrada;2013;Ingresos programados;3927.0
-hospital_universitario_de_fuenlabrada;2014;Ingresos programados;3976.0
-hospital_universitario_de_fuenlabrada;2015;Ingresos programados;3937.0
-hospital_universitario_de_fuenlabrada;2016;Ingresos programados;4048.0
-hospital_universitario_de_fuenlabrada;2017;Ingresos programados;4262.0
-hospital_universitario_de_fuenlabrada;2018;Ingresos programados;4753.0
-hospital_universitario_de_fuenlabrada;2019;Ingresos programados;4713.0
-hospital_universitario_de_fuenlabrada;2020;Ingresos programados;3704.0
-hospital_universitario_de_fuenlabrada;2021;Ingresos programados;4305.0
-hospital_universitario_de_fuenlabrada;2022;Ingresos programados;4697.0
-hospital_universitario_de_fuenlabrada;2012;Urgencias totales;121243.0
-hospital_universitario_de_fuenlabrada;2013;Urgencias totales;120917.0
-hospital_universitario_de_fuenlabrada;2014;Urgencias totales;116174.0
-hospital_universitario_de_fuenlabrada;2015;Urgencias totales;115740.0
-hospital_universitario_de_fuenlabrada;2016;Urgencias totales;119326.0
-hospital_universitario_de_fuenlabrada;2017;Urgencias totales;121901.0
-hospital_universitario_de_fuenlabrada;2018;Urgencias totales;120076.0
-hospital_universitario_de_fuenlabrada;2019;Urgencias totales;127232.0
-hospital_universitario_de_fuenlabrada;2020;Urgencias totales;99790.0
-hospital_universitario_de_fuenlabrada;2021;Urgencias totales;124229.0
-hospital_universitario_de_fuenlabrada;2022;Urgencias totales;143953.0
-hospital_universitario_puerta_de_hierro_majadahonda;2012;Estancia media global;7.38
-hospital_universitario_puerta_de_hierro_majadahonda;2013;Estancia media global;7.25
-hospital_universitario_puerta_de_hierro_majadahonda;2014;Estancia media global;6.99
-hospital_universitario_puerta_de_hierro_majadahonda;2015;Estancia media global;6.78
-hospital_universitario_puerta_de_hierro_majadahonda;2016;Estancia media global;6.72
-hospital_universitario_puerta_de_hierro_majadahonda;2017;Estancia media global;6.74
-hospital_universitario_puerta_de_hierro_majadahonda;2018;Estancia media global;6.75
-hospital_universitario_puerta_de_hierro_majadahonda;2019;Estancia media global;6.92
-hospital_universitario_puerta_de_hierro_majadahonda;2020;Estancia media global;7.28
-hospital_universitario_puerta_de_hierro_majadahonda;2021;Estancia media global;7.42
-hospital_universitario_puerta_de_hierro_majadahonda;2022;Estancia media global;7.05
-hospital_universitario_puerta_de_hierro_majadahonda;2012;Total ingresos;25669.0
-hospital_universitario_puerta_de_hierro_majadahonda;2013;Total ingresos;25091.0
-hospital_universitario_puerta_de_hierro_majadahonda;2014;Total ingresos;25774.0
-hospital_universitario_puerta_de_hierro_majadahonda;2015;Total ingresos;25799.0
-hospital_universitario_puerta_de_hierro_majadahonda;2016;Total ingresos;25910.0
-hospital_universitario_puerta_de_hierro_majadahonda;2017;Total ingresos;25925.0
-hospital_universitario_puerta_de_hierro_majadahonda;2018;Total ingresos;26048.0
-hospital_universitario_puerta_de_hierro_majadahonda;2019;Total ingresos;26349.0
-hospital_universitario_puerta_de_hierro_majadahonda;2020;Total ingresos;24454.0
-hospital_universitario_puerta_de_hierro_majadahonda;2021;Total ingresos;23762.0
-hospital_universitario_puerta_de_hierro_majadahonda;2022;Total ingresos;26457.0
-hospital_universitario_puerta_de_hierro_majadahonda;2012;Ingresos urgentes;21038.0
-hospital_universitario_puerta_de_hierro_majadahonda;2013;Ingresos urgentes;18590.0
-hospital_universitario_puerta_de_hierro_majadahonda;2014;Ingresos urgentes;19181.0
-hospital_universitario_puerta_de_hierro_majadahonda;2015;Ingresos urgentes;22028.0
-hospital_universitario_puerta_de_hierro_majadahonda;2016;Ingresos urgentes;22308.0
-hospital_universitario_puerta_de_hierro_majadahonda;2017;Ingresos urgentes;22384.0
-hospital_universitario_puerta_de_hierro_majadahonda;2018;Ingresos urgentes;22537.0
-hospital_universitario_puerta_de_hierro_majadahonda;2019;Ingresos urgentes;22918.0
-hospital_universitario_puerta_de_hierro_majadahonda;2020;Ingresos urgentes;21563.0
-hospital_universitario_puerta_de_hierro_majadahonda;2021;Ingresos urgentes;20663.0
-hospital_universitario_puerta_de_hierro_majadahonda;2022;Ingresos urgentes;23005.0
-hospital_universitario_puerta_de_hierro_majadahonda;2012;Ingresos programados;4631.0
-hospital_universitario_puerta_de_hierro_majadahonda;2013;Ingresos programados;6501.0
-hospital_universitario_puerta_de_hierro_majadahonda;2014;Ingresos programados;6593.0
-hospital_universitario_puerta_de_hierro_majadahonda;2015;Ingresos programados;3771.0
-hospital_universitario_puerta_de_hierro_majadahonda;2016;Ingresos programados;3602.0
-hospital_universitario_puerta_de_hierro_majadahonda;2017;Ingresos programados;3541.0
-hospital_universitario_puerta_de_hierro_majadahonda;2018;Ingresos programados;3511.0
-hospital_universitario_puerta_de_hierro_majadahonda;2019;Ingresos programados;3431.0
-hospital_universitario_puerta_de_hierro_majadahonda;2020;Ingresos programados;2891.0
-hospital_universitario_puerta_de_hierro_majadahonda;2021;Ingresos programados;3099.0
-hospital_universitario_puerta_de_hierro_majadahonda;2022;Ingresos programados;3452.0
-hospital_universitario_puerta_de_hierro_majadahonda;2012;Urgencias totales;148723.0
-hospital_universitario_puerta_de_hierro_majadahonda;2013;Urgencias totales;151809.0
-hospital_universitario_puerta_de_hierro_majadahonda;2014;Urgencias totales;154328.0
-hospital_universitario_puerta_de_hierro_majadahonda;2015;Urgencias totales;151262.0
-hospital_universitario_puerta_de_hierro_majadahonda;2016;Urgencias totales;160186.0
-hospital_universitario_puerta_de_hierro_majadahonda;2017;Urgencias totales;164620.0
-hospital_universitario_puerta_de_hierro_majadahonda;2018;Urgencias totales;166246.0
-hospital_universitario_puerta_de_hierro_majadahonda;2019;Urgencias totales;174416.0
-hospital_universitario_puerta_de_hierro_majadahonda;2020;Urgencias totales;136400.0
-hospital_universitario_puerta_de_hierro_majadahonda;2021;Urgencias totales;173643.0
-hospital_universitario_puerta_de_hierro_majadahonda;2022;Urgencias totales;195605.0
-hospital_el_escorial;2012;Estancia media global;5.21
-hospital_el_escorial;2013;Estancia media global;5.34
-hospital_el_escorial;2014;Estancia media global;5.24
-hospital_el_escorial;2015;Estancia media global;5.07
-hospital_el_escorial;2016;Estancia media global;5.29
-hospital_el_escorial;2017;Estancia media global;5.74
-hospital_el_escorial;2018;Estancia media global;5.3
-hospital_el_escorial;2019;Estancia media global;5.06
-hospital_el_escorial;2020;Estancia media global;6.19
-hospital_el_escorial;2021;Estancia media global;6.17
-hospital_el_escorial;2022;Estancia media global;5.88
-hospital_el_escorial;2012;Total ingresos;3701.0
-hospital_el_escorial;2013;Total ingresos;3575.0
-hospital_el_escorial;2014;Total ingresos;3661.0
-hospital_el_escorial;2015;Total ingresos;3644.0
-hospital_el_escorial;2016;Total ingresos;3765.0
-hospital_el_escorial;2017;Total ingresos;3657.0
-hospital_el_escorial;2018;Total ingresos;3533.0
-hospital_el_escorial;2019;Total ingresos;3441.0
-hospital_el_escorial;2020;Total ingresos;3309.0
-hospital_el_escorial;2021;Total ingresos;2951.0
-hospital_el_escorial;2022;Total ingresos;3100.0
-hospital_el_escorial;2012;Ingresos urgentes;2736.0
-hospital_el_escorial;2013;Ingresos urgentes;2804.0
-hospital_el_escorial;2014;Ingresos urgentes;2823.0
-hospital_el_escorial;2015;Ingresos urgentes;2798.0
-hospital_el_escorial;2016;Ingresos urgentes;2884.0
-hospital_el_escorial;2017;Ingresos urgentes;2808.0
-hospital_el_escorial;2018;Ingresos urgentes;2643.0
-hospital_el_escorial;2019;Ingresos urgentes;2536.0
-hospital_el_escorial;2020;Ingresos urgentes;2690.0
-hospital_el_escorial;2021;Ingresos urgentes;2197.0
-hospital_el_escorial;2022;Ingresos urgentes;2236.0
-hospital_el_escorial;2012;Ingresos programados;965.0
-hospital_el_escorial;2013;Ingresos programados;771.0
-hospital_el_escorial;2014;Ingresos programados;838.0
-hospital_el_escorial;2015;Ingresos programados;846.0
-hospital_el_escorial;2016;Ingresos programados;881.0
-hospital_el_escorial;2017;Ingresos programados;849.0
-hospital_el_escorial;2018;Ingresos programados;890.0
-hospital_el_escorial;2019;Ingresos programados;905.0
-hospital_el_escorial;2020;Ingresos programados;619.0
-hospital_el_escorial;2021;Ingresos programados;754.0
-hospital_el_escorial;2022;Ingresos programados;864.0
-hospital_el_escorial;2012;Urgencias totales;41046.0
-hospital_el_escorial;2013;Urgencias totales;43457.0
-hospital_el_escorial;2014;Urgencias totales;44458.0
-hospital_el_escorial;2015;Urgencias totales;40293.0
-hospital_el_escorial;2016;Urgencias totales;41889.0
-hospital_el_escorial;2017;Urgencias totales;43380.0
-hospital_el_escorial;2018;Urgencias totales;45240.0
-hospital_el_escorial;2019;Urgencias totales;47998.0
-hospital_el_escorial;2020;Urgencias totales;36368.0
-hospital_el_escorial;2021;Urgencias totales;43991.0
-hospital_el_escorial;2022;Urgencias totales;52159.0
-hospital_universitario_infanta_cristina;2012;Estancia media global;4.71
-hospital_universitario_infanta_cristina;2013;Estancia media global;4.9
-hospital_universitario_infanta_cristina;2014;Estancia media global;4.8
-hospital_universitario_infanta_cristina;2015;Estancia media global;4.92
-hospital_universitario_infanta_cristina;2016;Estancia media global;4.94
-hospital_universitario_infanta_cristina;2017;Estancia media global;4.8
-hospital_universitario_infanta_cristina;2018;Estancia media global;5.09
-hospital_universitario_infanta_cristina;2019;Estancia media global;5.15
-hospital_universitario_infanta_cristina;2020;Estancia media global;5.69
-hospital_universitario_infanta_cristina;2021;Estancia media global;5.7
-hospital_universitario_infanta_cristina;2022;Estancia media global;5.7
-hospital_universitario_infanta_cristina;2012;Total ingresos;8953.0
-hospital_universitario_infanta_cristina;2013;Total ingresos;8783.0
-hospital_universitario_infanta_cristina;2014;Total ingresos;9167.0
-hospital_universitario_infanta_cristina;2015;Total ingresos;9293.0
-hospital_universitario_infanta_cristina;2016;Total ingresos;8990.0
-hospital_universitario_infanta_cristina;2017;Total ingresos;9208.0
-hospital_universitario_infanta_cristina;2018;Total ingresos;8902.0
-hospital_universitario_infanta_cristina;2019;Total ingresos;9045.0
-hospital_universitario_infanta_cristina;2020;Total ingresos;8656.0
-hospital_universitario_infanta_cristina;2021;Total ingresos;8660.0
-hospital_universitario_infanta_cristina;2022;Total ingresos;8860.0
-hospital_universitario_infanta_cristina;2012;Ingresos urgentes;6658.0
-hospital_universitario_infanta_cristina;2013;Ingresos urgentes;6365.0
-hospital_universitario_infanta_cristina;2014;Ingresos urgentes;6869.0
-hospital_universitario_infanta_cristina;2015;Ingresos urgentes;7071.0
-hospital_universitario_infanta_cristina;2016;Ingresos urgentes;6879.0
-hospital_universitario_infanta_cristina;2017;Ingresos urgentes;7102.0
-hospital_universitario_infanta_cristina;2018;Ingresos urgentes;6895.0
-hospital_universitario_infanta_cristina;2019;Ingresos urgentes;7106.0
-hospital_universitario_infanta_cristina;2020;Ingresos urgentes;7159.0
-hospital_universitario_infanta_cristina;2021;Ingresos urgentes;7139.0
-hospital_universitario_infanta_cristina;2022;Ingresos urgentes;7245.0
-hospital_universitario_infanta_cristina;2012;Ingresos programados;2295.0
-hospital_universitario_infanta_cristina;2013;Ingresos programados;2418.0
-hospital_universitario_infanta_cristina;2014;Ingresos programados;2298.0
-hospital_universitario_infanta_cristina;2015;Ingresos programados;2222.0
-hospital_universitario_infanta_cristina;2016;Ingresos programados;2111.0
-hospital_universitario_infanta_cristina;2017;Ingresos programados;2106.0
-hospital_universitario_infanta_cristina;2018;Ingresos programados;2007.0
-hospital_universitario_infanta_cristina;2019;Ingresos programados;1939.0
-hospital_universitario_infanta_cristina;2020;Ingresos programados;1497.0
-hospital_universitario_infanta_cristina;2021;Ingresos programados;1521.0
-hospital_universitario_infanta_cristina;2022;Ingresos programados;1615.0
-hospital_universitario_infanta_cristina;2012;Urgencias totales;90602.0
-hospital_universitario_infanta_cristina;2013;Urgencias totales;91030.0
-hospital_universitario_infanta_cristina;2014;Urgencias totales;92466.0
-hospital_universitario_infanta_cristina;2015;Urgencias totales;98437.0
-hospital_universitario_infanta_cristina;2016;Urgencias totales;99860.0
-hospital_universitario_infanta_cristina;2017;Urgencias totales;102280.0
-hospital_universitario_infanta_cristina;2018;Urgencias totales;99954.0
-hospital_universitario_infanta_cristina;2019;Urgencias totales;103872.0
-hospital_universitario_infanta_cristina;2020;Urgencias totales;80002.0
-hospital_universitario_infanta_cristina;2021;Urgencias totales;103744.0
-hospital_universitario_infanta_cristina;2022;Urgencias totales;114379.0
-hospital_universitario_severo_ochoa;2012;Estancia media global;7.09
-hospital_universitario_severo_ochoa;2013;Estancia media global;7.42
-hospital_universitario_severo_ochoa;2014;Estancia media global;7.65
-hospital_universitario_severo_ochoa;2015;Estancia media global;7.4
-hospital_universitario_severo_ochoa;2016;Estancia media global;7.05
-hospital_universitario_severo_ochoa;2017;Estancia media global;6.84
-hospital_universitario_severo_ochoa;2018;Estancia media global;6.8
-hospital_universitario_severo_ochoa;2019;Estancia media global;6.89
-hospital_universitario_severo_ochoa;2020;Estancia media global;7.14
-hospital_universitario_severo_ochoa;2021;Estancia media global;6.71
-hospital_universitario_severo_ochoa;2022;Estancia media global;6.22
-hospital_universitario_severo_ochoa;2012;Total ingresos;15023.0
-hospital_universitario_severo_ochoa;2013;Total ingresos;14616.0
-hospital_universitario_severo_ochoa;2014;Total ingresos;14237.0
-hospital_universitario_severo_ochoa;2015;Total ingresos;14791.0
-hospital_universitario_severo_ochoa;2016;Total ingresos;15388.0
-hospital_universitario_severo_ochoa;2017;Total ingresos;15807.0
-hospital_universitario_severo_ochoa;2018;Total ingresos;15835.0
-hospital_universitario_severo_ochoa;2019;Total ingresos;16005.0
-hospital_universitario_severo_ochoa;2020;Total ingresos;13860.0
-hospital_universitario_severo_ochoa;2021;Total ingresos;13826.0
-hospital_universitario_severo_ochoa;2022;Total ingresos;15119.0
-hospital_universitario_severo_ochoa;2012;Ingresos urgentes;10955.0
-hospital_universitario_severo_ochoa;2013;Ingresos urgentes;11132.0
-hospital_universitario_severo_ochoa;2014;Ingresos urgentes;10990.0
-hospital_universitario_severo_ochoa;2015;Ingresos urgentes;11447.0
-hospital_universitario_severo_ochoa;2016;Ingresos urgentes;11698.0
-hospital_universitario_severo_ochoa;2017;Ingresos urgentes;11933.0
-hospital_universitario_severo_ochoa;2018;Ingresos urgentes;11842.0
-hospital_universitario_severo_ochoa;2019;Ingresos urgentes;11972.0
-hospital_universitario_severo_ochoa;2020;Ingresos urgentes;11079.0
-hospital_universitario_severo_ochoa;2021;Ingresos urgentes;10613.0
-hospital_universitario_severo_ochoa;2022;Ingresos urgentes;11456.0
-hospital_universitario_severo_ochoa;2012;Ingresos programados;4068.0
-hospital_universitario_severo_ochoa;2013;Ingresos programados;3484.0
-hospital_universitario_severo_ochoa;2014;Ingresos programados;3247.0
-hospital_universitario_severo_ochoa;2015;Ingresos programados;3344.0
-hospital_universitario_severo_ochoa;2016;Ingresos programados;3690.0
-hospital_universitario_severo_ochoa;2017;Ingresos programados;3874.0
-hospital_universitario_severo_ochoa;2018;Ingresos programados;3993.0
-hospital_universitario_severo_ochoa;2019;Ingresos programados;4033.0
-hospital_universitario_severo_ochoa;2020;Ingresos programados;2781.0
-hospital_universitario_severo_ochoa;2021;Ingresos programados;3213.0
-hospital_universitario_severo_ochoa;2022;Ingresos programados;3663.0
-hospital_universitario_severo_ochoa;2012;Urgencias totales;103471.0
-hospital_universitario_severo_ochoa;2013;Urgencias totales;106335.0
-hospital_universitario_severo_ochoa;2014;Urgencias totales;107430.0
-hospital_universitario_severo_ochoa;2015;Urgencias totales;110808.0
-hospital_universitario_severo_ochoa;2016;Urgencias totales;111637.0
-hospital_universitario_severo_ochoa;2017;Urgencias totales;110832.0
-hospital_universitario_severo_ochoa;2018;Urgencias totales;109048.0
-hospital_universitario_severo_ochoa;2019;Urgencias totales;112096.0
-hospital_universitario_severo_ochoa;2020;Urgencias totales;83248.0
-hospital_universitario_severo_ochoa;2021;Urgencias totales;104743.0
-hospital_universitario_severo_ochoa;2022;Urgencias totales;120849.0
-hospital_universitario_principe_de_asturias;2012;Estancia media global;6.81
-hospital_universitario_principe_de_asturias;2013;Estancia media global;7.03
-hospital_universitario_principe_de_asturias;2014;Estancia media global;6.82
-hospital_universitario_principe_de_asturias;2015;Estancia media global;6.83
-hospital_universitario_principe_de_asturias;2016;Estancia media global;6.72
-hospital_universitario_principe_de_asturias;2017;Estancia media global;6.63
-hospital_universitario_principe_de_asturias;2018;Estancia media global;6.3
-hospital_universitario_principe_de_asturias;2019;Estancia media global;6.28
-hospital_universitario_principe_de_asturias;2020;Estancia media global;6.74
-hospital_universitario_principe_de_asturias;2021;Estancia media global;6.91
-hospital_universitario_principe_de_asturias;2022;Estancia media global;6.33
-hospital_universitario_principe_de_asturias;2012;Total ingresos;19165.0
-hospital_universitario_principe_de_asturias;2013;Total ingresos;17733.0
-hospital_universitario_principe_de_asturias;2014;Total ingresos;17944.0
-hospital_universitario_principe_de_asturias;2015;Total ingresos;17744.0
-hospital_universitario_principe_de_asturias;2016;Total ingresos;18068.0
-hospital_universitario_principe_de_asturias;2017;Total ingresos;17917.0
-hospital_universitario_principe_de_asturias;2018;Total ingresos;18213.0
-hospital_universitario_principe_de_asturias;2019;Total ingresos;18221.0
-hospital_universitario_principe_de_asturias;2020;Total ingresos;16602.0
-hospital_universitario_principe_de_asturias;2021;Total ingresos;17456.0
-hospital_universitario_principe_de_asturias;2022;Total ingresos;18507.0
-hospital_universitario_principe_de_asturias;2012;Ingresos urgentes;13334.0
-hospital_universitario_principe_de_asturias;2013;Ingresos urgentes;12530.0
-hospital_universitario_principe_de_asturias;2014;Ingresos urgentes;12901.0
-hospital_universitario_principe_de_asturias;2015;Ingresos urgentes;12886.0
-hospital_universitario_principe_de_asturias;2016;Ingresos urgentes;12920.0
-hospital_universitario_principe_de_asturias;2017;Ingresos urgentes;12705.0
-hospital_universitario_principe_de_asturias;2018;Ingresos urgentes;12426.0
-hospital_universitario_principe_de_asturias;2019;Ingresos urgentes;12404.0
-hospital_universitario_principe_de_asturias;2020;Ingresos urgentes;12274.0
-hospital_universitario_principe_de_asturias;2021;Ingresos urgentes;12204.0
-hospital_universitario_principe_de_asturias;2022;Ingresos urgentes;13043.0
-hospital_universitario_principe_de_asturias;2012;Ingresos programados;5831.0
-hospital_universitario_principe_de_asturias;2013;Ingresos programados;5203.0
-hospital_universitario_principe_de_asturias;2014;Ingresos programados;5043.0
-hospital_universitario_principe_de_asturias;2015;Ingresos programados;4858.0
-hospital_universitario_principe_de_asturias;2016;Ingresos programados;5148.0
-hospital_universitario_principe_de_asturias;2017;Ingresos programados;5212.0
-hospital_universitario_principe_de_asturias;2018;Ingresos programados;5787.0
-hospital_universitario_principe_de_asturias;2019;Ingresos programados;5817.0
-hospital_universitario_principe_de_asturias;2020;Ingresos programados;4328.0
-hospital_universitario_principe_de_asturias;2021;Ingresos programados;5252.0
-hospital_universitario_principe_de_asturias;2022;Ingresos programados;5464.0
-hospital_universitario_principe_de_asturias;2012;Urgencias totales;113954.0
-hospital_universitario_principe_de_asturias;2013;Urgencias totales;118850.0
-hospital_universitario_principe_de_asturias;2014;Urgencias totales;124055.0
-hospital_universitario_principe_de_asturias;2015;Urgencias totales;132068.0
-hospital_universitario_principe_de_asturias;2016;Urgencias totales;141888.0
-hospital_universitario_principe_de_asturias;2017;Urgencias totales;144288.0
-hospital_universitario_principe_de_asturias;2018;Urgencias totales;144970.0
-hospital_universitario_principe_de_asturias;2019;Urgencias totales;149584.0
-hospital_universitario_principe_de_asturias;2020;Urgencias totales;112099.0
-hospital_universitario_principe_de_asturias;2021;Urgencias totales;139542.0
-hospital_universitario_principe_de_asturias;2022;Urgencias totales;160934.0
-hospital_universitario_de_torrejon;2012;Estancia media global;4.16
-hospital_universitario_de_torrejon;2013;Estancia media global;4.46
-hospital_universitario_de_torrejon;2014;Estancia media global;3.98
-hospital_universitario_de_torrejon;2015;Estancia media global;4.21
-hospital_universitario_de_torrejon;2016;Estancia media global;4.27
-hospital_universitario_de_torrejon;2017;Estancia media global;4.27
-hospital_universitario_de_torrejon;2018;Estancia media global;4.3
-hospital_universitario_de_torrejon;2019;Estancia media global;4.27
-hospital_universitario_de_torrejon;2020;Estancia media global;5.15
-hospital_universitario_de_torrejon;2021;Estancia media global;4.74
-hospital_universitario_de_torrejon;2022;Estancia media global;4.63
-hospital_universitario_de_torrejon;2012;Total ingresos;10822.0
-hospital_universitario_de_torrejon;2013;Total ingresos;12694.0
-hospital_universitario_de_torrejon;2014;Total ingresos;14576.0
-hospital_universitario_de_torrejon;2015;Total ingresos;12306.0
-hospital_universitario_de_torrejon;2016;Total ingresos;12141.0
-hospital_universitario_de_torrejon;2017;Total ingresos;12242.0
-hospital_universitario_de_torrejon;2018;Total ingresos;11998.0
-hospital_universitario_de_torrejon;2019;Total ingresos;11164.0
-hospital_universitario_de_torrejon;2020;Total ingresos;10328.0
-hospital_universitario_de_torrejon;2021;Total ingresos;11778.0
-hospital_universitario_de_torrejon;2022;Total ingresos;12626.0
-hospital_universitario_de_torrejon;2012;Ingresos urgentes;8171.0
-hospital_universitario_de_torrejon;2013;Ingresos urgentes;9028.0
-hospital_universitario_de_torrejon;2014;Ingresos urgentes;10087.0
-hospital_universitario_de_torrejon;2015;Ingresos urgentes;8400.0
-hospital_universitario_de_torrejon;2016;Ingresos urgentes;8574.0
-hospital_universitario_de_torrejon;2017;Ingresos urgentes;8697.0
-hospital_universitario_de_torrejon;2018;Ingresos urgentes;8558.0
-hospital_universitario_de_torrejon;2019;Ingresos urgentes;7876.0
-hospital_universitario_de_torrejon;2020;Ingresos urgentes;8254.0
-hospital_universitario_de_torrejon;2021;Ingresos urgentes;9526.0
-hospital_universitario_de_torrejon;2022;Ingresos urgentes;9689.0
-hospital_universitario_de_torrejon;2012;Ingresos programados;2651.0
-hospital_universitario_de_torrejon;2013;Ingresos programados;3666.0
-hospital_universitario_de_torrejon;2014;Ingresos programados;4489.0
-hospital_universitario_de_torrejon;2015;Ingresos programados;3906.0
-hospital_universitario_de_torrejon;2016;Ingresos programados;3567.0
-hospital_universitario_de_torrejon;2017;Ingresos programados;3545.0
-hospital_universitario_de_torrejon;2018;Ingresos programados;3440.0
-hospital_universitario_de_torrejon;2019;Ingresos programados;3288.0
-hospital_universitario_de_torrejon;2020;Ingresos programados;2074.0
-hospital_universitario_de_torrejon;2021;Ingresos programados;2252.0
-hospital_universitario_de_torrejon;2022;Ingresos programados;2937.0
-hospital_universitario_de_torrejon;2012;Urgencias totales;89892.0
-hospital_universitario_de_torrejon;2013;Urgencias totales;96942.0
-hospital_universitario_de_torrejon;2014;Urgencias totales;104524.0
-hospital_universitario_de_torrejon;2015;Urgencias totales;102365.0
-hospital_universitario_de_torrejon;2016;Urgencias totales;104870.0
-hospital_universitario_de_torrejon;2017;Urgencias totales;105171.0
-hospital_universitario_de_torrejon;2018;Urgencias totales;109665.0
-hospital_universitario_de_torrejon;2019;Urgencias totales;112045.0
-hospital_universitario_de_torrejon;2020;Urgencias totales;72629.0
-hospital_universitario_de_torrejon;2021;Urgencias totales;110758.0
-hospital_universitario_de_torrejon;2022;Urgencias totales;125414.0
-hospital_general_de_villalba;2015;Estancia media global;4.94
-hospital_general_de_villalba;2016;Estancia media global;5.15
-hospital_general_de_villalba;2017;Estancia media global;5.43
-hospital_general_de_villalba;2018;Estancia media global;5.65
-hospital_general_de_villalba;2019;Estancia media global;5.38
-hospital_general_de_villalba;2020;Estancia media global;5.63
-hospital_general_de_villalba;2021;Estancia media global;5.01
-hospital_general_de_villalba;2022;Estancia media global;4.58
-hospital_general_de_villalba;2015;Total ingresos;7382.0
-hospital_general_de_villalba;2016;Total ingresos;8810.0
-hospital_general_de_villalba;2017;Total ingresos;8963.0
-hospital_general_de_villalba;2018;Total ingresos;9623.0
-hospital_general_de_villalba;2019;Total ingresos;10176.0
-hospital_general_de_villalba;2020;Total ingresos;9640.0
-hospital_general_de_villalba;2021;Total ingresos;8999.0
-hospital_general_de_villalba;2022;Total ingresos;11027.0
-hospital_general_de_villalba;2015;Ingresos urgentes;6089.0
-hospital_general_de_villalba;2016;Ingresos urgentes;6729.0
-hospital_general_de_villalba;2017;Ingresos urgentes;6733.0
-hospital_general_de_villalba;2018;Ingresos urgentes;7195.0
-hospital_general_de_villalba;2019;Ingresos urgentes;7804.0
-hospital_general_de_villalba;2020;Ingresos urgentes;7308.0
-hospital_general_de_villalba;2021;Ingresos urgentes;6660.0
-hospital_general_de_villalba;2022;Ingresos urgentes;8345.0
-hospital_general_de_villalba;2015;Ingresos programados;1293.0
-hospital_general_de_villalba;2016;Ingresos programados;2081.0
-hospital_general_de_villalba;2017;Ingresos programados;2230.0
-hospital_general_de_villalba;2018;Ingresos programados;2428.0
-hospital_general_de_villalba;2019;Ingresos programados;2372.0
-hospital_general_de_villalba;2020;Ingresos programados;2332.0
-hospital_general_de_villalba;2021;Ingresos programados;2339.0
-hospital_general_de_villalba;2022;Ingresos programados;2682.0
-hospital_general_de_villalba;2015;Urgencias totales;76980.0
-hospital_general_de_villalba;2016;Urgencias totales;92440.0
-hospital_general_de_villalba;2017;Urgencias totales;100769.0
-hospital_general_de_villalba;2018;Urgencias totales;101034.0
-hospital_general_de_villalba;2019;Urgencias totales;105386.0
-hospital_general_de_villalba;2020;Urgencias totales;85666.0
-hospital_general_de_villalba;2021;Urgencias totales;114591.0
-hospital_general_de_villalba;2022;Urgencias totales;135994.0
-hospital_universitario_de_mostoles;2012;Estancia media global;6.76
-hospital_universitario_de_mostoles;2013;Estancia media global;6.76
-hospital_universitario_de_mostoles;2014;Estancia media global;6.53
-hospital_universitario_de_mostoles;2015;Estancia media global;6.69
-hospital_universitario_de_mostoles;2016;Estancia media global;6.57
-hospital_universitario_de_mostoles;2017;Estancia media global;6.72
-hospital_universitario_de_mostoles;2018;Estancia media global;6.6
-hospital_universitario_de_mostoles;2019;Estancia media global;6.42
-hospital_universitario_de_mostoles;2020;Estancia media global;6.9
-hospital_universitario_de_mostoles;2021;Estancia media global;6.65
-hospital_universitario_de_mostoles;2022;Estancia media global;6.37
-hospital_universitario_de_mostoles;2012;Total ingresos;15569.0
-hospital_universitario_de_mostoles;2013;Total ingresos;14020.0
-hospital_universitario_de_mostoles;2014;Total ingresos;13292.0
-hospital_universitario_de_mostoles;2015;Total ingresos;13391.0
-hospital_universitario_de_mostoles;2016;Total ingresos;13072.0
-hospital_universitario_de_mostoles;2017;Total ingresos;12693.0
-hospital_universitario_de_mostoles;2018;Total ingresos;12225.0
-hospital_universitario_de_mostoles;2019;Total ingresos;13049.0
-hospital_universitario_de_mostoles;2020;Total ingresos;11288.0
-hospital_universitario_de_mostoles;2021;Total ingresos;11283.0
-hospital_universitario_de_mostoles;2022;Total ingresos;11994.0
-hospital_universitario_de_mostoles;2012;Ingresos urgentes;11202.0
-hospital_universitario_de_mostoles;2013;Ingresos urgentes;9815.0
-hospital_universitario_de_mostoles;2014;Ingresos urgentes;9268.0
-hospital_universitario_de_mostoles;2015;Ingresos urgentes;9509.0
-hospital_universitario_de_mostoles;2016;Ingresos urgentes;9163.0
-hospital_universitario_de_mostoles;2017;Ingresos urgentes;9287.0
-hospital_universitario_de_mostoles;2018;Ingresos urgentes;8960.0
-hospital_universitario_de_mostoles;2019;Ingresos urgentes;9625.0
-hospital_universitario_de_mostoles;2020;Ingresos urgentes;9018.0
-hospital_universitario_de_mostoles;2021;Ingresos urgentes;8553.0
-hospital_universitario_de_mostoles;2022;Ingresos urgentes;109351.0
-hospital_universitario_de_mostoles;2012;Ingresos programados;4367.0
-hospital_universitario_de_mostoles;2013;Ingresos programados;4205.0
-hospital_universitario_de_mostoles;2014;Ingresos programados;4024.0
-hospital_universitario_de_mostoles;2015;Ingresos programados;3882.0
-hospital_universitario_de_mostoles;2016;Ingresos programados;3909.0
-hospital_universitario_de_mostoles;2017;Ingresos programados;3406.0
-hospital_universitario_de_mostoles;2018;Ingresos programados;3265.0
-hospital_universitario_de_mostoles;2019;Ingresos programados;3424.0
-hospital_universitario_de_mostoles;2020;Ingresos programados;2270.0
-hospital_universitario_de_mostoles;2021;Ingresos programados;2730.0
-hospital_universitario_de_mostoles;2022;Ingresos programados;3172.0
-hospital_universitario_de_mostoles;2012;Urgencias totales;99997.0
-hospital_universitario_de_mostoles;2013;Urgencias totales;87485.0
-hospital_universitario_de_mostoles;2014;Urgencias totales;85927.0
-hospital_universitario_de_mostoles;2015;Urgencias totales;88566.0
-hospital_universitario_de_mostoles;2016;Urgencias totales;92289.0
-hospital_universitario_de_mostoles;2017;Urgencias totales;93494.0
-hospital_universitario_de_mostoles;2018;Urgencias totales;93996.0
-hospital_universitario_de_mostoles;2019;Urgencias totales;98298.0
-hospital_universitario_de_mostoles;2020;Urgencias totales;77450.0
-hospital_universitario_de_mostoles;2021;Urgencias totales;100408.0
-hospital_universitario_de_mostoles;2022;Urgencias totales;109351.0
-hospital_universitario_ramon_y_cajal;2012;Estancia media global;8.37
-hospital_universitario_ramon_y_cajal;2013;Estancia media global;8.07
-hospital_universitario_ramon_y_cajal;2014;Estancia media global;7.67
-hospital_universitario_ramon_y_cajal;2015;Estancia media global;7.67
-hospital_universitario_ramon_y_cajal;2016;Estancia media global;7.28
-hospital_universitario_ramon_y_cajal;2017;Estancia media global;7.1
-hospital_universitario_ramon_y_cajal;2018;Estancia media global;7.02
-hospital_universitario_ramon_y_cajal;2019;Estancia media global;6.92
-hospital_universitario_ramon_y_cajal;2020;Estancia media global;7.48
-hospital_universitario_ramon_y_cajal;2021;Estancia media global;7.21
-hospital_universitario_ramon_y_cajal;2022;Estancia media global;6.86
-hospital_universitario_ramon_y_cajal;2012;Total ingresos;32815.0
-hospital_universitario_ramon_y_cajal;2013;Total ingresos;31743.0
-hospital_universitario_ramon_y_cajal;2014;Total ingresos;32179.0
-hospital_universitario_ramon_y_cajal;2015;Total ingresos;31253.0
-hospital_universitario_ramon_y_cajal;2016;Total ingresos;31847.0
-hospital_universitario_ramon_y_cajal;2017;Total ingresos;31847.0
-hospital_universitario_ramon_y_cajal;2018;Total ingresos;31876.0
-hospital_universitario_ramon_y_cajal;2019;Total ingresos;32393.0
-hospital_universitario_ramon_y_cajal;2020;Total ingresos;29284.0
-hospital_universitario_ramon_y_cajal;2021;Total ingresos;30373.0
-hospital_universitario_ramon_y_cajal;2022;Total ingresos;32374.0
-hospital_universitario_ramon_y_cajal;2012;Ingresos urgentes;19400.0
-hospital_universitario_ramon_y_cajal;2013;Ingresos urgentes;19505.0
-hospital_universitario_ramon_y_cajal;2014;Ingresos urgentes;18941.0
-hospital_universitario_ramon_y_cajal;2015;Ingresos urgentes;19190.0
-hospital_universitario_ramon_y_cajal;2016;Ingresos urgentes;18922.0
-hospital_universitario_ramon_y_cajal;2017;Ingresos urgentes;18926.0
-hospital_universitario_ramon_y_cajal;2018;Ingresos urgentes;19166.0
-hospital_universitario_ramon_y_cajal;2019;Ingresos urgentes;19670.0
-hospital_universitario_ramon_y_cajal;2020;Ingresos urgentes;20798.0
-hospital_universitario_ramon_y_cajal;2021;Ingresos urgentes;19888.0
-hospital_universitario_ramon_y_cajal;2022;Ingresos urgentes;20137.0
-hospital_universitario_ramon_y_cajal;2012;Ingresos programados;13415.0
-hospital_universitario_ramon_y_cajal;2013;Ingresos programados;12238.0
-hospital_universitario_ramon_y_cajal;2014;Ingresos programados;13238.0
-hospital_universitario_ramon_y_cajal;2015;Ingresos programados;12063.0
-hospital_universitario_ramon_y_cajal;2016;Ingresos programados;12925.0
-hospital_universitario_ramon_y_cajal;2017;Ingresos programados;12921.0
-hospital_universitario_ramon_y_cajal;2018;Ingresos programados;12710.0
-hospital_universitario_ramon_y_cajal;2019;Ingresos programados;12723.0
-hospital_universitario_ramon_y_cajal;2020;Ingresos programados;8486.0
-hospital_universitario_ramon_y_cajal;2021;Ingresos programados;10485.0
-hospital_universitario_ramon_y_cajal;2022;Ingresos programados;12237.0
-hospital_universitario_ramon_y_cajal;2012;Urgencias totales;132296.0
-hospital_universitario_ramon_y_cajal;2013;Urgencias totales;133998.0
-hospital_universitario_ramon_y_cajal;2014;Urgencias totales;135799.0
-hospital_universitario_ramon_y_cajal;2015;Urgencias totales;140538.0
-hospital_universitario_ramon_y_cajal;2016;Urgencias totales;147234.0
-hospital_universitario_ramon_y_cajal;2017;Urgencias totales;150504.0
-hospital_universitario_ramon_y_cajal;2018;Urgencias totales;150835.0
-hospital_universitario_ramon_y_cajal;2019;Urgencias totales;154652.0
-hospital_universitario_ramon_y_cajal;2020;Urgencias totales;121305.0
-hospital_universitario_ramon_y_cajal;2021;Urgencias totales;143827.0
-hospital_universitario_ramon_y_cajal;2022;Urgencias totales;161446.0
-hospital_universitario_rey_juan_carlos;2012;Estancia media global;4.63
-hospital_universitario_rey_juan_carlos;2013;Estancia media global;4.9
-hospital_universitario_rey_juan_carlos;2014;Estancia media global;5.22
-hospital_universitario_rey_juan_carlos;2015;Estancia media global;5.41
-hospital_universitario_rey_juan_carlos;2016;Estancia media global;5.46
-hospital_universitario_rey_juan_carlos;2017;Estancia media global;5.43
-hospital_universitario_rey_juan_carlos;2018;Estancia media global;5.7
-hospital_universitario_rey_juan_carlos;2019;Estancia media global;5.78
-hospital_universitario_rey_juan_carlos;2020;Estancia media global;6.23
-hospital_universitario_rey_juan_carlos;2021;Estancia media global;6.19
-hospital_universitario_rey_juan_carlos;2022;Estancia media global;5.05
-hospital_universitario_rey_juan_carlos;2012;Total ingresos;6020.0
-hospital_universitario_rey_juan_carlos;2013;Total ingresos;12785.0
-hospital_universitario_rey_juan_carlos;2014;Total ingresos;15016.0
-hospital_universitario_rey_juan_carlos;2015;Total ingresos;17786.0
-hospital_universitario_rey_juan_carlos;2016;Total ingresos;19850.0
-hospital_universitario_rey_juan_carlos;2017;Total ingresos;20312.0
-hospital_universitario_rey_juan_carlos;2018;Total ingresos;21576.0
-hospital_universitario_rey_juan_carlos;2019;Total ingresos;21745.0
-hospital_universitario_rey_juan_carlos;2020;Total ingresos;18685.0
-hospital_universitario_rey_juan_carlos;2021;Total ingresos;18165.0
-hospital_universitario_rey_juan_carlos;2022;Total ingresos;20950.0
-hospital_universitario_rey_juan_carlos;2012;Ingresos urgentes;4713.0
-hospital_universitario_rey_juan_carlos;2013;Ingresos urgentes;9550.0
-hospital_universitario_rey_juan_carlos;2014;Ingresos urgentes;11138.0
-hospital_universitario_rey_juan_carlos;2015;Ingresos urgentes;13654.0
-hospital_universitario_rey_juan_carlos;2016;Ingresos urgentes;14305.0
-hospital_universitario_rey_juan_carlos;2017;Ingresos urgentes;14470.0
-hospital_universitario_rey_juan_carlos;2018;Ingresos urgentes;15455.0
-hospital_universitario_rey_juan_carlos;2019;Ingresos urgentes;15585.0
-hospital_universitario_rey_juan_carlos;2020;Ingresos urgentes;13953.0
-hospital_universitario_rey_juan_carlos;2021;Ingresos urgentes;13436.0
-hospital_universitario_rey_juan_carlos;2022;Ingresos urgentes;14610.0
-hospital_universitario_rey_juan_carlos;2012;Ingresos programados;1307.0
-hospital_universitario_rey_juan_carlos;2013;Ingresos programados;3235.0
-hospital_universitario_rey_juan_carlos;2014;Ingresos programados;3878.0
-hospital_universitario_rey_juan_carlos;2015;Ingresos programados;4132.0
-hospital_universitario_rey_juan_carlos;2016;Ingresos programados;5545.0
-hospital_universitario_rey_juan_carlos;2017;Ingresos programados;5842.0
-hospital_universitario_rey_juan_carlos;2018;Ingresos programados;6121.0
-hospital_universitario_rey_juan_carlos;2019;Ingresos programados;6160.0
-hospital_universitario_rey_juan_carlos;2020;Ingresos programados;4732.0
-hospital_universitario_rey_juan_carlos;2021;Ingresos programados;4729.0
-hospital_universitario_rey_juan_carlos;2022;Ingresos programados;6340.0
-hospital_universitario_rey_juan_carlos;2012;Urgencias totales;49956.0
-hospital_universitario_rey_juan_carlos;2013;Urgencias totales;94652.0
-hospital_universitario_rey_juan_carlos;2014;Urgencias totales;110883.0
-hospital_universitario_rey_juan_carlos;2015;Urgencias totales;122430.0
-hospital_universitario_rey_juan_carlos;2016;Urgencias totales;136015.0
-hospital_universitario_rey_juan_carlos;2017;Urgencias totales;143185.0
-hospital_universitario_rey_juan_carlos;2018;Urgencias totales;145690.0
-hospital_universitario_rey_juan_carlos;2019;Urgencias totales;149524.0
-hospital_universitario_rey_juan_carlos;2020;Urgencias totales;108030.0
-hospital_universitario_rey_juan_carlos;2021;Urgencias totales;137366.0
-hospital_universitario_rey_juan_carlos;2022;Urgencias totales;164254.0
-hospital_universitario_fundacion_alcorcon;2012;Estancia media global;6.08
-hospital_universitario_fundacion_alcorcon;2013;Estancia media global;6.21
-hospital_universitario_fundacion_alcorcon;2014;Estancia media global;6.09
-hospital_universitario_fundacion_alcorcon;2015;Estancia media global;6.21
-hospital_universitario_fundacion_alcorcon;2016;Estancia media global;6.13
-hospital_universitario_fundacion_alcorcon;2017;Estancia media global;5.86
-hospital_universitario_fundacion_alcorcon;2018;Estancia media global;5.91
-hospital_universitario_fundacion_alcorcon;2019;Estancia media global;5.79
-hospital_universitario_fundacion_alcorcon;2020;Estancia media global;6.42
-hospital_universitario_fundacion_alcorcon;2021;Estancia media global;6.57
-hospital_universitario_fundacion_alcorcon;2022;Estancia media global;6.04
-hospital_universitario_fundacion_alcorcon;2012;Total ingresos;17793.0
-hospital_universitario_fundacion_alcorcon;2013;Total ingresos;16561.0
-hospital_universitario_fundacion_alcorcon;2014;Total ingresos;15973.0
-hospital_universitario_fundacion_alcorcon;2015;Total ingresos;16050.0
-hospital_universitario_fundacion_alcorcon;2016;Total ingresos;16102.0
-hospital_universitario_fundacion_alcorcon;2017;Total ingresos;16387.0
-hospital_universitario_fundacion_alcorcon;2018;Total ingresos;16548.0
-hospital_universitario_fundacion_alcorcon;2019;Total ingresos;16290.0
-hospital_universitario_fundacion_alcorcon;2020;Total ingresos;14458.0
-hospital_universitario_fundacion_alcorcon;2021;Total ingresos;14299.0
-hospital_universitario_fundacion_alcorcon;2022;Total ingresos;15455.0
-hospital_universitario_fundacion_alcorcon;2012;Ingresos urgentes;12203.0
-hospital_universitario_fundacion_alcorcon;2013;Ingresos urgentes;11341.0
-hospital_universitario_fundacion_alcorcon;2014;Ingresos urgentes;11062.0
-hospital_universitario_fundacion_alcorcon;2015;Ingresos urgentes;11279.0
-hospital_universitario_fundacion_alcorcon;2016;Ingresos urgentes;11311.0
-hospital_universitario_fundacion_alcorcon;2017;Ingresos urgentes;11401.0
-hospital_universitario_fundacion_alcorcon;2018;Ingresos urgentes;11389.0
-hospital_universitario_fundacion_alcorcon;2019;Ingresos urgentes;11185.0
-hospital_universitario_fundacion_alcorcon;2020;Ingresos urgentes;10678.0
-hospital_universitario_fundacion_alcorcon;2021;Ingresos urgentes;10132.0
-hospital_universitario_fundacion_alcorcon;2022;Ingresos urgentes;10748.0
-hospital_universitario_fundacion_alcorcon;2012;Ingresos programados;5590.0
-hospital_universitario_fundacion_alcorcon;2013;Ingresos programados;5220.0
-hospital_universitario_fundacion_alcorcon;2014;Ingresos programados;4911.0
-hospital_universitario_fundacion_alcorcon;2015;Ingresos programados;4771.0
-hospital_universitario_fundacion_alcorcon;2016;Ingresos programados;4791.0
-hospital_universitario_fundacion_alcorcon;2017;Ingresos programados;4986.0
-hospital_universitario_fundacion_alcorcon;2018;Ingresos programados;5159.0
-hospital_universitario_fundacion_alcorcon;2019;Ingresos programados;5105.0
-hospital_universitario_fundacion_alcorcon;2020;Ingresos programados;3780.0
-hospital_universitario_fundacion_alcorcon;2021;Ingresos programados;4167.0
-hospital_universitario_fundacion_alcorcon;2022;Ingresos programados;4707.0
-hospital_universitario_fundacion_alcorcon;2012;Urgencias totales;98731.0
-hospital_universitario_fundacion_alcorcon;2013;Urgencias totales;93797.0
-hospital_universitario_fundacion_alcorcon;2014;Urgencias totales;94331.0
-hospital_universitario_fundacion_alcorcon;2015;Urgencias totales;99962.0
-hospital_universitario_fundacion_alcorcon;2016;Urgencias totales;104228.0
-hospital_universitario_fundacion_alcorcon;2017;Urgencias totales;103437.0
-hospital_universitario_fundacion_alcorcon;2018;Urgencias totales;103722.0
-hospital_universitario_fundacion_alcorcon;2019;Urgencias totales;105176.0
-hospital_universitario_fundacion_alcorcon;2020;Urgencias totales;80259.0
-hospital_universitario_fundacion_alcorcon;2021;Urgencias totales;101579.0
-hospital_universitario_fundacion_alcorcon;2022;Urgencias totales;116275.0
-hospital_universitario_infanta_leonor;2012;Estancia media global;5.51
-hospital_universitario_infanta_leonor;2013;Estancia media global;6.14
-hospital_universitario_infanta_leonor;2014;Estancia media global;5.95
-hospital_universitario_infanta_leonor;2015;Estancia media global;5.63
-hospital_universitario_infanta_leonor;2016;Estancia media global;5.57
-hospital_universitario_infanta_leonor;2017;Estancia media global;6.85
-hospital_universitario_infanta_leonor;2018;Estancia media global;6.83
-hospital_universitario_infanta_leonor;2019;Estancia media global;6.92
-hospital_universitario_infanta_leonor;2020;Estancia media global;6.97
-hospital_universitario_infanta_leonor;2021;Estancia media global;7.1
-hospital_universitario_infanta_leonor;2022;Estancia media global;6.87
-hospital_universitario_infanta_leonor;2012;Total ingresos;12670.0
-hospital_universitario_infanta_leonor;2013;Total ingresos;12376.0
-hospital_universitario_infanta_leonor;2014;Total ingresos;12542.0
-hospital_universitario_infanta_leonor;2015;Total ingresos;13597.0
-hospital_universitario_infanta_leonor;2016;Total ingresos;13625.0
-hospital_universitario_infanta_leonor;2017;Total ingresos;15483.0
-hospital_universitario_infanta_leonor;2018;Total ingresos;15768.0
-hospital_universitario_infanta_leonor;2019;Total ingresos;16012.0
-hospital_universitario_infanta_leonor;2020;Total ingresos;15902.0
-hospital_universitario_infanta_leonor;2021;Total ingresos;16161.0
-hospital_universitario_infanta_leonor;2022;Total ingresos;17163.0
-hospital_universitario_infanta_leonor;2012;Ingresos urgentes;11054.0
-hospital_universitario_infanta_leonor;2013;Ingresos urgentes;10830.0
-hospital_universitario_infanta_leonor;2014;Ingresos urgentes;9449.0
-hospital_universitario_infanta_leonor;2015;Ingresos urgentes;10410.0
-hospital_universitario_infanta_leonor;2016;Ingresos urgentes;10257.0
-hospital_universitario_infanta_leonor;2017;Ingresos urgentes;11381.0
-hospital_universitario_infanta_leonor;2018;Ingresos urgentes;11826.0
-hospital_universitario_infanta_leonor;2019;Ingresos urgentes;12172.0
-hospital_universitario_infanta_leonor;2020;Ingresos urgentes;13494.0
-hospital_universitario_infanta_leonor;2021;Ingresos urgentes;13052.0
-hospital_universitario_infanta_leonor;2022;Ingresos urgentes;13891.0
-hospital_universitario_infanta_leonor;2012;Ingresos programados;1616.0
-hospital_universitario_infanta_leonor;2013;Ingresos programados;1546.0
-hospital_universitario_infanta_leonor;2014;Ingresos programados;3093.0
-hospital_universitario_infanta_leonor;2015;Ingresos programados;3187.0
-hospital_universitario_infanta_leonor;2016;Ingresos programados;3368.0
-hospital_universitario_infanta_leonor;2017;Ingresos programados;4102.0
-hospital_universitario_infanta_leonor;2018;Ingresos programados;3942.0
-hospital_universitario_infanta_leonor;2019;Ingresos programados;3840.0
-hospital_universitario_infanta_leonor;2020;Ingresos programados;2408.0
-hospital_universitario_infanta_leonor;2021;Ingresos programados;3109.0
-hospital_universitario_infanta_leonor;2022;Ingresos programados;3272.0
-hospital_universitario_infanta_leonor;2012;Urgencias totales;108406.0
-hospital_universitario_infanta_leonor;2013;Urgencias totales;110262.0
-hospital_universitario_infanta_leonor;2014;Urgencias totales;114014.0
-hospital_universitario_infanta_leonor;2015;Urgencias totales;121633.0
-hospital_universitario_infanta_leonor;2016;Urgencias totales;127851.0
-hospital_universitario_infanta_leonor;2017;Urgencias totales;133284.0
-hospital_universitario_infanta_leonor;2018;Urgencias totales;134603.0
-hospital_universitario_infanta_leonor;2019;Urgencias totales;140117.0
-hospital_universitario_infanta_leonor;2020;Urgencias totales;111267.0
-hospital_universitario_infanta_leonor;2021;Urgencias totales;155476.0
-hospital_universitario_infanta_leonor;2022;Urgencias totales;182892.0
-hospital_clinico_san_carlos;2012;Estancia media global;7.22
-hospital_clinico_san_carlos;2013;Estancia media global;7.2
-hospital_clinico_san_carlos;2014;Estancia media global;6.88
-hospital_clinico_san_carlos;2015;Estancia media global;6.66
-hospital_clinico_san_carlos;2016;Estancia media global;6.79
-hospital_clinico_san_carlos;2017;Estancia media global;7.06
-hospital_clinico_san_carlos;2018;Estancia media global;6.93
-hospital_clinico_san_carlos;2019;Estancia media global;7.01
-hospital_clinico_san_carlos;2020;Estancia media global;7.82
-hospital_clinico_san_carlos;2021;Estancia media global;7.68
-hospital_clinico_san_carlos;2022;Estancia media global;7.53
-hospital_clinico_san_carlos;2012;Total ingresos;35532.0
-hospital_clinico_san_carlos;2013;Total ingresos;33349.0
-hospital_clinico_san_carlos;2014;Total ingresos;35139.0
-hospital_clinico_san_carlos;2015;Total ingresos;35377.0
-hospital_clinico_san_carlos;2016;Total ingresos;34299.0
-hospital_clinico_san_carlos;2017;Total ingresos;32320.0
-hospital_clinico_san_carlos;2018;Total ingresos;31908.0
-hospital_clinico_san_carlos;2019;Total ingresos;31657.0
-hospital_clinico_san_carlos;2020;Total ingresos;28008.0
-hospital_clinico_san_carlos;2021;Total ingresos;28073.0
-hospital_clinico_san_carlos;2022;Total ingresos;28705.0
-hospital_clinico_san_carlos;2012;Ingresos urgentes;25136.0
-hospital_clinico_san_carlos;2013;Ingresos urgentes;24334.0
-hospital_clinico_san_carlos;2014;Ingresos urgentes;24542.0
-hospital_clinico_san_carlos;2015;Ingresos urgentes;25262.0
-hospital_clinico_san_carlos;2016;Ingresos urgentes;24338.0
-hospital_clinico_san_carlos;2017;Ingresos urgentes;22318.0
-hospital_clinico_san_carlos;2018;Ingresos urgentes;21631.0
-hospital_clinico_san_carlos;2019;Ingresos urgentes;21890.0
-hospital_clinico_san_carlos;2020;Ingresos urgentes;21888.0
-hospital_clinico_san_carlos;2021;Ingresos urgentes;20315.0
-hospital_clinico_san_carlos;2022;Ingresos urgentes;20254.0
-hospital_clinico_san_carlos;2012;Ingresos programados;10396.0
-hospital_clinico_san_carlos;2013;Ingresos programados;9015.0
-hospital_clinico_san_carlos;2014;Ingresos programados;10597.0
-hospital_clinico_san_carlos;2015;Ingresos programados;10115.0
-hospital_clinico_san_carlos;2016;Ingresos programados;9961.0
-hospital_clinico_san_carlos;2017;Ingresos programados;10002.0
-hospital_clinico_san_carlos;2018;Ingresos programados;10277.0
-hospital_clinico_san_carlos;2019;Ingresos programados;9767.0
-hospital_clinico_san_carlos;2020;Ingresos programados;6120.0
-hospital_clinico_san_carlos;2021;Ingresos programados;7758.0
-hospital_clinico_san_carlos;2022;Ingresos programados;8451.0
-hospital_clinico_san_carlos;2012;Urgencias totales;117325.0
-hospital_clinico_san_carlos;2013;Urgencias totales;118450.0
-hospital_clinico_san_carlos;2014;Urgencias totales;122656.0
-hospital_clinico_san_carlos;2015;Urgencias totales;125740.0
-hospital_clinico_san_carlos;2016;Urgencias totales;130932.0
-hospital_clinico_san_carlos;2017;Urgencias totales;131622.0
-hospital_clinico_san_carlos;2018;Urgencias totales;132850.0
-hospital_clinico_san_carlos;2019;Urgencias totales;136193.0
-hospital_clinico_san_carlos;2020;Urgencias totales;105763.0
-hospital_clinico_san_carlos;2021;Urgencias totales;130444.0
-hospital_clinico_san_carlos;2022;Urgencias totales;145819.0
-hospital_universitario_del_sureste;2012;Estancia media global;4.81
-hospital_universitario_del_sureste;2013;Estancia media global;4.95
-hospital_universitario_del_sureste;2014;Estancia media global;5.13
-hospital_universitario_del_sureste;2015;Estancia media global;5.42
-hospital_universitario_del_sureste;2016;Estancia media global;5.23
-hospital_universitario_del_sureste;2017;Estancia media global;5.36
-hospital_universitario_del_sureste;2018;Estancia media global;5.23
-hospital_universitario_del_sureste;2019;Estancia media global;5.37
-hospital_universitario_del_sureste;2020;Estancia media global;6.11
-hospital_universitario_del_sureste;2021;Estancia media global;6.16
-hospital_universitario_del_sureste;2022;Estancia media global;5.92
-hospital_universitario_del_sureste;2012;Total ingresos;7261.0
-hospital_universitario_del_sureste;2013;Total ingresos;7366.0
-hospital_universitario_del_sureste;2014;Total ingresos;7504.0
-hospital_universitario_del_sureste;2015;Total ingresos;7623.0
-hospital_universitario_del_sureste;2016;Total ingresos;7740.0
-hospital_universitario_del_sureste;2017;Total ingresos;7985.0
-hospital_universitario_del_sureste;2018;Total ingresos;8057.0
-hospital_universitario_del_sureste;2019;Total ingresos;8116.0
-hospital_universitario_del_sureste;2020;Total ingresos;6946.0
-hospital_universitario_del_sureste;2021;Total ingresos;7107.0
-hospital_universitario_del_sureste;2022;Total ingresos;8372.0
-hospital_universitario_del_sureste;2012;Ingresos urgentes;5571.0
-hospital_universitario_del_sureste;2013;Ingresos urgentes;5768.0
-hospital_universitario_del_sureste;2014;Ingresos urgentes;5973.0
-hospital_universitario_del_sureste;2015;Ingresos urgentes;6179.0
-hospital_universitario_del_sureste;2016;Ingresos urgentes;6369.0
-hospital_universitario_del_sureste;2017;Ingresos urgentes;6491.0
-hospital_universitario_del_sureste;2018;Ingresos urgentes;6583.0
-hospital_universitario_del_sureste;2019;Ingresos urgentes;6612.0
-hospital_universitario_del_sureste;2020;Ingresos urgentes;5765.0
-hospital_universitario_del_sureste;2021;Ingresos urgentes;5692.0
-hospital_universitario_del_sureste;2022;Ingresos urgentes;6824.0
-hospital_universitario_del_sureste;2012;Ingresos programados;1690.0
-hospital_universitario_del_sureste;2013;Ingresos programados;1598.0
-hospital_universitario_del_sureste;2014;Ingresos programados;1531.0
-hospital_universitario_del_sureste;2015;Ingresos programados;1444.0
-hospital_universitario_del_sureste;2016;Ingresos programados;1371.0
-hospital_universitario_del_sureste;2017;Ingresos programados;1494.0
-hospital_universitario_del_sureste;2018;Ingresos programados;1474.0
-hospital_universitario_del_sureste;2019;Ingresos programados;1504.0
-hospital_universitario_del_sureste;2020;Ingresos programados;1181.0
-hospital_universitario_del_sureste;2021;Ingresos programados;1415.0
-hospital_universitario_del_sureste;2022;Ingresos programados;1548.0
-hospital_universitario_del_sureste;2012;Urgencias totales;68913.0
-hospital_universitario_del_sureste;2013;Urgencias totales;69776.0
-hospital_universitario_del_sureste;2014;Urgencias totales;73934.0
-hospital_universitario_del_sureste;2015;Urgencias totales;81286.0
-hospital_universitario_del_sureste;2016;Urgencias totales;87793.0
-hospital_universitario_del_sureste;2017;Urgencias totales;90575.0
-hospital_universitario_del_sureste;2018;Urgencias totales;90278.0
-hospital_universitario_del_sureste;2019;Urgencias totales;95181.0
-hospital_universitario_del_sureste;2020;Urgencias totales;75562.0
-hospital_universitario_del_sureste;2021;Urgencias totales;109180.0
-hospital_universitario_del_sureste;2022;Urgencias totales;123370.0
-hospital_universitario_12_de_octubre;2012;Estancia media global;8.08
-hospital_universitario_12_de_octubre;2013;Estancia media global;7.93
-hospital_universitario_12_de_octubre;2014;Estancia media global;7.27
-hospital_universitario_12_de_octubre;2015;Estancia media global;7.15
-hospital_universitario_12_de_octubre;2016;Estancia media global;7.27
-hospital_universitario_12_de_octubre;2017;Estancia media global;7.07
-hospital_universitario_12_de_octubre;2018;Estancia media global;6.92
-hospital_universitario_12_de_octubre;2019;Estancia media global;6.86
-hospital_universitario_12_de_octubre;2020;Estancia media global;7.27
-hospital_universitario_12_de_octubre;2021;Estancia media global;7.34
-hospital_universitario_12_de_octubre;2012;Total ingresos;42256.0
-hospital_universitario_12_de_octubre;2013;Total ingresos;42375.0
-hospital_universitario_12_de_octubre;2014;Total ingresos;44032.0
-hospital_universitario_12_de_octubre;2015;Total ingresos;45333.0
-hospital_universitario_12_de_octubre;2016;Total ingresos;44586.0
-hospital_universitario_12_de_octubre;2017;Total ingresos;44739.0
-hospital_universitario_12_de_octubre;2018;Total ingresos;45053.0
-hospital_universitario_12_de_octubre;2019;Total ingresos;45358.0
-hospital_universitario_12_de_octubre;2020;Total ingresos;39669.0
-hospital_universitario_12_de_octubre;2021;Total ingresos;39587.0
-hospital_universitario_12_de_octubre;2012;Ingresos urgentes;25249.0
-hospital_universitario_12_de_octubre;2013;Ingresos urgentes;25506.0
-hospital_universitario_12_de_octubre;2014;Ingresos urgentes;27389.0
-hospital_universitario_12_de_octubre;2015;Ingresos urgentes;29042.0
-hospital_universitario_12_de_octubre;2016;Ingresos urgentes;30301.0
-hospital_universitario_12_de_octubre;2017;Ingresos urgentes;30202.0
-hospital_universitario_12_de_octubre;2018;Ingresos urgentes;30029.0
-hospital_universitario_12_de_octubre;2019;Ingresos urgentes;25574.0
-hospital_universitario_12_de_octubre;2020;Ingresos urgentes;29969.0
-hospital_universitario_12_de_octubre;2021;Ingresos urgentes;28358.0
-hospital_universitario_12_de_octubre;2012;Ingresos programados;17007.0
-hospital_universitario_12_de_octubre;2013;Ingresos programados;16869.0
-hospital_universitario_12_de_octubre;2014;Ingresos programados;16643.0
-hospital_universitario_12_de_octubre;2015;Ingresos programados;16291.0
-hospital_universitario_12_de_octubre;2016;Ingresos programados;14285.0
-hospital_universitario_12_de_octubre;2017;Ingresos programados;14537.0
-hospital_universitario_12_de_octubre;2018;Ingresos programados;15024.0
-hospital_universitario_12_de_octubre;2019;Ingresos programados;19784.0
-hospital_universitario_12_de_octubre;2020;Ingresos programados;9700.0
-hospital_universitario_12_de_octubre;2021;Ingresos programados;11229.0
-hospital_universitario_12_de_octubre;2012;Urgencias totales;226070.0
-hospital_universitario_12_de_octubre;2013;Urgencias totales;231293.0
-hospital_universitario_12_de_octubre;2014;Urgencias totales;230820.0
-hospital_universitario_12_de_octubre;2015;Urgencias totales;237148.0
-hospital_universitario_12_de_octubre;2016;Urgencias totales;246401.0
-hospital_universitario_12_de_octubre;2017;Urgencias totales;255507.0
-hospital_universitario_12_de_octubre;2018;Urgencias totales;257308.0
-hospital_universitario_12_de_octubre;2019;Urgencias totales;273664.0
-hospital_universitario_12_de_octubre;2020;Urgencias totales;206741.0
-hospital_universitario_12_de_octubre;2021;Urgencias totales;262547.0
-hospital_general_universitario_gregorio_maranon;2012;Estancia media global;7.64
-hospital_general_universitario_gregorio_maranon;2013;Estancia media global;7.75
-hospital_general_universitario_gregorio_maranon;2014;Estancia media global;7.72
-hospital_general_universitario_gregorio_maranon;2015;Estancia media global;7.66
-hospital_general_universitario_gregorio_maranon;2016;Estancia media global;7.48
-hospital_general_universitario_gregorio_maranon;2017;Estancia media global;7.53
-hospital_general_universitario_gregorio_maranon;2018;Estancia media global;7.39
-hospital_general_universitario_gregorio_maranon;2019;Estancia media global;7.19
-hospital_general_universitario_gregorio_maranon;2020;Estancia media global;7.9
-hospital_general_universitario_gregorio_maranon;2021;Estancia media global;7.61
-hospital_general_universitario_gregorio_maranon;2022;Estancia media global;7.56
-hospital_general_universitario_gregorio_maranon;2012;Total ingresos;49336.0
-hospital_general_universitario_gregorio_maranon;2013;Total ingresos;48247.0
-hospital_general_universitario_gregorio_maranon;2014;Total ingresos;48238.0
-hospital_general_universitario_gregorio_maranon;2015;Total ingresos;48838.0
-hospital_general_universitario_gregorio_maranon;2016;Total ingresos;48652.0
-hospital_general_universitario_gregorio_maranon;2017;Total ingresos;48059.0
-hospital_general_universitario_gregorio_maranon;2018;Total ingresos;47298.0
-hospital_general_universitario_gregorio_maranon;2019;Total ingresos;47048.0
-hospital_general_universitario_gregorio_maranon;2020;Total ingresos;42446.0
-hospital_general_universitario_gregorio_maranon;2021;Total ingresos;42531.0
-hospital_general_universitario_gregorio_maranon;2022;Total ingresos;42288.0
-hospital_general_universitario_gregorio_maranon;2012;Ingresos urgentes;29799.0
-hospital_general_universitario_gregorio_maranon;2013;Ingresos urgentes;29668.0
-hospital_general_universitario_gregorio_maranon;2014;Ingresos urgentes;29546.0
-hospital_general_universitario_gregorio_maranon;2015;Ingresos urgentes;30410.0
-hospital_general_universitario_gregorio_maranon;2016;Ingresos urgentes;29826.0
-hospital_general_universitario_gregorio_maranon;2017;Ingresos urgentes;29298.0
-hospital_general_universitario_gregorio_maranon;2018;Ingresos urgentes;28051.0
-hospital_general_universitario_gregorio_maranon;2019;Ingresos urgentes;27682.0
-hospital_general_universitario_gregorio_maranon;2020;Ingresos urgentes;27221.0
-hospital_general_universitario_gregorio_maranon;2021;Ingresos urgentes;26691.0
-hospital_general_universitario_gregorio_maranon;2022;Ingresos urgentes;27044.0
-hospital_general_universitario_gregorio_maranon;2012;Ingresos programados;19537.0
-hospital_general_universitario_gregorio_maranon;2013;Ingresos programados;18579.0
-hospital_general_universitario_gregorio_maranon;2014;Ingresos programados;18692.0
-hospital_general_universitario_gregorio_maranon;2015;Ingresos programados;18428.0
-hospital_general_universitario_gregorio_maranon;2016;Ingresos programados;18826.0
-hospital_general_universitario_gregorio_maranon;2017;Ingresos programados;18761.0
-hospital_general_universitario_gregorio_maranon;2018;Ingresos programados;19247.0
-hospital_general_universitario_gregorio_maranon;2019;Ingresos programados;19366.0
-hospital_general_universitario_gregorio_maranon;2020;Ingresos programados;15225.0
-hospital_general_universitario_gregorio_maranon;2021;Ingresos programados;15840.0
-hospital_general_universitario_gregorio_maranon;2022;Ingresos programados;15244.0
-hospital_general_universitario_gregorio_maranon;2012;Urgencias totales;224698.0
-hospital_general_universitario_gregorio_maranon;2013;Urgencias totales;228120.0
-hospital_general_universitario_gregorio_maranon;2014;Urgencias totales;229365.0
-hospital_general_universitario_gregorio_maranon;2015;Urgencias totales;238637.0
-hospital_general_universitario_gregorio_maranon;2016;Urgencias totales;250249.0
-hospital_general_universitario_gregorio_maranon;2017;Urgencias totales;251479.0
-hospital_general_universitario_gregorio_maranon;2018;Urgencias totales;249695.0
-hospital_general_universitario_gregorio_maranon;2019;Urgencias totales;257514.0
-hospital_general_universitario_gregorio_maranon;2020;Urgencias totales;183663.0
-hospital_general_universitario_gregorio_maranon;2021;Urgencias totales;239076.0
-hospital_general_universitario_gregorio_maranon;2022;Urgencias totales;270319.0
+hospital_id;year;type_activity;total
+CH0096;2012;Estancia media global;5.72
+CH0096;2013;Estancia media global;6.08
+CH0096;2014;Estancia media global;6.03
+CH0096;2015;Estancia media global;6.22
+CH0096;2016;Estancia media global;6.16
+CH0096;2017;Estancia media global;6.16
+CH0096;2018;Estancia media global;6.27
+CH0096;2019;Estancia media global;6.12
+CH0096;2020;Estancia media global;7.02
+CH0096;2021;Estancia media global;6.66
+CH0096;2022;Estancia media global;6.19
+CH0096;2012;Total ingresos;9968.0
+CH0096;2013;Total ingresos;9844.0
+CH0096;2014;Total ingresos;10124.0
+CH0096;2015;Total ingresos;10228.0
+CH0096;2016;Total ingresos;10778.0
+CH0096;2017;Total ingresos;11108.0
+CH0096;2018;Total ingresos;11367.0
+CH0096;2019;Total ingresos;11471.0
+CH0096;2020;Total ingresos;9620.0
+CH0096;2021;Total ingresos;10155.0
+CH0096;2022;Total ingresos;11258.0
+CH0096;2012;Ingresos urgentes;7530.0
+CH0096;2013;Ingresos urgentes;7182.0
+CH0096;2014;Ingresos urgentes;7669.0
+CH0096;2015;Ingresos urgentes;7771.0
+CH0096;2016;Ingresos urgentes;8330.0
+CH0096;2017;Ingresos urgentes;8613.0
+CH0096;2018;Ingresos urgentes;8705.0
+CH0096;2019;Ingresos urgentes;8770.0
+CH0096;2020;Ingresos urgentes;7944.0
+CH0096;2021;Ingresos urgentes;8173.0
+CH0096;2022;Ingresos urgentes;8906.0
+CH0096;2012;Ingresos programados;2438.0
+CH0096;2013;Ingresos programados;2662.0
+CH0096;2014;Ingresos programados;2455.0
+CH0096;2015;Ingresos programados;2457.0
+CH0096;2016;Ingresos programados;2448.0
+CH0096;2017;Ingresos programados;2495.0
+CH0096;2018;Ingresos programados;2662.0
+CH0096;2019;Ingresos programados;2701.0
+CH0096;2020;Ingresos programados;1676.0
+CH0096;2021;Ingresos programados;1982.0
+CH0096;2022;Ingresos programados;2352.0
+CH0096;2012;Urgencias totales;75952.0
+CH0096;2013;Urgencias totales;76323.0
+CH0096;2014;Urgencias totales;77897.0
+CH0096;2015;Urgencias totales;79879.0
+CH0096;2016;Urgencias totales;84440.0
+CH0096;2017;Urgencias totales;83565.0
+CH0096;2018;Urgencias totales;81932.0
+CH0096;2019;Urgencias totales;84351.0
+CH0096;2020;Urgencias totales;66773.0
+CH0096;2021;Urgencias totales;87400.0
+CH0096;2022;Urgencias totales;100515.0
+CH0099;2012;Estancia media global;6.16
+CH0099;2013;Estancia media global;6.03
+CH0099;2014;Estancia media global;6.25
+CH0099;2015;Estancia media global;6.22
+CH0099;2016;Estancia media global;6.07
+CH0099;2017;Estancia media global;6.08
+CH0099;2018;Estancia media global;5.92
+CH0099;2019;Estancia media global;6.03
+CH0099;2020;Estancia media global;6.82
+CH0099;2021;Estancia media global;6.65
+CH0099;2022;Estancia media global;6.06
+CH0099;2012;Total ingresos;4575.0
+CH0099;2013;Total ingresos;4727.0
+CH0099;2014;Total ingresos;4670.0
+CH0099;2015;Total ingresos;4899.0
+CH0099;2016;Total ingresos;4867.0
+CH0099;2017;Total ingresos;4743.0
+CH0099;2018;Total ingresos;4687.0
+CH0099;2019;Total ingresos;4504.0
+CH0099;2020;Total ingresos;4146.0
+CH0099;2021;Total ingresos;4126.0
+CH0099;2022;Total ingresos;4517.0
+CH0099;2012;Ingresos urgentes;3920.0
+CH0099;2013;Ingresos urgentes;3931.0
+CH0099;2014;Ingresos urgentes;3963.0
+CH0099;2015;Ingresos urgentes;4270.0
+CH0099;2016;Ingresos urgentes;4268.0
+CH0099;2017;Ingresos urgentes;4240.0
+CH0099;2018;Ingresos urgentes;4084.0
+CH0099;2019;Ingresos urgentes;3809.0
+CH0099;2020;Ingresos urgentes;3630.0
+CH0099;2021;Ingresos urgentes;3565.0
+CH0099;2022;Ingresos urgentes;3984.0
+CH0099;2012;Ingresos programados;655.0
+CH0099;2013;Ingresos programados;796.0
+CH0099;2014;Ingresos programados;707.0
+CH0099;2015;Ingresos programados;629.0
+CH0099;2016;Ingresos programados;599.0
+CH0099;2017;Ingresos programados;503.0
+CH0099;2018;Ingresos programados;603.0
+CH0099;2019;Ingresos programados;695.0
+CH0099;2020;Ingresos programados;516.0
+CH0099;2021;Ingresos programados;561.0
+CH0099;2022;Ingresos programados;533.0
+CH0099;2012;Urgencias totales;48109.0
+CH0099;2013;Urgencias totales;50136.0
+CH0099;2014;Urgencias totales;51843.0
+CH0099;2015;Urgencias totales;56316.0
+CH0099;2016;Urgencias totales;58652.0
+CH0099;2017;Urgencias totales;58890.0
+CH0099;2018;Urgencias totales;59888.0
+CH0099;2019;Urgencias totales;62157.0
+CH0099;2020;Urgencias totales;48679.0
+CH0099;2021;Urgencias totales;62990.0
+CH0099;2022;Urgencias totales;68814.0
+CH0097;2012;Estancia media global;5.98
+CH0097;2013;Estancia media global;6.12
+CH0097;2014;Estancia media global;5.61
+CH0097;2015;Estancia media global;5.82
+CH0097;2016;Estancia media global;5.72
+CH0097;2017;Estancia media global;5.48
+CH0097;2018;Estancia media global;5.48
+CH0097;2019;Estancia media global;5.38
+CH0097;2020;Estancia media global;6.0
+CH0097;2021;Estancia media global;6.01
+CH0097;2022;Estancia media global;5.65
+CH0097;2012;Total ingresos;12608.0
+CH0097;2013;Total ingresos;12784.0
+CH0097;2014;Total ingresos;13399.0
+CH0097;2015;Total ingresos;13882.0
+CH0097;2016;Total ingresos;14229.0
+CH0097;2017;Total ingresos;14592.0
+CH0097;2018;Total ingresos;15193.0
+CH0097;2019;Total ingresos;15826.0
+CH0097;2020;Total ingresos;14969.0
+CH0097;2021;Total ingresos;15501.0
+CH0097;2022;Total ingresos;17053.0
+CH0097;2012;Ingresos urgentes;9071.0
+CH0097;2013;Ingresos urgentes;9220.0
+CH0097;2014;Ingresos urgentes;9858.0
+CH0097;2015;Ingresos urgentes;10418.0
+CH0097;2016;Ingresos urgentes;10732.0
+CH0097;2017;Ingresos urgentes;10747.0
+CH0097;2018;Ingresos urgentes;11112.0
+CH0097;2019;Ingresos urgentes;11562.0
+CH0097;2020;Ingresos urgentes;11761.0
+CH0097;2021;Ingresos urgentes;11789.0
+CH0097;2022;Ingresos urgentes;12747.0
+CH0097;2012;Ingresos programados;3537.0
+CH0097;2013;Ingresos programados;3564.0
+CH0097;2014;Ingresos programados;3541.0
+CH0097;2015;Ingresos programados;3464.0
+CH0097;2016;Ingresos programados;3497.0
+CH0097;2017;Ingresos programados;3845.0
+CH0097;2018;Ingresos programados;4081.0
+CH0097;2019;Ingresos programados;4264.0
+CH0097;2020;Ingresos programados;3208.0
+CH0097;2021;Ingresos programados;3712.0
+CH0097;2022;Ingresos programados;4306.0
+CH0097;2012;Urgencias totales;109274.0
+CH0097;2013;Urgencias totales;109778.0
+CH0097;2014;Urgencias totales;112719.0
+CH0097;2015;Urgencias totales;115479.0
+CH0097;2016;Urgencias totales;119807.0
+CH0097;2017;Urgencias totales;121142.0
+CH0097;2018;Urgencias totales;121574.0
+CH0097;2019;Urgencias totales;127625.0
+CH0097;2020;Urgencias totales;96083.0
+CH0097;2021;Urgencias totales;125540.0
+CH0097;2022;Urgencias totales;143632.0
+CH0086;2012;Estancia media global;5.98
+CH0086;2013;Estancia media global;5.8
+CH0086;2014;Estancia media global;5.88
+CH0086;2015;Estancia media global;6.09
+CH0086;2016;Estancia media global;6.15
+CH0086;2017;Estancia media global;5.71
+CH0086;2018;Estancia media global;5.77
+CH0086;2019;Estancia media global;5.82
+CH0086;2020;Estancia media global;6.21
+CH0086;2021;Estancia media global;6.2
+CH0086;2022;Estancia media global;5.79
+CH0086;2012;Total ingresos;14849.0
+CH0086;2013;Total ingresos;15072.0
+CH0086;2014;Total ingresos;15109.0
+CH0086;2015;Total ingresos;15605.0
+CH0086;2016;Total ingresos;15815.0
+CH0086;2017;Total ingresos;15886.0
+CH0086;2018;Total ingresos;16311.0
+CH0086;2019;Total ingresos;16277.0
+CH0086;2020;Total ingresos;15634.0
+CH0086;2021;Total ingresos;15226.0
+CH0086;2022;Total ingresos;17183.0
+CH0086;2012;Ingresos urgentes;11108.0
+CH0086;2013;Ingresos urgentes;11145.0
+CH0086;2014;Ingresos urgentes;11133.0
+CH0086;2015;Ingresos urgentes;11668.0
+CH0086;2016;Ingresos urgentes;11767.0
+CH0086;2017;Ingresos urgentes;11624.0
+CH0086;2018;Ingresos urgentes;11558.0
+CH0086;2019;Ingresos urgentes;11564.0
+CH0086;2020;Ingresos urgentes;11930.0
+CH0086;2021;Ingresos urgentes;10921.0
+CH0086;2022;Ingresos urgentes;12486.0
+CH0086;2012;Ingresos programados;3741.0
+CH0086;2013;Ingresos programados;3927.0
+CH0086;2014;Ingresos programados;3976.0
+CH0086;2015;Ingresos programados;3937.0
+CH0086;2016;Ingresos programados;4048.0
+CH0086;2017;Ingresos programados;4262.0
+CH0086;2018;Ingresos programados;4753.0
+CH0086;2019;Ingresos programados;4713.0
+CH0086;2020;Ingresos programados;3704.0
+CH0086;2021;Ingresos programados;4305.0
+CH0086;2022;Ingresos programados;4697.0
+CH0086;2012;Urgencias totales;121243.0
+CH0086;2013;Urgencias totales;120917.0
+CH0086;2014;Urgencias totales;116174.0
+CH0086;2015;Urgencias totales;115740.0
+CH0086;2016;Urgencias totales;119326.0
+CH0086;2017;Urgencias totales;121901.0
+CH0086;2018;Urgencias totales;120076.0
+CH0086;2019;Urgencias totales;127232.0
+CH0086;2020;Urgencias totales;99790.0
+CH0086;2021;Urgencias totales;124229.0
+CH0086;2022;Urgencias totales;143953.0
+CH0102;2012;Estancia media global;7.38
+CH0102;2013;Estancia media global;7.25
+CH0102;2014;Estancia media global;6.99
+CH0102;2015;Estancia media global;6.78
+CH0102;2016;Estancia media global;6.72
+CH0102;2017;Estancia media global;6.74
+CH0102;2018;Estancia media global;6.75
+CH0102;2019;Estancia media global;6.92
+CH0102;2020;Estancia media global;7.28
+CH0102;2021;Estancia media global;7.42
+CH0102;2022;Estancia media global;7.05
+CH0102;2012;Total ingresos;25669.0
+CH0102;2013;Total ingresos;25091.0
+CH0102;2014;Total ingresos;25774.0
+CH0102;2015;Total ingresos;25799.0
+CH0102;2016;Total ingresos;25910.0
+CH0102;2017;Total ingresos;25925.0
+CH0102;2018;Total ingresos;26048.0
+CH0102;2019;Total ingresos;26349.0
+CH0102;2020;Total ingresos;24454.0
+CH0102;2021;Total ingresos;23762.0
+CH0102;2022;Total ingresos;26457.0
+CH0102;2012;Ingresos urgentes;21038.0
+CH0102;2013;Ingresos urgentes;18590.0
+CH0102;2014;Ingresos urgentes;19181.0
+CH0102;2015;Ingresos urgentes;22028.0
+CH0102;2016;Ingresos urgentes;22308.0
+CH0102;2017;Ingresos urgentes;22384.0
+CH0102;2018;Ingresos urgentes;22537.0
+CH0102;2019;Ingresos urgentes;22918.0
+CH0102;2020;Ingresos urgentes;21563.0
+CH0102;2021;Ingresos urgentes;20663.0
+CH0102;2022;Ingresos urgentes;23005.0
+CH0102;2012;Ingresos programados;4631.0
+CH0102;2013;Ingresos programados;6501.0
+CH0102;2014;Ingresos programados;6593.0
+CH0102;2015;Ingresos programados;3771.0
+CH0102;2016;Ingresos programados;3602.0
+CH0102;2017;Ingresos programados;3541.0
+CH0102;2018;Ingresos programados;3511.0
+CH0102;2019;Ingresos programados;3431.0
+CH0102;2020;Ingresos programados;2891.0
+CH0102;2021;Ingresos programados;3099.0
+CH0102;2022;Ingresos programados;3452.0
+CH0102;2012;Urgencias totales;148723.0
+CH0102;2013;Urgencias totales;151809.0
+CH0102;2014;Urgencias totales;154328.0
+CH0102;2015;Urgencias totales;151262.0
+CH0102;2016;Urgencias totales;160186.0
+CH0102;2017;Urgencias totales;164620.0
+CH0102;2018;Urgencias totales;166246.0
+CH0102;2019;Urgencias totales;174416.0
+CH0102;2020;Urgencias totales;136400.0
+CH0102;2021;Urgencias totales;173643.0
+CH0102;2022;Urgencias totales;195605.0
+CH0027;2012;Estancia media global;5.21
+CH0027;2013;Estancia media global;5.34
+CH0027;2014;Estancia media global;5.24
+CH0027;2015;Estancia media global;5.07
+CH0027;2016;Estancia media global;5.29
+CH0027;2017;Estancia media global;5.74
+CH0027;2018;Estancia media global;5.3
+CH0027;2019;Estancia media global;5.06
+CH0027;2020;Estancia media global;6.19
+CH0027;2021;Estancia media global;6.17
+CH0027;2022;Estancia media global;5.88
+CH0027;2012;Total ingresos;3701.0
+CH0027;2013;Total ingresos;3575.0
+CH0027;2014;Total ingresos;3661.0
+CH0027;2015;Total ingresos;3644.0
+CH0027;2016;Total ingresos;3765.0
+CH0027;2017;Total ingresos;3657.0
+CH0027;2018;Total ingresos;3533.0
+CH0027;2019;Total ingresos;3441.0
+CH0027;2020;Total ingresos;3309.0
+CH0027;2021;Total ingresos;2951.0
+CH0027;2022;Total ingresos;3100.0
+CH0027;2012;Ingresos urgentes;2736.0
+CH0027;2013;Ingresos urgentes;2804.0
+CH0027;2014;Ingresos urgentes;2823.0
+CH0027;2015;Ingresos urgentes;2798.0
+CH0027;2016;Ingresos urgentes;2884.0
+CH0027;2017;Ingresos urgentes;2808.0
+CH0027;2018;Ingresos urgentes;2643.0
+CH0027;2019;Ingresos urgentes;2536.0
+CH0027;2020;Ingresos urgentes;2690.0
+CH0027;2021;Ingresos urgentes;2197.0
+CH0027;2022;Ingresos urgentes;2236.0
+CH0027;2012;Ingresos programados;965.0
+CH0027;2013;Ingresos programados;771.0
+CH0027;2014;Ingresos programados;838.0
+CH0027;2015;Ingresos programados;846.0
+CH0027;2016;Ingresos programados;881.0
+CH0027;2017;Ingresos programados;849.0
+CH0027;2018;Ingresos programados;890.0
+CH0027;2019;Ingresos programados;905.0
+CH0027;2020;Ingresos programados;619.0
+CH0027;2021;Ingresos programados;754.0
+CH0027;2022;Ingresos programados;864.0
+CH0027;2012;Urgencias totales;41046.0
+CH0027;2013;Urgencias totales;43457.0
+CH0027;2014;Urgencias totales;44458.0
+CH0027;2015;Urgencias totales;40293.0
+CH0027;2016;Urgencias totales;41889.0
+CH0027;2017;Urgencias totales;43380.0
+CH0027;2018;Urgencias totales;45240.0
+CH0027;2019;Urgencias totales;47998.0
+CH0027;2020;Urgencias totales;36368.0
+CH0027;2021;Urgencias totales;43991.0
+CH0027;2022;Urgencias totales;52159.0
+CH0098;2012;Estancia media global;4.71
+CH0098;2013;Estancia media global;4.9
+CH0098;2014;Estancia media global;4.8
+CH0098;2015;Estancia media global;4.92
+CH0098;2016;Estancia media global;4.94
+CH0098;2017;Estancia media global;4.8
+CH0098;2018;Estancia media global;5.09
+CH0098;2019;Estancia media global;5.15
+CH0098;2020;Estancia media global;5.69
+CH0098;2021;Estancia media global;5.7
+CH0098;2022;Estancia media global;5.7
+CH0098;2012;Total ingresos;8953.0
+CH0098;2013;Total ingresos;8783.0
+CH0098;2014;Total ingresos;9167.0
+CH0098;2015;Total ingresos;9293.0
+CH0098;2016;Total ingresos;8990.0
+CH0098;2017;Total ingresos;9208.0
+CH0098;2018;Total ingresos;8902.0
+CH0098;2019;Total ingresos;9045.0
+CH0098;2020;Total ingresos;8656.0
+CH0098;2021;Total ingresos;8660.0
+CH0098;2022;Total ingresos;8860.0
+CH0098;2012;Ingresos urgentes;6658.0
+CH0098;2013;Ingresos urgentes;6365.0
+CH0098;2014;Ingresos urgentes;6869.0
+CH0098;2015;Ingresos urgentes;7071.0
+CH0098;2016;Ingresos urgentes;6879.0
+CH0098;2017;Ingresos urgentes;7102.0
+CH0098;2018;Ingresos urgentes;6895.0
+CH0098;2019;Ingresos urgentes;7106.0
+CH0098;2020;Ingresos urgentes;7159.0
+CH0098;2021;Ingresos urgentes;7139.0
+CH0098;2022;Ingresos urgentes;7245.0
+CH0098;2012;Ingresos programados;2295.0
+CH0098;2013;Ingresos programados;2418.0
+CH0098;2014;Ingresos programados;2298.0
+CH0098;2015;Ingresos programados;2222.0
+CH0098;2016;Ingresos programados;2111.0
+CH0098;2017;Ingresos programados;2106.0
+CH0098;2018;Ingresos programados;2007.0
+CH0098;2019;Ingresos programados;1939.0
+CH0098;2020;Ingresos programados;1497.0
+CH0098;2021;Ingresos programados;1521.0
+CH0098;2022;Ingresos programados;1615.0
+CH0098;2012;Urgencias totales;90602.0
+CH0098;2013;Urgencias totales;91030.0
+CH0098;2014;Urgencias totales;92466.0
+CH0098;2015;Urgencias totales;98437.0
+CH0098;2016;Urgencias totales;99860.0
+CH0098;2017;Urgencias totales;102280.0
+CH0098;2018;Urgencias totales;99954.0
+CH0098;2019;Urgencias totales;103872.0
+CH0098;2020;Urgencias totales;80002.0
+CH0098;2021;Urgencias totales;103744.0
+CH0098;2022;Urgencias totales;114379.0
+CH0052;2012;Estancia media global;7.09
+CH0052;2013;Estancia media global;7.42
+CH0052;2014;Estancia media global;7.65
+CH0052;2015;Estancia media global;7.4
+CH0052;2016;Estancia media global;7.05
+CH0052;2017;Estancia media global;6.84
+CH0052;2018;Estancia media global;6.8
+CH0052;2019;Estancia media global;6.89
+CH0052;2020;Estancia media global;7.14
+CH0052;2021;Estancia media global;6.71
+CH0052;2022;Estancia media global;6.22
+CH0052;2012;Total ingresos;15023.0
+CH0052;2013;Total ingresos;14616.0
+CH0052;2014;Total ingresos;14237.0
+CH0052;2015;Total ingresos;14791.0
+CH0052;2016;Total ingresos;15388.0
+CH0052;2017;Total ingresos;15807.0
+CH0052;2018;Total ingresos;15835.0
+CH0052;2019;Total ingresos;16005.0
+CH0052;2020;Total ingresos;13860.0
+CH0052;2021;Total ingresos;13826.0
+CH0052;2022;Total ingresos;15119.0
+CH0052;2012;Ingresos urgentes;10955.0
+CH0052;2013;Ingresos urgentes;11132.0
+CH0052;2014;Ingresos urgentes;10990.0
+CH0052;2015;Ingresos urgentes;11447.0
+CH0052;2016;Ingresos urgentes;11698.0
+CH0052;2017;Ingresos urgentes;11933.0
+CH0052;2018;Ingresos urgentes;11842.0
+CH0052;2019;Ingresos urgentes;11972.0
+CH0052;2020;Ingresos urgentes;11079.0
+CH0052;2021;Ingresos urgentes;10613.0
+CH0052;2022;Ingresos urgentes;11456.0
+CH0052;2012;Ingresos programados;4068.0
+CH0052;2013;Ingresos programados;3484.0
+CH0052;2014;Ingresos programados;3247.0
+CH0052;2015;Ingresos programados;3344.0
+CH0052;2016;Ingresos programados;3690.0
+CH0052;2017;Ingresos programados;3874.0
+CH0052;2018;Ingresos programados;3993.0
+CH0052;2019;Ingresos programados;4033.0
+CH0052;2020;Ingresos programados;2781.0
+CH0052;2021;Ingresos programados;3213.0
+CH0052;2022;Ingresos programados;3663.0
+CH0052;2012;Urgencias totales;103471.0
+CH0052;2013;Urgencias totales;106335.0
+CH0052;2014;Urgencias totales;107430.0
+CH0052;2015;Urgencias totales;110808.0
+CH0052;2016;Urgencias totales;111637.0
+CH0052;2017;Urgencias totales;110832.0
+CH0052;2018;Urgencias totales;109048.0
+CH0052;2019;Urgencias totales;112096.0
+CH0052;2020;Urgencias totales;83248.0
+CH0052;2021;Urgencias totales;104743.0
+CH0052;2022;Urgencias totales;120849.0
+CH0044;2012;Estancia media global;6.81
+CH0044;2013;Estancia media global;7.03
+CH0044;2014;Estancia media global;6.82
+CH0044;2015;Estancia media global;6.83
+CH0044;2016;Estancia media global;6.72
+CH0044;2017;Estancia media global;6.63
+CH0044;2018;Estancia media global;6.3
+CH0044;2019;Estancia media global;6.28
+CH0044;2020;Estancia media global;6.74
+CH0044;2021;Estancia media global;6.91
+CH0044;2022;Estancia media global;6.33
+CH0044;2012;Total ingresos;19165.0
+CH0044;2013;Total ingresos;17733.0
+CH0044;2014;Total ingresos;17944.0
+CH0044;2015;Total ingresos;17744.0
+CH0044;2016;Total ingresos;18068.0
+CH0044;2017;Total ingresos;17917.0
+CH0044;2018;Total ingresos;18213.0
+CH0044;2019;Total ingresos;18221.0
+CH0044;2020;Total ingresos;16602.0
+CH0044;2021;Total ingresos;17456.0
+CH0044;2022;Total ingresos;18507.0
+CH0044;2012;Ingresos urgentes;13334.0
+CH0044;2013;Ingresos urgentes;12530.0
+CH0044;2014;Ingresos urgentes;12901.0
+CH0044;2015;Ingresos urgentes;12886.0
+CH0044;2016;Ingresos urgentes;12920.0
+CH0044;2017;Ingresos urgentes;12705.0
+CH0044;2018;Ingresos urgentes;12426.0
+CH0044;2019;Ingresos urgentes;12404.0
+CH0044;2020;Ingresos urgentes;12274.0
+CH0044;2021;Ingresos urgentes;12204.0
+CH0044;2022;Ingresos urgentes;13043.0
+CH0044;2012;Ingresos programados;5831.0
+CH0044;2013;Ingresos programados;5203.0
+CH0044;2014;Ingresos programados;5043.0
+CH0044;2015;Ingresos programados;4858.0
+CH0044;2016;Ingresos programados;5148.0
+CH0044;2017;Ingresos programados;5212.0
+CH0044;2018;Ingresos programados;5787.0
+CH0044;2019;Ingresos programados;5817.0
+CH0044;2020;Ingresos programados;4328.0
+CH0044;2021;Ingresos programados;5252.0
+CH0044;2022;Ingresos programados;5464.0
+CH0044;2012;Urgencias totales;113954.0
+CH0044;2013;Urgencias totales;118850.0
+CH0044;2014;Urgencias totales;124055.0
+CH0044;2015;Urgencias totales;132068.0
+CH0044;2016;Urgencias totales;141888.0
+CH0044;2017;Urgencias totales;144288.0
+CH0044;2018;Urgencias totales;144970.0
+CH0044;2019;Urgencias totales;149584.0
+CH0044;2020;Urgencias totales;112099.0
+CH0044;2021;Urgencias totales;139542.0
+CH0044;2022;Urgencias totales;160934.0
+CH0104;2012;Estancia media global;4.16
+CH0104;2013;Estancia media global;4.46
+CH0104;2014;Estancia media global;3.98
+CH0104;2015;Estancia media global;4.21
+CH0104;2016;Estancia media global;4.27
+CH0104;2017;Estancia media global;4.27
+CH0104;2018;Estancia media global;4.3
+CH0104;2019;Estancia media global;4.27
+CH0104;2020;Estancia media global;5.15
+CH0104;2021;Estancia media global;4.74
+CH0104;2022;Estancia media global;4.63
+CH0104;2012;Total ingresos;10822.0
+CH0104;2013;Total ingresos;12694.0
+CH0104;2014;Total ingresos;14576.0
+CH0104;2015;Total ingresos;12306.0
+CH0104;2016;Total ingresos;12141.0
+CH0104;2017;Total ingresos;12242.0
+CH0104;2018;Total ingresos;11998.0
+CH0104;2019;Total ingresos;11164.0
+CH0104;2020;Total ingresos;10328.0
+CH0104;2021;Total ingresos;11778.0
+CH0104;2022;Total ingresos;12626.0
+CH0104;2012;Ingresos urgentes;8171.0
+CH0104;2013;Ingresos urgentes;9028.0
+CH0104;2014;Ingresos urgentes;10087.0
+CH0104;2015;Ingresos urgentes;8400.0
+CH0104;2016;Ingresos urgentes;8574.0
+CH0104;2017;Ingresos urgentes;8697.0
+CH0104;2018;Ingresos urgentes;8558.0
+CH0104;2019;Ingresos urgentes;7876.0
+CH0104;2020;Ingresos urgentes;8254.0
+CH0104;2021;Ingresos urgentes;9526.0
+CH0104;2022;Ingresos urgentes;9689.0
+CH0104;2012;Ingresos programados;2651.0
+CH0104;2013;Ingresos programados;3666.0
+CH0104;2014;Ingresos programados;4489.0
+CH0104;2015;Ingresos programados;3906.0
+CH0104;2016;Ingresos programados;3567.0
+CH0104;2017;Ingresos programados;3545.0
+CH0104;2018;Ingresos programados;3440.0
+CH0104;2019;Ingresos programados;3288.0
+CH0104;2020;Ingresos programados;2074.0
+CH0104;2021;Ingresos programados;2252.0
+CH0104;2022;Ingresos programados;2937.0
+CH0104;2012;Urgencias totales;89892.0
+CH0104;2013;Urgencias totales;96942.0
+CH0104;2014;Urgencias totales;104524.0
+CH0104;2015;Urgencias totales;102365.0
+CH0104;2016;Urgencias totales;104870.0
+CH0104;2017;Urgencias totales;105171.0
+CH0104;2018;Urgencias totales;109665.0
+CH0104;2019;Urgencias totales;112045.0
+CH0104;2020;Urgencias totales;72629.0
+CH0104;2021;Urgencias totales;110758.0
+CH0104;2022;Urgencias totales;125414.0
+CH0106;2015;Estancia media global;4.94
+CH0106;2016;Estancia media global;5.15
+CH0106;2017;Estancia media global;5.43
+CH0106;2018;Estancia media global;5.65
+CH0106;2019;Estancia media global;5.38
+CH0106;2020;Estancia media global;5.63
+CH0106;2021;Estancia media global;5.01
+CH0106;2022;Estancia media global;4.58
+CH0106;2015;Total ingresos;7382.0
+CH0106;2016;Total ingresos;8810.0
+CH0106;2017;Total ingresos;8963.0
+CH0106;2018;Total ingresos;9623.0
+CH0106;2019;Total ingresos;10176.0
+CH0106;2020;Total ingresos;9640.0
+CH0106;2021;Total ingresos;8999.0
+CH0106;2022;Total ingresos;11027.0
+CH0106;2015;Ingresos urgentes;6089.0
+CH0106;2016;Ingresos urgentes;6729.0
+CH0106;2017;Ingresos urgentes;6733.0
+CH0106;2018;Ingresos urgentes;7195.0
+CH0106;2019;Ingresos urgentes;7804.0
+CH0106;2020;Ingresos urgentes;7308.0
+CH0106;2021;Ingresos urgentes;6660.0
+CH0106;2022;Ingresos urgentes;8345.0
+CH0106;2015;Ingresos programados;1293.0
+CH0106;2016;Ingresos programados;2081.0
+CH0106;2017;Ingresos programados;2230.0
+CH0106;2018;Ingresos programados;2428.0
+CH0106;2019;Ingresos programados;2372.0
+CH0106;2020;Ingresos programados;2332.0
+CH0106;2021;Ingresos programados;2339.0
+CH0106;2022;Ingresos programados;2682.0
+CH0106;2015;Urgencias totales;76980.0
+CH0106;2016;Urgencias totales;92440.0
+CH0106;2017;Urgencias totales;100769.0
+CH0106;2018;Urgencias totales;101034.0
+CH0106;2019;Urgencias totales;105386.0
+CH0106;2020;Urgencias totales;85666.0
+CH0106;2021;Urgencias totales;114591.0
+CH0106;2022;Urgencias totales;135994.0
+CH0032;2012;Estancia media global;6.76
+CH0032;2013;Estancia media global;6.76
+CH0032;2014;Estancia media global;6.53
+CH0032;2015;Estancia media global;6.69
+CH0032;2016;Estancia media global;6.57
+CH0032;2017;Estancia media global;6.72
+CH0032;2018;Estancia media global;6.6
+CH0032;2019;Estancia media global;6.42
+CH0032;2020;Estancia media global;6.9
+CH0032;2021;Estancia media global;6.65
+CH0032;2022;Estancia media global;6.37
+CH0032;2012;Total ingresos;15569.0
+CH0032;2013;Total ingresos;14020.0
+CH0032;2014;Total ingresos;13292.0
+CH0032;2015;Total ingresos;13391.0
+CH0032;2016;Total ingresos;13072.0
+CH0032;2017;Total ingresos;12693.0
+CH0032;2018;Total ingresos;12225.0
+CH0032;2019;Total ingresos;13049.0
+CH0032;2020;Total ingresos;11288.0
+CH0032;2021;Total ingresos;11283.0
+CH0032;2022;Total ingresos;11994.0
+CH0032;2012;Ingresos urgentes;11202.0
+CH0032;2013;Ingresos urgentes;9815.0
+CH0032;2014;Ingresos urgentes;9268.0
+CH0032;2015;Ingresos urgentes;9509.0
+CH0032;2016;Ingresos urgentes;9163.0
+CH0032;2017;Ingresos urgentes;9287.0
+CH0032;2018;Ingresos urgentes;8960.0
+CH0032;2019;Ingresos urgentes;9625.0
+CH0032;2020;Ingresos urgentes;9018.0
+CH0032;2021;Ingresos urgentes;8553.0
+CH0032;2022;Ingresos urgentes;109351.0
+CH0032;2012;Ingresos programados;4367.0
+CH0032;2013;Ingresos programados;4205.0
+CH0032;2014;Ingresos programados;4024.0
+CH0032;2015;Ingresos programados;3882.0
+CH0032;2016;Ingresos programados;3909.0
+CH0032;2017;Ingresos programados;3406.0
+CH0032;2018;Ingresos programados;3265.0
+CH0032;2019;Ingresos programados;3424.0
+CH0032;2020;Ingresos programados;2270.0
+CH0032;2021;Ingresos programados;2730.0
+CH0032;2022;Ingresos programados;3172.0
+CH0032;2012;Urgencias totales;99997.0
+CH0032;2013;Urgencias totales;87485.0
+CH0032;2014;Urgencias totales;85927.0
+CH0032;2015;Urgencias totales;88566.0
+CH0032;2016;Urgencias totales;92289.0
+CH0032;2017;Urgencias totales;93494.0
+CH0032;2018;Urgencias totales;93996.0
+CH0032;2019;Urgencias totales;98298.0
+CH0032;2020;Urgencias totales;77450.0
+CH0032;2021;Urgencias totales;100408.0
+CH0032;2022;Urgencias totales;109351.0
+CH0049;2012;Estancia media global;8.37
+CH0049;2013;Estancia media global;8.07
+CH0049;2014;Estancia media global;7.67
+CH0049;2015;Estancia media global;7.67
+CH0049;2016;Estancia media global;7.28
+CH0049;2017;Estancia media global;7.1
+CH0049;2018;Estancia media global;7.02
+CH0049;2019;Estancia media global;6.92
+CH0049;2020;Estancia media global;7.48
+CH0049;2021;Estancia media global;7.21
+CH0049;2022;Estancia media global;6.86
+CH0049;2012;Total ingresos;32815.0
+CH0049;2013;Total ingresos;31743.0
+CH0049;2014;Total ingresos;32179.0
+CH0049;2015;Total ingresos;31253.0
+CH0049;2016;Total ingresos;31847.0
+CH0049;2017;Total ingresos;31847.0
+CH0049;2018;Total ingresos;31876.0
+CH0049;2019;Total ingresos;32393.0
+CH0049;2020;Total ingresos;29284.0
+CH0049;2021;Total ingresos;30373.0
+CH0049;2022;Total ingresos;32374.0
+CH0049;2012;Ingresos urgentes;19400.0
+CH0049;2013;Ingresos urgentes;19505.0
+CH0049;2014;Ingresos urgentes;18941.0
+CH0049;2015;Ingresos urgentes;19190.0
+CH0049;2016;Ingresos urgentes;18922.0
+CH0049;2017;Ingresos urgentes;18926.0
+CH0049;2018;Ingresos urgentes;19166.0
+CH0049;2019;Ingresos urgentes;19670.0
+CH0049;2020;Ingresos urgentes;20798.0
+CH0049;2021;Ingresos urgentes;19888.0
+CH0049;2022;Ingresos urgentes;20137.0
+CH0049;2012;Ingresos programados;13415.0
+CH0049;2013;Ingresos programados;12238.0
+CH0049;2014;Ingresos programados;13238.0
+CH0049;2015;Ingresos programados;12063.0
+CH0049;2016;Ingresos programados;12925.0
+CH0049;2017;Ingresos programados;12921.0
+CH0049;2018;Ingresos programados;12710.0
+CH0049;2019;Ingresos programados;12723.0
+CH0049;2020;Ingresos programados;8486.0
+CH0049;2021;Ingresos programados;10485.0
+CH0049;2022;Ingresos programados;12237.0
+CH0049;2012;Urgencias totales;132296.0
+CH0049;2013;Urgencias totales;133998.0
+CH0049;2014;Urgencias totales;135799.0
+CH0049;2015;Urgencias totales;140538.0
+CH0049;2016;Urgencias totales;147234.0
+CH0049;2017;Urgencias totales;150504.0
+CH0049;2018;Urgencias totales;150835.0
+CH0049;2019;Urgencias totales;154652.0
+CH0049;2020;Urgencias totales;121305.0
+CH0049;2021;Urgencias totales;143827.0
+CH0049;2022;Urgencias totales;161446.0
+CH0105;2012;Estancia media global;4.63
+CH0105;2013;Estancia media global;4.9
+CH0105;2014;Estancia media global;5.22
+CH0105;2015;Estancia media global;5.41
+CH0105;2016;Estancia media global;5.46
+CH0105;2017;Estancia media global;5.43
+CH0105;2018;Estancia media global;5.7
+CH0105;2019;Estancia media global;5.78
+CH0105;2020;Estancia media global;6.23
+CH0105;2021;Estancia media global;6.19
+CH0105;2022;Estancia media global;5.05
+CH0105;2012;Total ingresos;6020.0
+CH0105;2013;Total ingresos;12785.0
+CH0105;2014;Total ingresos;15016.0
+CH0105;2015;Total ingresos;17786.0
+CH0105;2016;Total ingresos;19850.0
+CH0105;2017;Total ingresos;20312.0
+CH0105;2018;Total ingresos;21576.0
+CH0105;2019;Total ingresos;21745.0
+CH0105;2020;Total ingresos;18685.0
+CH0105;2021;Total ingresos;18165.0
+CH0105;2022;Total ingresos;20950.0
+CH0105;2012;Ingresos urgentes;4713.0
+CH0105;2013;Ingresos urgentes;9550.0
+CH0105;2014;Ingresos urgentes;11138.0
+CH0105;2015;Ingresos urgentes;13654.0
+CH0105;2016;Ingresos urgentes;14305.0
+CH0105;2017;Ingresos urgentes;14470.0
+CH0105;2018;Ingresos urgentes;15455.0
+CH0105;2019;Ingresos urgentes;15585.0
+CH0105;2020;Ingresos urgentes;13953.0
+CH0105;2021;Ingresos urgentes;13436.0
+CH0105;2022;Ingresos urgentes;14610.0
+CH0105;2012;Ingresos programados;1307.0
+CH0105;2013;Ingresos programados;3235.0
+CH0105;2014;Ingresos programados;3878.0
+CH0105;2015;Ingresos programados;4132.0
+CH0105;2016;Ingresos programados;5545.0
+CH0105;2017;Ingresos programados;5842.0
+CH0105;2018;Ingresos programados;6121.0
+CH0105;2019;Ingresos programados;6160.0
+CH0105;2020;Ingresos programados;4732.0
+CH0105;2021;Ingresos programados;4729.0
+CH0105;2022;Ingresos programados;6340.0
+CH0105;2012;Urgencias totales;49956.0
+CH0105;2013;Urgencias totales;94652.0
+CH0105;2014;Urgencias totales;110883.0
+CH0105;2015;Urgencias totales;122430.0
+CH0105;2016;Urgencias totales;136015.0
+CH0105;2017;Urgencias totales;143185.0
+CH0105;2018;Urgencias totales;145690.0
+CH0105;2019;Urgencias totales;149524.0
+CH0105;2020;Urgencias totales;108030.0
+CH0105;2021;Urgencias totales;137366.0
+CH0105;2022;Urgencias totales;164254.0
+CH0080;2012;Estancia media global;6.08
+CH0080;2013;Estancia media global;6.21
+CH0080;2014;Estancia media global;6.09
+CH0080;2015;Estancia media global;6.21
+CH0080;2016;Estancia media global;6.13
+CH0080;2017;Estancia media global;5.86
+CH0080;2018;Estancia media global;5.91
+CH0080;2019;Estancia media global;5.79
+CH0080;2020;Estancia media global;6.42
+CH0080;2021;Estancia media global;6.57
+CH0080;2022;Estancia media global;6.04
+CH0080;2012;Total ingresos;17793.0
+CH0080;2013;Total ingresos;16561.0
+CH0080;2014;Total ingresos;15973.0
+CH0080;2015;Total ingresos;16050.0
+CH0080;2016;Total ingresos;16102.0
+CH0080;2017;Total ingresos;16387.0
+CH0080;2018;Total ingresos;16548.0
+CH0080;2019;Total ingresos;16290.0
+CH0080;2020;Total ingresos;14458.0
+CH0080;2021;Total ingresos;14299.0
+CH0080;2022;Total ingresos;15455.0
+CH0080;2012;Ingresos urgentes;12203.0
+CH0080;2013;Ingresos urgentes;11341.0
+CH0080;2014;Ingresos urgentes;11062.0
+CH0080;2015;Ingresos urgentes;11279.0
+CH0080;2016;Ingresos urgentes;11311.0
+CH0080;2017;Ingresos urgentes;11401.0
+CH0080;2018;Ingresos urgentes;11389.0
+CH0080;2019;Ingresos urgentes;11185.0
+CH0080;2020;Ingresos urgentes;10678.0
+CH0080;2021;Ingresos urgentes;10132.0
+CH0080;2022;Ingresos urgentes;10748.0
+CH0080;2012;Ingresos programados;5590.0
+CH0080;2013;Ingresos programados;5220.0
+CH0080;2014;Ingresos programados;4911.0
+CH0080;2015;Ingresos programados;4771.0
+CH0080;2016;Ingresos programados;4791.0
+CH0080;2017;Ingresos programados;4986.0
+CH0080;2018;Ingresos programados;5159.0
+CH0080;2019;Ingresos programados;5105.0
+CH0080;2020;Ingresos programados;3780.0
+CH0080;2021;Ingresos programados;4167.0
+CH0080;2022;Ingresos programados;4707.0
+CH0080;2012;Urgencias totales;98731.0
+CH0080;2013;Urgencias totales;93797.0
+CH0080;2014;Urgencias totales;94331.0
+CH0080;2015;Urgencias totales;99962.0
+CH0080;2016;Urgencias totales;104228.0
+CH0080;2017;Urgencias totales;103437.0
+CH0080;2018;Urgencias totales;103722.0
+CH0080;2019;Urgencias totales;105176.0
+CH0080;2020;Urgencias totales;80259.0
+CH0080;2021;Urgencias totales;101579.0
+CH0080;2022;Urgencias totales;116275.0
+CH0101;2012;Estancia media global;5.51
+CH0101;2013;Estancia media global;6.14
+CH0101;2014;Estancia media global;5.95
+CH0101;2015;Estancia media global;5.63
+CH0101;2016;Estancia media global;5.57
+CH0101;2017;Estancia media global;6.85
+CH0101;2018;Estancia media global;6.83
+CH0101;2019;Estancia media global;6.92
+CH0101;2020;Estancia media global;6.97
+CH0101;2021;Estancia media global;7.1
+CH0101;2022;Estancia media global;6.87
+CH0101;2012;Total ingresos;12670.0
+CH0101;2013;Total ingresos;12376.0
+CH0101;2014;Total ingresos;12542.0
+CH0101;2015;Total ingresos;13597.0
+CH0101;2016;Total ingresos;13625.0
+CH0101;2017;Total ingresos;15483.0
+CH0101;2018;Total ingresos;15768.0
+CH0101;2019;Total ingresos;16012.0
+CH0101;2020;Total ingresos;15902.0
+CH0101;2021;Total ingresos;16161.0
+CH0101;2022;Total ingresos;17163.0
+CH0101;2012;Ingresos urgentes;11054.0
+CH0101;2013;Ingresos urgentes;10830.0
+CH0101;2014;Ingresos urgentes;9449.0
+CH0101;2015;Ingresos urgentes;10410.0
+CH0101;2016;Ingresos urgentes;10257.0
+CH0101;2017;Ingresos urgentes;11381.0
+CH0101;2018;Ingresos urgentes;11826.0
+CH0101;2019;Ingresos urgentes;12172.0
+CH0101;2020;Ingresos urgentes;13494.0
+CH0101;2021;Ingresos urgentes;13052.0
+CH0101;2022;Ingresos urgentes;13891.0
+CH0101;2012;Ingresos programados;1616.0
+CH0101;2013;Ingresos programados;1546.0
+CH0101;2014;Ingresos programados;3093.0
+CH0101;2015;Ingresos programados;3187.0
+CH0101;2016;Ingresos programados;3368.0
+CH0101;2017;Ingresos programados;4102.0
+CH0101;2018;Ingresos programados;3942.0
+CH0101;2019;Ingresos programados;3840.0
+CH0101;2020;Ingresos programados;2408.0
+CH0101;2021;Ingresos programados;3109.0
+CH0101;2022;Ingresos programados;3272.0
+CH0101;2012;Urgencias totales;108406.0
+CH0101;2013;Urgencias totales;110262.0
+CH0101;2014;Urgencias totales;114014.0
+CH0101;2015;Urgencias totales;121633.0
+CH0101;2016;Urgencias totales;127851.0
+CH0101;2017;Urgencias totales;133284.0
+CH0101;2018;Urgencias totales;134603.0
+CH0101;2019;Urgencias totales;140117.0
+CH0101;2020;Urgencias totales;111267.0
+CH0101;2021;Urgencias totales;155476.0
+CH0101;2022;Urgencias totales;182892.0
+CH0053;2012;Estancia media global;7.22
+CH0053;2013;Estancia media global;7.2
+CH0053;2014;Estancia media global;6.88
+CH0053;2015;Estancia media global;6.66
+CH0053;2016;Estancia media global;6.79
+CH0053;2017;Estancia media global;7.06
+CH0053;2018;Estancia media global;6.93
+CH0053;2019;Estancia media global;7.01
+CH0053;2020;Estancia media global;7.82
+CH0053;2021;Estancia media global;7.68
+CH0053;2022;Estancia media global;7.53
+CH0053;2012;Total ingresos;35532.0
+CH0053;2013;Total ingresos;33349.0
+CH0053;2014;Total ingresos;35139.0
+CH0053;2015;Total ingresos;35377.0
+CH0053;2016;Total ingresos;34299.0
+CH0053;2017;Total ingresos;32320.0
+CH0053;2018;Total ingresos;31908.0
+CH0053;2019;Total ingresos;31657.0
+CH0053;2020;Total ingresos;28008.0
+CH0053;2021;Total ingresos;28073.0
+CH0053;2022;Total ingresos;28705.0
+CH0053;2012;Ingresos urgentes;25136.0
+CH0053;2013;Ingresos urgentes;24334.0
+CH0053;2014;Ingresos urgentes;24542.0
+CH0053;2015;Ingresos urgentes;25262.0
+CH0053;2016;Ingresos urgentes;24338.0
+CH0053;2017;Ingresos urgentes;22318.0
+CH0053;2018;Ingresos urgentes;21631.0
+CH0053;2019;Ingresos urgentes;21890.0
+CH0053;2020;Ingresos urgentes;21888.0
+CH0053;2021;Ingresos urgentes;20315.0
+CH0053;2022;Ingresos urgentes;20254.0
+CH0053;2012;Ingresos programados;10396.0
+CH0053;2013;Ingresos programados;9015.0
+CH0053;2014;Ingresos programados;10597.0
+CH0053;2015;Ingresos programados;10115.0
+CH0053;2016;Ingresos programados;9961.0
+CH0053;2017;Ingresos programados;10002.0
+CH0053;2018;Ingresos programados;10277.0
+CH0053;2019;Ingresos programados;9767.0
+CH0053;2020;Ingresos programados;6120.0
+CH0053;2021;Ingresos programados;7758.0
+CH0053;2022;Ingresos programados;8451.0
+CH0053;2012;Urgencias totales;117325.0
+CH0053;2013;Urgencias totales;118450.0
+CH0053;2014;Urgencias totales;122656.0
+CH0053;2015;Urgencias totales;125740.0
+CH0053;2016;Urgencias totales;130932.0
+CH0053;2017;Urgencias totales;131622.0
+CH0053;2018;Urgencias totales;132850.0
+CH0053;2019;Urgencias totales;136193.0
+CH0053;2020;Urgencias totales;105763.0
+CH0053;2021;Urgencias totales;130444.0
+CH0053;2022;Urgencias totales;145819.0
+CH0100;2012;Estancia media global;4.81
+CH0100;2013;Estancia media global;4.95
+CH0100;2014;Estancia media global;5.13
+CH0100;2015;Estancia media global;5.42
+CH0100;2016;Estancia media global;5.23
+CH0100;2017;Estancia media global;5.36
+CH0100;2018;Estancia media global;5.23
+CH0100;2019;Estancia media global;5.37
+CH0100;2020;Estancia media global;6.11
+CH0100;2021;Estancia media global;6.16
+CH0100;2022;Estancia media global;5.92
+CH0100;2012;Total ingresos;7261.0
+CH0100;2013;Total ingresos;7366.0
+CH0100;2014;Total ingresos;7504.0
+CH0100;2015;Total ingresos;7623.0
+CH0100;2016;Total ingresos;7740.0
+CH0100;2017;Total ingresos;7985.0
+CH0100;2018;Total ingresos;8057.0
+CH0100;2019;Total ingresos;8116.0
+CH0100;2020;Total ingresos;6946.0
+CH0100;2021;Total ingresos;7107.0
+CH0100;2022;Total ingresos;8372.0
+CH0100;2012;Ingresos urgentes;5571.0
+CH0100;2013;Ingresos urgentes;5768.0
+CH0100;2014;Ingresos urgentes;5973.0
+CH0100;2015;Ingresos urgentes;6179.0
+CH0100;2016;Ingresos urgentes;6369.0
+CH0100;2017;Ingresos urgentes;6491.0
+CH0100;2018;Ingresos urgentes;6583.0
+CH0100;2019;Ingresos urgentes;6612.0
+CH0100;2020;Ingresos urgentes;5765.0
+CH0100;2021;Ingresos urgentes;5692.0
+CH0100;2022;Ingresos urgentes;6824.0
+CH0100;2012;Ingresos programados;1690.0
+CH0100;2013;Ingresos programados;1598.0
+CH0100;2014;Ingresos programados;1531.0
+CH0100;2015;Ingresos programados;1444.0
+CH0100;2016;Ingresos programados;1371.0
+CH0100;2017;Ingresos programados;1494.0
+CH0100;2018;Ingresos programados;1474.0
+CH0100;2019;Ingresos programados;1504.0
+CH0100;2020;Ingresos programados;1181.0
+CH0100;2021;Ingresos programados;1415.0
+CH0100;2022;Ingresos programados;1548.0
+CH0100;2012;Urgencias totales;68913.0
+CH0100;2013;Urgencias totales;69776.0
+CH0100;2014;Urgencias totales;73934.0
+CH0100;2015;Urgencias totales;81286.0
+CH0100;2016;Urgencias totales;87793.0
+CH0100;2017;Urgencias totales;90575.0
+CH0100;2018;Urgencias totales;90278.0
+CH0100;2019;Urgencias totales;95181.0
+CH0100;2020;Urgencias totales;75562.0
+CH0100;2021;Urgencias totales;109180.0
+CH0100;2022;Urgencias totales;123370.0
+CH0023;2012;Estancia media global;8.08
+CH0023;2013;Estancia media global;7.93
+CH0023;2014;Estancia media global;7.27
+CH0023;2015;Estancia media global;7.15
+CH0023;2016;Estancia media global;7.27
+CH0023;2017;Estancia media global;7.07
+CH0023;2018;Estancia media global;6.92
+CH0023;2019;Estancia media global;6.86
+CH0023;2020;Estancia media global;7.27
+CH0023;2021;Estancia media global;7.34
+CH0023;2012;Total ingresos;42256.0
+CH0023;2013;Total ingresos;42375.0
+CH0023;2014;Total ingresos;44032.0
+CH0023;2015;Total ingresos;45333.0
+CH0023;2016;Total ingresos;44586.0
+CH0023;2017;Total ingresos;44739.0
+CH0023;2018;Total ingresos;45053.0
+CH0023;2019;Total ingresos;45358.0
+CH0023;2020;Total ingresos;39669.0
+CH0023;2021;Total ingresos;39587.0
+CH0023;2012;Ingresos urgentes;25249.0
+CH0023;2013;Ingresos urgentes;25506.0
+CH0023;2014;Ingresos urgentes;27389.0
+CH0023;2015;Ingresos urgentes;29042.0
+CH0023;2016;Ingresos urgentes;30301.0
+CH0023;2017;Ingresos urgentes;30202.0
+CH0023;2018;Ingresos urgentes;30029.0
+CH0023;2019;Ingresos urgentes;25574.0
+CH0023;2020;Ingresos urgentes;29969.0
+CH0023;2021;Ingresos urgentes;28358.0
+CH0023;2012;Ingresos programados;17007.0
+CH0023;2013;Ingresos programados;16869.0
+CH0023;2014;Ingresos programados;16643.0
+CH0023;2015;Ingresos programados;16291.0
+CH0023;2016;Ingresos programados;14285.0
+CH0023;2017;Ingresos programados;14537.0
+CH0023;2018;Ingresos programados;15024.0
+CH0023;2019;Ingresos programados;19784.0
+CH0023;2020;Ingresos programados;9700.0
+CH0023;2021;Ingresos programados;11229.0
+CH0023;2012;Urgencias totales;226070.0
+CH0023;2013;Urgencias totales;231293.0
+CH0023;2014;Urgencias totales;230820.0
+CH0023;2015;Urgencias totales;237148.0
+CH0023;2016;Urgencias totales;246401.0
+CH0023;2017;Urgencias totales;255507.0
+CH0023;2018;Urgencias totales;257308.0
+CH0023;2019;Urgencias totales;273664.0
+CH0023;2020;Urgencias totales;206741.0
+CH0023;2021;Urgencias totales;262547.0
+CH0034;2012;Estancia media global;7.64
+CH0034;2013;Estancia media global;7.75
+CH0034;2014;Estancia media global;7.72
+CH0034;2015;Estancia media global;7.66
+CH0034;2016;Estancia media global;7.48
+CH0034;2017;Estancia media global;7.53
+CH0034;2018;Estancia media global;7.39
+CH0034;2019;Estancia media global;7.19
+CH0034;2020;Estancia media global;7.9
+CH0034;2021;Estancia media global;7.61
+CH0034;2022;Estancia media global;7.56
+CH0034;2012;Total ingresos;49336.0
+CH0034;2013;Total ingresos;48247.0
+CH0034;2014;Total ingresos;48238.0
+CH0034;2015;Total ingresos;48838.0
+CH0034;2016;Total ingresos;48652.0
+CH0034;2017;Total ingresos;48059.0
+CH0034;2018;Total ingresos;47298.0
+CH0034;2019;Total ingresos;47048.0
+CH0034;2020;Total ingresos;42446.0
+CH0034;2021;Total ingresos;42531.0
+CH0034;2022;Total ingresos;42288.0
+CH0034;2012;Ingresos urgentes;29799.0
+CH0034;2013;Ingresos urgentes;29668.0
+CH0034;2014;Ingresos urgentes;29546.0
+CH0034;2015;Ingresos urgentes;30410.0
+CH0034;2016;Ingresos urgentes;29826.0
+CH0034;2017;Ingresos urgentes;29298.0
+CH0034;2018;Ingresos urgentes;28051.0
+CH0034;2019;Ingresos urgentes;27682.0
+CH0034;2020;Ingresos urgentes;27221.0
+CH0034;2021;Ingresos urgentes;26691.0
+CH0034;2022;Ingresos urgentes;27044.0
+CH0034;2012;Ingresos programados;19537.0
+CH0034;2013;Ingresos programados;18579.0
+CH0034;2014;Ingresos programados;18692.0
+CH0034;2015;Ingresos programados;18428.0
+CH0034;2016;Ingresos programados;18826.0
+CH0034;2017;Ingresos programados;18761.0
+CH0034;2018;Ingresos programados;19247.0
+CH0034;2019;Ingresos programados;19366.0
+CH0034;2020;Ingresos programados;15225.0
+CH0034;2021;Ingresos programados;15840.0
+CH0034;2022;Ingresos programados;15244.0
+CH0034;2012;Urgencias totales;224698.0
+CH0034;2013;Urgencias totales;228120.0
+CH0034;2014;Urgencias totales;229365.0
+CH0034;2015;Urgencias totales;238637.0
+CH0034;2016;Urgencias totales;250249.0
+CH0034;2017;Urgencias totales;251479.0
+CH0034;2018;Urgencias totales;249695.0
+CH0034;2019;Urgencias totales;257514.0
+CH0034;2020;Urgencias totales;183663.0
+CH0034;2021;Urgencias totales;239076.0
+CH0034;2022;Urgencias totales;270319.0
 hospital_central_de_la_defensa_gomez_ulla;2014;Estancia media global;8.47
 hospital_central_de_la_defensa_gomez_ulla;2015;Estancia media global;8.15
 hospital_central_de_la_defensa_gomez_ulla;2016;Estancia media global;7.96
@@ -1124,268 +1124,268 @@ hospital_central_de_la_defensa_gomez_ulla;2019;Urgencias totales;75487.0
 hospital_central_de_la_defensa_gomez_ulla;2020;Urgencias totales;56326.0
 hospital_central_de_la_defensa_gomez_ulla;2021;Urgencias totales;70893.0
 hospital_central_de_la_defensa_gomez_ulla;2022;Urgencias totales;84513.0
-hospital_universitario_la_paz;2012;Estancia media global;7.84
-hospital_universitario_la_paz;2013;Estancia media global;7.57
-hospital_universitario_la_paz;2014;Estancia media global;7.29
-hospital_universitario_la_paz;2015;Estancia media global;7.47
-hospital_universitario_la_paz;2016;Estancia media global;7.29
-hospital_universitario_la_paz;2017;Estancia media global;7.06
-hospital_universitario_la_paz;2018;Estancia media global;7.03
-hospital_universitario_la_paz;2019;Estancia media global;6.97
-hospital_universitario_la_paz;2020;Estancia media global;7.1
-hospital_universitario_la_paz;2021;Estancia media global;6.93
-hospital_universitario_la_paz;2012;Total ingresos;47368.0
-hospital_universitario_la_paz;2013;Total ingresos;46360.0
-hospital_universitario_la_paz;2014;Total ingresos;46758.0
-hospital_universitario_la_paz;2015;Total ingresos;46286.0
-hospital_universitario_la_paz;2016;Total ingresos;47116.0
-hospital_universitario_la_paz;2017;Total ingresos;48151.0
-hospital_universitario_la_paz;2018;Total ingresos;48945.0
-hospital_universitario_la_paz;2019;Total ingresos;48749.0
-hospital_universitario_la_paz;2020;Total ingresos;44190.0
-hospital_universitario_la_paz;2021;Total ingresos;44948.0
-hospital_universitario_la_paz;2012;Ingresos urgentes;29654.0
-hospital_universitario_la_paz;2013;Ingresos urgentes;29371.0
-hospital_universitario_la_paz;2014;Ingresos urgentes;29673.0
-hospital_universitario_la_paz;2015;Ingresos urgentes;29460.0
-hospital_universitario_la_paz;2016;Ingresos urgentes;31567.0
-hospital_universitario_la_paz;2017;Ingresos urgentes;32798.0
-hospital_universitario_la_paz;2018;Ingresos urgentes;30789.0
-hospital_universitario_la_paz;2019;Ingresos urgentes;30161.0
-hospital_universitario_la_paz;2020;Ingresos urgentes;28266.0
-hospital_universitario_la_paz;2021;Ingresos urgentes;27301.0
-hospital_universitario_la_paz;2012;Ingresos programados;17714.0
-hospital_universitario_la_paz;2013;Ingresos programados;16989.0
-hospital_universitario_la_paz;2014;Ingresos programados;17085.0
-hospital_universitario_la_paz;2015;Ingresos programados;16826.0
-hospital_universitario_la_paz;2016;Ingresos programados;15549.0
-hospital_universitario_la_paz;2017;Ingresos programados;15353.0
-hospital_universitario_la_paz;2018;Ingresos programados;18156.0
-hospital_universitario_la_paz;2019;Ingresos programados;18588.0
-hospital_universitario_la_paz;2020;Ingresos programados;15924.0
-hospital_universitario_la_paz;2021;Ingresos programados;17647.0
-hospital_universitario_la_paz;2012;Urgencias totales;205961.0
-hospital_universitario_la_paz;2013;Urgencias totales;209233.0
-hospital_universitario_la_paz;2014;Urgencias totales;211031.0
-hospital_universitario_la_paz;2015;Urgencias totales;218784.0
-hospital_universitario_la_paz;2016;Urgencias totales;229930.0
-hospital_universitario_la_paz;2017;Urgencias totales;229351.0
-hospital_universitario_la_paz;2018;Urgencias totales;229291.0
-hospital_universitario_la_paz;2019;Urgencias totales;237700.0
-hospital_universitario_la_paz;2020;Urgencias totales;180412.0
-hospital_universitario_la_paz;2021;Urgencias totales;218238.0
-hospital_universitario_de_getafe;2012;Estancia media global;6.6
-hospital_universitario_de_getafe;2013;Estancia media global;6.34
-hospital_universitario_de_getafe;2014;Estancia media global;6.75
-hospital_universitario_de_getafe;2015;Estancia media global;6.3
-hospital_universitario_de_getafe;2016;Estancia media global;6.47
-hospital_universitario_de_getafe;2017;Estancia media global;6.21
-hospital_universitario_de_getafe;2018;Estancia media global;6.24
-hospital_universitario_de_getafe;2019;Estancia media global;6.34
-hospital_universitario_de_getafe;2020;Estancia media global;6.84
-hospital_universitario_de_getafe;2021;Estancia media global;6.6
-hospital_universitario_de_getafe;2022;Estancia media global;6.18
-hospital_universitario_de_getafe;2012;Total ingresos;19017.0
-hospital_universitario_de_getafe;2013;Total ingresos;18864.0
-hospital_universitario_de_getafe;2014;Total ingresos;18649.0
-hospital_universitario_de_getafe;2015;Total ingresos;18766.0
-hospital_universitario_de_getafe;2016;Total ingresos;18319.0
-hospital_universitario_de_getafe;2017;Total ingresos;18669.0
-hospital_universitario_de_getafe;2018;Total ingresos;18736.0
-hospital_universitario_de_getafe;2019;Total ingresos;18385.0
-hospital_universitario_de_getafe;2020;Total ingresos;16755.0
-hospital_universitario_de_getafe;2021;Total ingresos;16729.0
-hospital_universitario_de_getafe;2022;Total ingresos;18545.0
-hospital_universitario_de_getafe;2012;Ingresos urgentes;12511.0
-hospital_universitario_de_getafe;2013;Ingresos urgentes;12522.0
-hospital_universitario_de_getafe;2014;Ingresos urgentes;12767.0
-hospital_universitario_de_getafe;2015;Ingresos urgentes;13425.0
-hospital_universitario_de_getafe;2016;Ingresos urgentes;12965.0
-hospital_universitario_de_getafe;2017;Ingresos urgentes;13244.0
-hospital_universitario_de_getafe;2018;Ingresos urgentes;13288.0
-hospital_universitario_de_getafe;2019;Ingresos urgentes;13175.0
-hospital_universitario_de_getafe;2020;Ingresos urgentes;13122.0
-hospital_universitario_de_getafe;2021;Ingresos urgentes;12204.0
-hospital_universitario_de_getafe;2022;Ingresos urgentes;13320.0
-hospital_universitario_de_getafe;2012;Ingresos programados;6506.0
-hospital_universitario_de_getafe;2013;Ingresos programados;6342.0
-hospital_universitario_de_getafe;2014;Ingresos programados;5882.0
-hospital_universitario_de_getafe;2015;Ingresos programados;5341.0
-hospital_universitario_de_getafe;2016;Ingresos programados;5354.0
-hospital_universitario_de_getafe;2017;Ingresos programados;5425.0
-hospital_universitario_de_getafe;2018;Ingresos programados;5448.0
-hospital_universitario_de_getafe;2019;Ingresos programados;5210.0
-hospital_universitario_de_getafe;2020;Ingresos programados;3633.0
-hospital_universitario_de_getafe;2021;Ingresos programados;4525.0
-hospital_universitario_de_getafe;2022;Ingresos programados;5225.0
-hospital_universitario_de_getafe;2012;Urgencias totales;101976.0
-hospital_universitario_de_getafe;2013;Urgencias totales;106776.0
-hospital_universitario_de_getafe;2014;Urgencias totales;104132.0
-hospital_universitario_de_getafe;2015;Urgencias totales;109264.0
-hospital_universitario_de_getafe;2016;Urgencias totales;114539.0
-hospital_universitario_de_getafe;2017;Urgencias totales;116108.0
-hospital_universitario_de_getafe;2018;Urgencias totales;115127.0
-hospital_universitario_de_getafe;2019;Urgencias totales;117178.0
-hospital_universitario_de_getafe;2020;Urgencias totales;89523.0
-hospital_universitario_de_getafe;2021;Urgencias totales;111974.0
-hospital_universitario_de_getafe;2022;Urgencias totales;131480.0
-hospital_fundacion_jimenez_diaz;2013;Estancia media global;5.49
-hospital_fundacion_jimenez_diaz;2014;Estancia media global;5.34
-hospital_fundacion_jimenez_diaz;2015;Estancia media global;5.48
-hospital_fundacion_jimenez_diaz;2016;Estancia media global;5.63
-hospital_fundacion_jimenez_diaz;2017;Estancia media global;5.4
-hospital_fundacion_jimenez_diaz;2018;Estancia media global;5.43
-hospital_fundacion_jimenez_diaz;2019;Estancia media global;5.48
-hospital_fundacion_jimenez_diaz;2020;Estancia media global;5.93
-hospital_fundacion_jimenez_diaz;2021;Estancia media global;5.73
-hospital_fundacion_jimenez_diaz;2022;Estancia media global;5.15
-hospital_fundacion_jimenez_diaz;2013;Total ingresos;29939.0
-hospital_fundacion_jimenez_diaz;2014;Total ingresos;30320.0
-hospital_fundacion_jimenez_diaz;2015;Total ingresos;28962.0
-hospital_fundacion_jimenez_diaz;2016;Total ingresos;29046.0
-hospital_fundacion_jimenez_diaz;2017;Total ingresos;30125.0
-hospital_fundacion_jimenez_diaz;2018;Total ingresos;29128.0
-hospital_fundacion_jimenez_diaz;2019;Total ingresos;28947.0
-hospital_fundacion_jimenez_diaz;2020;Total ingresos;25330.0
-hospital_fundacion_jimenez_diaz;2021;Total ingresos;26372.0
-hospital_fundacion_jimenez_diaz;2022;Total ingresos;27359.0
-hospital_fundacion_jimenez_diaz;2013;Ingresos urgentes;17405.0
-hospital_fundacion_jimenez_diaz;2014;Ingresos urgentes;17989.0
-hospital_fundacion_jimenez_diaz;2015;Ingresos urgentes;15876.0
-hospital_fundacion_jimenez_diaz;2016;Ingresos urgentes;17240.0
-hospital_fundacion_jimenez_diaz;2017;Ingresos urgentes;18191.0
-hospital_fundacion_jimenez_diaz;2018;Ingresos urgentes;18063.0
-hospital_fundacion_jimenez_diaz;2019;Ingresos urgentes;17885.0
-hospital_fundacion_jimenez_diaz;2020;Ingresos urgentes;16380.0
-hospital_fundacion_jimenez_diaz;2021;Ingresos urgentes;15893.0
-hospital_fundacion_jimenez_diaz;2022;Ingresos urgentes;16422.0
-hospital_fundacion_jimenez_diaz;2013;Ingresos programados;12534.0
-hospital_fundacion_jimenez_diaz;2014;Ingresos programados;12331.0
-hospital_fundacion_jimenez_diaz;2015;Ingresos programados;13086.0
-hospital_fundacion_jimenez_diaz;2016;Ingresos programados;11806.0
-hospital_fundacion_jimenez_diaz;2017;Ingresos programados;11934.0
-hospital_fundacion_jimenez_diaz;2018;Ingresos programados;11065.0
-hospital_fundacion_jimenez_diaz;2019;Ingresos programados;11062.0
-hospital_fundacion_jimenez_diaz;2020;Ingresos programados;8950.0
-hospital_fundacion_jimenez_diaz;2021;Ingresos programados;10479.0
-hospital_fundacion_jimenez_diaz;2022;Ingresos programados;10937.0
-hospital_fundacion_jimenez_diaz;2013;Urgencias totales;121559.0
-hospital_fundacion_jimenez_diaz;2014;Urgencias totales;129410.0
-hospital_fundacion_jimenez_diaz;2015;Urgencias totales;139185.0
-hospital_fundacion_jimenez_diaz;2016;Urgencias totales;149139.0
-hospital_fundacion_jimenez_diaz;2017;Urgencias totales;157097.0
-hospital_fundacion_jimenez_diaz;2018;Urgencias totales;162774.0
-hospital_fundacion_jimenez_diaz;2019;Urgencias totales;173053.0
-hospital_fundacion_jimenez_diaz;2020;Urgencias totales;130667.0
-hospital_fundacion_jimenez_diaz;2021;Urgencias totales;173852.0
-hospital_fundacion_jimenez_diaz;2022;Urgencias totales;192927.0
-hospital_universitario_infanta_elena;2012;Estancia media global;4.55
-hospital_universitario_infanta_elena;2013;Estancia media global;4.61
-hospital_universitario_infanta_elena;2014;Estancia media global;4.62
-hospital_universitario_infanta_elena;2015;Estancia media global;4.76
-hospital_universitario_infanta_elena;2016;Estancia media global;4.85
-hospital_universitario_infanta_elena;2017;Estancia media global;4.81
-hospital_universitario_infanta_elena;2018;Estancia media global;4.54
-hospital_universitario_infanta_elena;2019;Estancia media global;4.96
-hospital_universitario_infanta_elena;2020;Estancia media global;5.72
-hospital_universitario_infanta_elena;2021;Estancia media global;5.43
-hospital_universitario_infanta_elena;2022;Estancia media global;4.72
-hospital_universitario_infanta_elena;2012;Total ingresos;6619.0
-hospital_universitario_infanta_elena;2013;Total ingresos;7620.0
-hospital_universitario_infanta_elena;2014;Total ingresos;8038.0
-hospital_universitario_infanta_elena;2015;Total ingresos;9015.0
-hospital_universitario_infanta_elena;2016;Total ingresos;9573.0
-hospital_universitario_infanta_elena;2017;Total ingresos;10118.0
-hospital_universitario_infanta_elena;2018;Total ingresos;10575.0
-hospital_universitario_infanta_elena;2019;Total ingresos;10430.0
-hospital_universitario_infanta_elena;2020;Total ingresos;8899.0
-hospital_universitario_infanta_elena;2021;Total ingresos;8974.0
-hospital_universitario_infanta_elena;2022;Total ingresos;10939.0
-hospital_universitario_infanta_elena;2012;Ingresos urgentes;5481.0
-hospital_universitario_infanta_elena;2013;Ingresos urgentes;6249.0
-hospital_universitario_infanta_elena;2014;Ingresos urgentes;6431.0
-hospital_universitario_infanta_elena;2015;Ingresos urgentes;7264.0
-hospital_universitario_infanta_elena;2016;Ingresos urgentes;7057.0
-hospital_universitario_infanta_elena;2017;Ingresos urgentes;7352.0
-hospital_universitario_infanta_elena;2018;Ingresos urgentes;7601.0
-hospital_universitario_infanta_elena;2019;Ingresos urgentes;7411.0
-hospital_universitario_infanta_elena;2020;Ingresos urgentes;6477.0
-hospital_universitario_infanta_elena;2021;Ingresos urgentes;6668.0
-hospital_universitario_infanta_elena;2022;Ingresos urgentes;8034.0
-hospital_universitario_infanta_elena;2012;Ingresos programados;1138.0
-hospital_universitario_infanta_elena;2013;Ingresos programados;1371.0
-hospital_universitario_infanta_elena;2014;Ingresos programados;1607.0
-hospital_universitario_infanta_elena;2015;Ingresos programados;1751.0
-hospital_universitario_infanta_elena;2016;Ingresos programados;2516.0
-hospital_universitario_infanta_elena;2017;Ingresos programados;2766.0
-hospital_universitario_infanta_elena;2018;Ingresos programados;2974.0
-hospital_universitario_infanta_elena;2019;Ingresos programados;3019.0
-hospital_universitario_infanta_elena;2020;Ingresos programados;2422.0
-hospital_universitario_infanta_elena;2021;Ingresos programados;2306.0
-hospital_universitario_infanta_elena;2022;Ingresos programados;2905.0
-hospital_universitario_infanta_elena;2012;Urgencias totales;81024.0
-hospital_universitario_infanta_elena;2013;Urgencias totales;86251.0
-hospital_universitario_infanta_elena;2014;Urgencias totales;88812.0
-hospital_universitario_infanta_elena;2015;Urgencias totales;96847.0
-hospital_universitario_infanta_elena;2016;Urgencias totales;106371.0
-hospital_universitario_infanta_elena;2017;Urgencias totales;110137.0
-hospital_universitario_infanta_elena;2018;Urgencias totales;113014.0
-hospital_universitario_infanta_elena;2019;Urgencias totales;120180.0
-hospital_universitario_infanta_elena;2020;Urgencias totales;84325.0
-hospital_universitario_infanta_elena;2021;Urgencias totales;111028.0
-hospital_universitario_infanta_elena;2022;Urgencias totales;134896.0
-hospital_universitario_de_la_princesa;2012;Estancia media global;9.17
-hospital_universitario_de_la_princesa;2013;Estancia media global;9.2
-hospital_universitario_de_la_princesa;2014;Estancia media global;8.98
-hospital_universitario_de_la_princesa;2015;Estancia media global;9.04
-hospital_universitario_de_la_princesa;2016;Estancia media global;8.54
-hospital_universitario_de_la_princesa;2017;Estancia media global;7.82
-hospital_universitario_de_la_princesa;2018;Estancia media global;7.63
-hospital_universitario_de_la_princesa;2019;Estancia media global;7.72
-hospital_universitario_de_la_princesa;2020;Estancia media global;8.15
-hospital_universitario_de_la_princesa;2021;Estancia media global;8.06
-hospital_universitario_de_la_princesa;2022;Estancia media global;7.81
-hospital_universitario_de_la_princesa;2012;Total ingresos;14691.0
-hospital_universitario_de_la_princesa;2013;Total ingresos;14459.0
-hospital_universitario_de_la_princesa;2014;Total ingresos;14980.0
-hospital_universitario_de_la_princesa;2015;Total ingresos;14979.0
-hospital_universitario_de_la_princesa;2016;Total ingresos;15163.0
-hospital_universitario_de_la_princesa;2017;Total ingresos;15750.0
-hospital_universitario_de_la_princesa;2018;Total ingresos;15885.0
-hospital_universitario_de_la_princesa;2019;Total ingresos;15268.0
-hospital_universitario_de_la_princesa;2020;Total ingresos;13940.0
-hospital_universitario_de_la_princesa;2021;Total ingresos;14383.0
-hospital_universitario_de_la_princesa;2022;Total ingresos;14971.0
-hospital_universitario_de_la_princesa;2012;Ingresos urgentes;10536.0
-hospital_universitario_de_la_princesa;2013;Ingresos urgentes;10505.0
-hospital_universitario_de_la_princesa;2014;Ingresos urgentes;10650.0
-hospital_universitario_de_la_princesa;2015;Ingresos urgentes;10757.0
-hospital_universitario_de_la_princesa;2016;Ingresos urgentes;11268.0
-hospital_universitario_de_la_princesa;2017;Ingresos urgentes;11694.0
-hospital_universitario_de_la_princesa;2018;Ingresos urgentes;11828.0
-hospital_universitario_de_la_princesa;2019;Ingresos urgentes;10993.0
-hospital_universitario_de_la_princesa;2020;Ingresos urgentes;11228.0
-hospital_universitario_de_la_princesa;2021;Ingresos urgentes;10754.0
-hospital_universitario_de_la_princesa;2022;Ingresos urgentes;10939.0
-hospital_universitario_de_la_princesa;2012;Ingresos programados;4155.0
-hospital_universitario_de_la_princesa;2013;Ingresos programados;3954.0
-hospital_universitario_de_la_princesa;2014;Ingresos programados;4330.0
-hospital_universitario_de_la_princesa;2015;Ingresos programados;4222.0
-hospital_universitario_de_la_princesa;2016;Ingresos programados;3895.0
-hospital_universitario_de_la_princesa;2017;Ingresos programados;4056.0
-hospital_universitario_de_la_princesa;2018;Ingresos programados;4057.0
-hospital_universitario_de_la_princesa;2019;Ingresos programados;4275.0
-hospital_universitario_de_la_princesa;2020;Ingresos programados;2712.0
-hospital_universitario_de_la_princesa;2021;Ingresos programados;3629.0
-hospital_universitario_de_la_princesa;2022;Ingresos programados;4032.0
-hospital_universitario_de_la_princesa;2012;Urgencias totales;86484.0
-hospital_universitario_de_la_princesa;2013;Urgencias totales;87275.0
-hospital_universitario_de_la_princesa;2014;Urgencias totales;89690.0
-hospital_universitario_de_la_princesa;2015;Urgencias totales;92061.0
-hospital_universitario_de_la_princesa;2016;Urgencias totales;96458.0
-hospital_universitario_de_la_princesa;2017;Urgencias totales;99229.0
-hospital_universitario_de_la_princesa;2018;Urgencias totales;101520.0
-hospital_universitario_de_la_princesa;2019;Urgencias totales;105130.0
-hospital_universitario_de_la_princesa;2020;Urgencias totales;79144.0
-hospital_universitario_de_la_princesa;2021;Urgencias totales;101801.0
-hospital_universitario_de_la_princesa;2022;Urgencias totales;112213.0
+CH0041;2012;Estancia media global;7.84
+CH0041;2013;Estancia media global;7.57
+CH0041;2014;Estancia media global;7.29
+CH0041;2015;Estancia media global;7.47
+CH0041;2016;Estancia media global;7.29
+CH0041;2017;Estancia media global;7.06
+CH0041;2018;Estancia media global;7.03
+CH0041;2019;Estancia media global;6.97
+CH0041;2020;Estancia media global;7.1
+CH0041;2021;Estancia media global;6.93
+CH0041;2012;Total ingresos;47368.0
+CH0041;2013;Total ingresos;46360.0
+CH0041;2014;Total ingresos;46758.0
+CH0041;2015;Total ingresos;46286.0
+CH0041;2016;Total ingresos;47116.0
+CH0041;2017;Total ingresos;48151.0
+CH0041;2018;Total ingresos;48945.0
+CH0041;2019;Total ingresos;48749.0
+CH0041;2020;Total ingresos;44190.0
+CH0041;2021;Total ingresos;44948.0
+CH0041;2012;Ingresos urgentes;29654.0
+CH0041;2013;Ingresos urgentes;29371.0
+CH0041;2014;Ingresos urgentes;29673.0
+CH0041;2015;Ingresos urgentes;29460.0
+CH0041;2016;Ingresos urgentes;31567.0
+CH0041;2017;Ingresos urgentes;32798.0
+CH0041;2018;Ingresos urgentes;30789.0
+CH0041;2019;Ingresos urgentes;30161.0
+CH0041;2020;Ingresos urgentes;28266.0
+CH0041;2021;Ingresos urgentes;27301.0
+CH0041;2012;Ingresos programados;17714.0
+CH0041;2013;Ingresos programados;16989.0
+CH0041;2014;Ingresos programados;17085.0
+CH0041;2015;Ingresos programados;16826.0
+CH0041;2016;Ingresos programados;15549.0
+CH0041;2017;Ingresos programados;15353.0
+CH0041;2018;Ingresos programados;18156.0
+CH0041;2019;Ingresos programados;18588.0
+CH0041;2020;Ingresos programados;15924.0
+CH0041;2021;Ingresos programados;17647.0
+CH0041;2012;Urgencias totales;205961.0
+CH0041;2013;Urgencias totales;209233.0
+CH0041;2014;Urgencias totales;211031.0
+CH0041;2015;Urgencias totales;218784.0
+CH0041;2016;Urgencias totales;229930.0
+CH0041;2017;Urgencias totales;229351.0
+CH0041;2018;Urgencias totales;229291.0
+CH0041;2019;Urgencias totales;237700.0
+CH0041;2020;Urgencias totales;180412.0
+CH0041;2021;Urgencias totales;218238.0
+CH0075;2012;Estancia media global;6.6
+CH0075;2013;Estancia media global;6.34
+CH0075;2014;Estancia media global;6.75
+CH0075;2015;Estancia media global;6.3
+CH0075;2016;Estancia media global;6.47
+CH0075;2017;Estancia media global;6.21
+CH0075;2018;Estancia media global;6.24
+CH0075;2019;Estancia media global;6.34
+CH0075;2020;Estancia media global;6.84
+CH0075;2021;Estancia media global;6.6
+CH0075;2022;Estancia media global;6.18
+CH0075;2012;Total ingresos;19017.0
+CH0075;2013;Total ingresos;18864.0
+CH0075;2014;Total ingresos;18649.0
+CH0075;2015;Total ingresos;18766.0
+CH0075;2016;Total ingresos;18319.0
+CH0075;2017;Total ingresos;18669.0
+CH0075;2018;Total ingresos;18736.0
+CH0075;2019;Total ingresos;18385.0
+CH0075;2020;Total ingresos;16755.0
+CH0075;2021;Total ingresos;16729.0
+CH0075;2022;Total ingresos;18545.0
+CH0075;2012;Ingresos urgentes;12511.0
+CH0075;2013;Ingresos urgentes;12522.0
+CH0075;2014;Ingresos urgentes;12767.0
+CH0075;2015;Ingresos urgentes;13425.0
+CH0075;2016;Ingresos urgentes;12965.0
+CH0075;2017;Ingresos urgentes;13244.0
+CH0075;2018;Ingresos urgentes;13288.0
+CH0075;2019;Ingresos urgentes;13175.0
+CH0075;2020;Ingresos urgentes;13122.0
+CH0075;2021;Ingresos urgentes;12204.0
+CH0075;2022;Ingresos urgentes;13320.0
+CH0075;2012;Ingresos programados;6506.0
+CH0075;2013;Ingresos programados;6342.0
+CH0075;2014;Ingresos programados;5882.0
+CH0075;2015;Ingresos programados;5341.0
+CH0075;2016;Ingresos programados;5354.0
+CH0075;2017;Ingresos programados;5425.0
+CH0075;2018;Ingresos programados;5448.0
+CH0075;2019;Ingresos programados;5210.0
+CH0075;2020;Ingresos programados;3633.0
+CH0075;2021;Ingresos programados;4525.0
+CH0075;2022;Ingresos programados;5225.0
+CH0075;2012;Urgencias totales;101976.0
+CH0075;2013;Urgencias totales;106776.0
+CH0075;2014;Urgencias totales;104132.0
+CH0075;2015;Urgencias totales;109264.0
+CH0075;2016;Urgencias totales;114539.0
+CH0075;2017;Urgencias totales;116108.0
+CH0075;2018;Urgencias totales;115127.0
+CH0075;2019;Urgencias totales;117178.0
+CH0075;2020;Urgencias totales;89523.0
+CH0075;2021;Urgencias totales;111974.0
+CH0075;2022;Urgencias totales;131480.0
+CH0011;2013;Estancia media global;5.49
+CH0011;2014;Estancia media global;5.34
+CH0011;2015;Estancia media global;5.48
+CH0011;2016;Estancia media global;5.63
+CH0011;2017;Estancia media global;5.4
+CH0011;2018;Estancia media global;5.43
+CH0011;2019;Estancia media global;5.48
+CH0011;2020;Estancia media global;5.93
+CH0011;2021;Estancia media global;5.73
+CH0011;2022;Estancia media global;5.15
+CH0011;2013;Total ingresos;29939.0
+CH0011;2014;Total ingresos;30320.0
+CH0011;2015;Total ingresos;28962.0
+CH0011;2016;Total ingresos;29046.0
+CH0011;2017;Total ingresos;30125.0
+CH0011;2018;Total ingresos;29128.0
+CH0011;2019;Total ingresos;28947.0
+CH0011;2020;Total ingresos;25330.0
+CH0011;2021;Total ingresos;26372.0
+CH0011;2022;Total ingresos;27359.0
+CH0011;2013;Ingresos urgentes;17405.0
+CH0011;2014;Ingresos urgentes;17989.0
+CH0011;2015;Ingresos urgentes;15876.0
+CH0011;2016;Ingresos urgentes;17240.0
+CH0011;2017;Ingresos urgentes;18191.0
+CH0011;2018;Ingresos urgentes;18063.0
+CH0011;2019;Ingresos urgentes;17885.0
+CH0011;2020;Ingresos urgentes;16380.0
+CH0011;2021;Ingresos urgentes;15893.0
+CH0011;2022;Ingresos urgentes;16422.0
+CH0011;2013;Ingresos programados;12534.0
+CH0011;2014;Ingresos programados;12331.0
+CH0011;2015;Ingresos programados;13086.0
+CH0011;2016;Ingresos programados;11806.0
+CH0011;2017;Ingresos programados;11934.0
+CH0011;2018;Ingresos programados;11065.0
+CH0011;2019;Ingresos programados;11062.0
+CH0011;2020;Ingresos programados;8950.0
+CH0011;2021;Ingresos programados;10479.0
+CH0011;2022;Ingresos programados;10937.0
+CH0011;2013;Urgencias totales;121559.0
+CH0011;2014;Urgencias totales;129410.0
+CH0011;2015;Urgencias totales;139185.0
+CH0011;2016;Urgencias totales;149139.0
+CH0011;2017;Urgencias totales;157097.0
+CH0011;2018;Urgencias totales;162774.0
+CH0011;2019;Urgencias totales;173053.0
+CH0011;2020;Urgencias totales;130667.0
+CH0011;2021;Urgencias totales;173852.0
+CH0011;2022;Urgencias totales;192927.0
+CH0095;2012;Estancia media global;4.55
+CH0095;2013;Estancia media global;4.61
+CH0095;2014;Estancia media global;4.62
+CH0095;2015;Estancia media global;4.76
+CH0095;2016;Estancia media global;4.85
+CH0095;2017;Estancia media global;4.81
+CH0095;2018;Estancia media global;4.54
+CH0095;2019;Estancia media global;4.96
+CH0095;2020;Estancia media global;5.72
+CH0095;2021;Estancia media global;5.43
+CH0095;2022;Estancia media global;4.72
+CH0095;2012;Total ingresos;6619.0
+CH0095;2013;Total ingresos;7620.0
+CH0095;2014;Total ingresos;8038.0
+CH0095;2015;Total ingresos;9015.0
+CH0095;2016;Total ingresos;9573.0
+CH0095;2017;Total ingresos;10118.0
+CH0095;2018;Total ingresos;10575.0
+CH0095;2019;Total ingresos;10430.0
+CH0095;2020;Total ingresos;8899.0
+CH0095;2021;Total ingresos;8974.0
+CH0095;2022;Total ingresos;10939.0
+CH0095;2012;Ingresos urgentes;5481.0
+CH0095;2013;Ingresos urgentes;6249.0
+CH0095;2014;Ingresos urgentes;6431.0
+CH0095;2015;Ingresos urgentes;7264.0
+CH0095;2016;Ingresos urgentes;7057.0
+CH0095;2017;Ingresos urgentes;7352.0
+CH0095;2018;Ingresos urgentes;7601.0
+CH0095;2019;Ingresos urgentes;7411.0
+CH0095;2020;Ingresos urgentes;6477.0
+CH0095;2021;Ingresos urgentes;6668.0
+CH0095;2022;Ingresos urgentes;8034.0
+CH0095;2012;Ingresos programados;1138.0
+CH0095;2013;Ingresos programados;1371.0
+CH0095;2014;Ingresos programados;1607.0
+CH0095;2015;Ingresos programados;1751.0
+CH0095;2016;Ingresos programados;2516.0
+CH0095;2017;Ingresos programados;2766.0
+CH0095;2018;Ingresos programados;2974.0
+CH0095;2019;Ingresos programados;3019.0
+CH0095;2020;Ingresos programados;2422.0
+CH0095;2021;Ingresos programados;2306.0
+CH0095;2022;Ingresos programados;2905.0
+CH0095;2012;Urgencias totales;81024.0
+CH0095;2013;Urgencias totales;86251.0
+CH0095;2014;Urgencias totales;88812.0
+CH0095;2015;Urgencias totales;96847.0
+CH0095;2016;Urgencias totales;106371.0
+CH0095;2017;Urgencias totales;110137.0
+CH0095;2018;Urgencias totales;113014.0
+CH0095;2019;Urgencias totales;120180.0
+CH0095;2020;Urgencias totales;84325.0
+CH0095;2021;Urgencias totales;111028.0
+CH0095;2022;Urgencias totales;134896.0
+CH0029;2012;Estancia media global;9.17
+CH0029;2013;Estancia media global;9.2
+CH0029;2014;Estancia media global;8.98
+CH0029;2015;Estancia media global;9.04
+CH0029;2016;Estancia media global;8.54
+CH0029;2017;Estancia media global;7.82
+CH0029;2018;Estancia media global;7.63
+CH0029;2019;Estancia media global;7.72
+CH0029;2020;Estancia media global;8.15
+CH0029;2021;Estancia media global;8.06
+CH0029;2022;Estancia media global;7.81
+CH0029;2012;Total ingresos;14691.0
+CH0029;2013;Total ingresos;14459.0
+CH0029;2014;Total ingresos;14980.0
+CH0029;2015;Total ingresos;14979.0
+CH0029;2016;Total ingresos;15163.0
+CH0029;2017;Total ingresos;15750.0
+CH0029;2018;Total ingresos;15885.0
+CH0029;2019;Total ingresos;15268.0
+CH0029;2020;Total ingresos;13940.0
+CH0029;2021;Total ingresos;14383.0
+CH0029;2022;Total ingresos;14971.0
+CH0029;2012;Ingresos urgentes;10536.0
+CH0029;2013;Ingresos urgentes;10505.0
+CH0029;2014;Ingresos urgentes;10650.0
+CH0029;2015;Ingresos urgentes;10757.0
+CH0029;2016;Ingresos urgentes;11268.0
+CH0029;2017;Ingresos urgentes;11694.0
+CH0029;2018;Ingresos urgentes;11828.0
+CH0029;2019;Ingresos urgentes;10993.0
+CH0029;2020;Ingresos urgentes;11228.0
+CH0029;2021;Ingresos urgentes;10754.0
+CH0029;2022;Ingresos urgentes;10939.0
+CH0029;2012;Ingresos programados;4155.0
+CH0029;2013;Ingresos programados;3954.0
+CH0029;2014;Ingresos programados;4330.0
+CH0029;2015;Ingresos programados;4222.0
+CH0029;2016;Ingresos programados;3895.0
+CH0029;2017;Ingresos programados;4056.0
+CH0029;2018;Ingresos programados;4057.0
+CH0029;2019;Ingresos programados;4275.0
+CH0029;2020;Ingresos programados;2712.0
+CH0029;2021;Ingresos programados;3629.0
+CH0029;2022;Ingresos programados;4032.0
+CH0029;2012;Urgencias totales;86484.0
+CH0029;2013;Urgencias totales;87275.0
+CH0029;2014;Urgencias totales;89690.0
+CH0029;2015;Urgencias totales;92061.0
+CH0029;2016;Urgencias totales;96458.0
+CH0029;2017;Urgencias totales;99229.0
+CH0029;2018;Urgencias totales;101520.0
+CH0029;2019;Urgencias totales;105130.0
+CH0029;2020;Urgencias totales;79144.0
+CH0029;2021;Urgencias totales;101801.0
+CH0029;2022;Urgencias totales;112213.0

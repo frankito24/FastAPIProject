@@ -6,5 +6,5 @@ Base = declarative_base()
 class HospitalMunicipality(Base):
     __tablename__ = "hospital_municipality"
     id = Column(Integer, primary_key=True, autoincrement=True)
-    hospital_name = Column(String)
-    municipality_name = Column(String)
+    hospital_id = Column(String)
+    municipality_id = Column(String)
