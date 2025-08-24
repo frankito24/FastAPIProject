@@ -10,3 +10,4 @@ selenium
 requests
 tqdm
 pyproj
+matplotlib
