@@ -11,3 +11,5 @@ requests
 tqdm
 pyproj
 matplotlib
+numpy
+seaborn
