@@ -2,6 +2,7 @@ import os
 import glob
 import csv
 import re
+from collections import defaultdict
 
 INPUT_DIR = '../downloads/educacion_solicitud'
 OUTPUT_FILE = '../downloads/normalizacion/education_admition.csv'
@@ -10,8 +11,20 @@ os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
 header = ['id_education', 'cycle', 'type_solicitude', 'year', 'total']
 
+# Normalization mapping for type_solicitude
+NORMALIZE_SOLICITUDE = {
+    'Admitidas (presentadas en el centro)': 'Admitidas',
+    'Admitidas (presentadas en otro centro)': 'Admitidas',
+    'No admitidas (presentadas en el centro)': 'No admitidas',
+    'Presentadas en el centro': 'Presentadas',
+}
+
+def normalize_type_solicitude(raw):
+    return NORMALIZE_SOLICITUDE.get(raw, raw)
+
 def main():
-    result = []
+    # Agrupar por (id_education, cycle, type_solicitude_norm, year)
+    grouped = defaultdict(int)
     for filepath in glob.glob(os.path.join(INPUT_DIR, '*.csv')):
         filename = os.path.basename(filepath).replace('.csv', '')
         match = re.match(r'(\d+)_(.+)', filename)
@@ -31,17 +44,21 @@ def main():
                 parts = [p.strip() for p in line.split(',')]
                 if len(parts) < 2:
                     continue
-                type_solicitude = parts[0]
+                type_solicitude_raw = parts[0]
+                type_solicitude_norm = normalize_type_solicitude(type_solicitude_raw)
                 for i, value in enumerate(parts[1:]):
                     year = years[i] if i < len(years) else ''
                     total = value
                     if total:
-                        result.append([id_education, cycle, type_solicitude, year, total])
+                        key = (id_education, cycle, type_solicitude_norm, year)
+                        grouped[key] += int(total)
+    # Escribir la salida con el tipo normalizado
     with open(OUTPUT_FILE, 'w', encoding='utf-8', newline='') as fout:
         writer = csv.writer(fout, delimiter=';')
         writer.writerow(header)
-        for row in result:
-            writer.writerow(row)
+        for key, total in grouped.items():
+            id_education, cycle, type_solicitude_norm, year = key
+            writer.writerow([id_education, cycle, type_solicitude_norm, year, total])
     print(f"Archivo normalizado guardado en: {OUTPUT_FILE}")
 
 if __name__ == "__main__":
