@@ -1,7 +1,7 @@
 # 📊 Análisis Educativo Municipal - Fórmulas y Interpretación
 
 ## 🎯 Objetivo
-Validar si los centros educativos asignados a cada municipio pueden cubrir las necesidades demográficas por ciclos educativos.
+Validar si los centros educativos asignados a cada municipio pueden cubrir las necesidades demográficas por ciclos educativos y evaluar el acceso a servicios educativos.
 
 ## 📚 Ciclos Educativos
 
@@ -14,88 +14,142 @@ Validar si los centros educativos asignados a cada municipio pueden cubrir las n
 
 ---
 
-## 🧮 Fórmulas Principales
+## 🧮 Fórmulas de Capacidad de Centros
 
-### 1. Capacidad de Centros Educativos
+### 1. Plazas Estimadas por Centro:
+```
+Plazas_Estimadas = MAX(Matriculados_Históricos) ÷ Años_Permanencia
+```
+- **Matriculados_Históricos**: Se toma el año con mayor matrícula registrada
+- **Años_Permanencia**: Duración típica del ciclo educativo
 
-#### Plazas Estimadas por Centro:
+### 2. Transiciones Automáticas (Infantil II → Primaria):
 ```
-Plazas = MAX(Matriculados) ÷ Años_Permanencia
+Transiciones_Automáticas = Plazas_Infantil_II_del_Año_Objetivo
+Admitidos_Corregidos = Admitidos_Solicitudes + Transiciones_Automáticas
 ```
-- Se toma el **máximo histórico** de matriculados
-- Se divide por años de permanencia para obtener plazas anuales
-
-#### Corrección para Primaria (Transiciones Automáticas):
-```
-Admitidos_Corregidos = Admitidos + Transiciones_Infantil_II
-```
-- Los estudiantes de Infantil II del mismo centro pasan automáticamente a Primaria
-
-### 2. Indicadores de Ocupación por Centro
-
-#### Tasa de Ocupación:
-```
-Ocupación = Matriculados_Actuales ÷ Max_Histórico_Matriculados
-```
-
-#### Ratio de Demanda:
-```
-Demanda = Solicitudes_Presentadas ÷ Plazas_Estimadas
-```
-
-#### Eficiencia de Admisión:
-```
-Eficiencia = Solicitudes_Admitidas ÷ Solicitudes_Presentadas
-```
+- **Corrección específica**: Usa datos del año objetivo (2022-2023), no el máximo histórico
+- Solo aplica para centros que ofrecen tanto Infantil II como Primaria
 
 ---
 
-## 🏛️ Análisis Municipal
+## 📊 Indicadores de Ocupación por Centro
 
-### 3. Estimación de Necesidades Demográficas
+### 3. Tasa de Ocupación:
+```
+Tasa_Ocupación = Matriculados_Año_Objetivo ÷ MAX_Matriculados_Históricos
+```
+
+### 4. Ratio de Demanda:
+```
+Ratio_Demanda = Solicitudes_Presentadas ÷ Plazas_Estimadas
+```
+
+### 5. Ratio Admisión vs Capacidad:
+```
+Ratio_Admisión = Solicitudes_Admitidas_Corregidas ÷ Plazas_Estimadas
+```
+
+### 6. Eficiencia de Admisión:
+```
+Eficiencia = Solicitudes_Admitidas_Reales ÷ Solicitudes_Presentadas
+```
+- **Nota**: Excluye transiciones automáticas del cálculo de eficiencia
+
+---
+
+## 🏛️ Análisis Municipal - Estimación de Necesidades
+
+### 7. Capacidad Municipal por Ciclo:
+```
+Capacidad_Municipal = Σ(MAX_Matriculados_Históricos_por_Centro)
+```
+- **Cambio importante**: Usa máximo de matrícula real, no plazas estimadas
+
+### 8. Estimación Demográfica por Ciclo:
 
 #### Infantil I (0-2 años):
 ```
-Necesidad = (Población_0-4 × 3) ÷ 5
+Necesidad_Infantil_I = (Población_0-4 × 3) ÷ 5
 ```
 
 #### Infantil II (3-5 años):
 ```
-Necesidad = (Población_0-4 × 2) ÷ 5 + (Población_5-9 × 1) ÷ 5
+Necesidad_Infantil_II = (Población_0-4 × 2) ÷ 5 + (Población_5-9 × 1) ÷ 5
 ```
 
 #### Primaria (6-11 años):
 ```
-Necesidad = (Población_5-9 × 4) ÷ 5 + (Población_10-14 × 2) ÷ 5
+Necesidad_Primaria = (Población_5-9 × 4) ÷ 5 + (Población_10-14 × 2) ÷ 5
 ```
 
 #### ESO (12-15 años):
 ```
-Necesidad = (Población_10-14 × 3) ÷ 5 + (Población_15-19 × 1) ÷ 5
+Necesidad_ESO = (Población_10-14 × 3) ÷ 5 + (Población_15-19 × 1) ÷ 5
 ```
 
-### 4. Indicadores de Cobertura Municipal
+---
 
-#### Ratio de Cobertura por Ciclo:
-```
-Cobertura = Capacidad_Municipal ÷ Necesidad_Estimada
-```
+## 📈 Indicadores de Cobertura Municipal
 
-#### Porcentaje de Cobertura Municipal:
+### 9. Ratio de Cobertura por Ciclo:
 ```
-%_Cobertura = (Ciclos_Cubiertos ÷ Ciclos_con_Necesidad) × 100
+Ratio_Cobertura = Capacidad_Municipal_Ciclo ÷ Necesidad_Estimada_Ciclo
 ```
 
-#### Déficit Educativo:
+### 10. Porcentaje de Cobertura Municipal:
+```
+% Cobertura = (Ciclos_Cubiertos ÷ Ciclos_con_Necesidad) × 100
+```
+- **Ciclo Cubierto**: Ratio_Cobertura ≥ 0.8 (80% mínimo)
+
+### 11. Déficit Educativo:
 ```
 Déficit = MAX(0, Necesidad_Estimada - Capacidad_Disponible)
 ```
 
 ---
 
-## 📈 Interpretación de Resultados
+## 🏫 Análisis de Acceso a Ciclos Educativos
 
-### Clasificación de Centros
+### 12. Métricas de Acceso (Independiente de Capacidad):
+
+#### Ciclos con Acceso:
+```
+Cycles_with_Access = Σ(Ciclos_con_al_menos_1_centro)
+```
+
+#### Porcentaje de Acceso:
+```
+Access_Percentage = (Cycles_with_Access ÷ 4_Ciclos_Totales) × 100
+```
+
+#### Clasificación de Acceso:
+```
+- Acceso Completo: 4/4 ciclos disponibles
+- Acceso Bueno: 3/4 ciclos disponibles  
+- Acceso Parcial: 2/4 ciclos disponibles
+- Acceso Limitado: 1/4 ciclos disponibles
+- Sin Acceso: 0/4 ciclos disponibles
+```
+
+### 13. Indicadores Específicos:
+
+#### Educación Básica Completa:
+```
+Has_Basic_Education = (Infantil_II AND Primaria AND ESO) > 0
+```
+
+#### Educación Obligatoria:
+```
+Has_Mandatory_Education = (Primaria AND ESO) > 0
+```
+
+---
+
+## 🎯 Interpretación de Resultados
+
+### Clasificación de Centros por Eficiencia
 
 | Ratio Admisión/Capacidad | Clasificación | Interpretación |
 |---------------------------|---------------|----------------|
@@ -104,7 +158,7 @@ Déficit = MAX(0, Necesidad_Estimada - Capacidad_Disponible)
 | 0.5 - 0.79 | **Eficiencia Media** | Pueden mejorar utilización |
 | < 0.5 | **Baja Eficiencia** | Subutilizan capacidad |
 
-### Clasificación Municipal
+### Clasificación Municipal por Cobertura
 
 | % Cobertura | Nivel | Acción Recomendada |
 |-------------|-------|--------------------|
@@ -113,7 +167,17 @@ Déficit = MAX(0, Necesidad_Estimada - Capacidad_Disponible)
 | 50-74% | 🟠 **Regular** | Plan de expansión educativa |
 | < 50% | 🔴 **Deficiente** | Intervención prioritaria |
 
-### Indicadores de Demanda
+### Clasificación Municipal por Acceso
+
+| Ciclos Disponibles | Clasificación | Estado |
+|--------------------|---------------|--------|
+| 4/4 | **Acceso Completo** | Oferta educativa integral |
+| 3/4 | **Acceso Bueno** | Falta un ciclo específico |
+| 2/4 | **Acceso Parcial** | Oferta limitada |
+| 1/4 | **Acceso Limitado** | Requiere expansión urgente |
+| 0/4 | **Sin Acceso** | Sin infraestructura educativa |
+
+### Indicadores de Demanda por Centro
 
 | Ratio Demanda | Estado | Descripción |
 |---------------|--------|-------------|
@@ -123,52 +187,108 @@ Déficit = MAX(0, Necesidad_Estimada - Capacidad_Disponible)
 
 ---
 
-## 🎯 Casos de Uso
+## 🔄 Diferencias: Acceso vs Cobertura
 
-### Para Administraciones:
-- **Planificación**: Identificar dónde construir centros
-- **Presupuesto**: Priorizar inversiones por déficit
-- **Políticas**: Evaluar impacto de expansión educativa
+### Conceptos Complementarios:
 
-### Para Centros Educativos:
-- **Capacidad**: Optimizar uso de instalaciones
-- **Demanda**: Entender patrones de solicitudes
-- **Recursos**: Planificar personal según ocupación
+| Concepto | **ACCESO** | **COBERTURA** |
+|----------|------------|---------------|
+| **Qué mide** | Disponibilidad de servicios | Suficiencia para la población |
+| **Enfoque** | ¿Existen centros del ciclo? | ¿Capacidad suficiente vs necesidad? |
+| **Independencia** | No considera población | Considera población demográfica |
+| **Utilidad** | Planificación de nuevos centros | Optimización de capacidades |
 
-### Para Familias:
-- **Residencia**: Considerar disponibilidad educativa
-- **Planificación**: Anticipar necesidades futuras
-
----
-
-## ⚠️ Limitaciones
-
-1. **Movilidad**: No considera estudiantes entre municipios
-2. **Preferencias**: Asume distribución uniforme de elección
-3. **Socioeconómico**: No incluye factores de accesibilidad
-4. **Temporal**: Basado en patrones históricos
+### Casos Especiales:
+- **Buen Acceso + Mala Cobertura**: Centros saturados (ampliar capacidad)
+- **Poco Acceso + Buena Cobertura**: Pocos ciclos pero suficientes (diversificar oferta)
 
 ---
 
-## 📊 Ejemplo de Cálculo
+## 📋 Casos de Uso Prácticos
 
+### Para Administraciones Públicas:
+- **Planificación Estratégica**: Identificar dónde construir nuevos centros
+- **Asignación Presupuestaria**: Priorizar inversiones por déficit y acceso
+- **Políticas Educativas**: Evaluar impacto de expansión por municipio
+
+### Para Gestores de Centros:
+- **Optimización de Capacidad**: Maximizar uso de instalaciones
+- **Gestión de Demanda**: Entender patrones de solicitudes
+- **Planificación de Recursos**: Dimensionar personal según ocupación
+
+### Para Planificación Familiar:
+- **Elección de Residencia**: Considerar disponibilidad educativa
+- **Planificación Educativa**: Anticipar necesidades por ciclos
+
+---
+
+## ⚠️ Limitaciones del Modelo
+
+### Supuestos Metodológicos:
+1. **Distribución Poblacional**: Asume distribución uniforme de edades dentro de rangos quinquenales
+2. **Permanencia Escolar**: Considera que estudiantes completan ciclos en el mismo centro
+3. **Transiciones**: Solo modela automáticas Infantil II → Primaria en mismo centro
+4. **Capacidad**: Máximo histórico como proxy de capacidad operativa real
+
+### Factores No Incluidos:
+1. **Movilidad Intercomunal**: Estudiantes que cruzan límites municipales
+2. **Sector Privado**: Solo analiza centros del sistema público
+3. **Transporte Escolar**: Acceso a centros de municipios adyacentes
+4. **Factores Socioeconómicos**: Barreras de accesibilidad no geográficas
+5. **Calidad Educativa**: Solo evalúa cantidad, no calidad del servicio
+
+---
+
+## 📊 Ejemplos de Cálculo
+
+### Ejemplo 1: Centro con Capacidad
 **Centro con 180 estudiantes de primaria (máximo histórico):**
 ```
-Plazas = 180 ÷ 6 años = 30 plazas anuales
+Plazas_Estimadas = 180 ÷ 6 años = 30 plazas anuales
 ```
 
+### Ejemplo 2: Estimación Demográfica Municipal
 **Municipio con 500 niños de 0-4 años:**
 ```
-Necesidad Infantil I = (500 × 3) ÷ 5 = 300 estudiantes
-Necesidad Infantil II = (500 × 2) ÷ 5 = 200 estudiantes
+Necesidad_Infantil_I = (500 × 3) ÷ 5 = 300 estudiantes
+Necesidad_Infantil_II = (500 × 2) ÷ 5 = 200 estudiantes
 ```
 
+### Ejemplo 3: Cobertura Municipal
 **Si el municipio tiene capacidad total de 250 plazas Infantil I:**
 ```
-Ratio Cobertura = 250 ÷ 300 = 0.83 → Cubierto (≥ 0.8)
+Ratio_Cobertura = 250 ÷ 300 = 0.83 → Cubierto (≥ 0.8)
+```
+
+### Ejemplo 4: Transiciones Automáticas
+**Centro con Infantil II que ofrece también Primaria:**
+```
+Plazas_Infantil_II_2022_2023 = 45 ÷ 3 = 15 plazas anuales
+Transiciones_Automáticas = 15 estudiantes
+Admitidos_Primaria_Corregidos = 20 + 15 = 35 estudiantes
 ```
 
 ---
 
-*📅 Última actualización: Agosto 2025*
-*📍 Región: Comunidad de Madrid*
+## 🎯 Municipios Críticos - Criterios de Identificación
+
+### Criterios de Priorización:
+```
+Municipio_Crítico = Población_0-19 > 200 AND Cobertura_% < 50%
+```
+
+### Matriz de Intervención:
+
+| Población | Cobertura % | Prioridad | Acción Recomendada |
+|-----------|-------------|-----------|---------------------|
+| > 500 | < 50% | **ALTA** | Construcción urgente de centros |
+| 200-500 | < 50% | **MEDIA** | Ampliación/construcción planificada |
+| < 200 | < 50% | **BAJA** | Evaluar transporte escolar |
+| Cualquiera | 50-74% | **MEDIA** | Reforzar ciclos deficitarios |
+
+---
+
+*📅 Última actualización: Agosto 2025*  
+*📍 Región: Comunidad de Madrid*  
+*🔄 Año de análisis: 2022-2023*  
+*📊 Metodología: Máximo histórico de matrícula vs necesidades demográficas*
