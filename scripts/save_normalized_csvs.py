@@ -16,6 +16,11 @@ MODELS = {
     'hospital_resources': 'HospitalResources',
     'municipality': 'Municipality',
     'municipality_demographics': 'MunicipalityDemographics',
+    'education_center_analysis': 'EducationCenterAnalysis',
+    'education_cycle_metrics': 'EducationCycleMetrics',
+    'municipality_education_coverage': 'MunicipalityEducationCoverage',
+    'municipality_cycle_metrics': 'MunicipalityCycleMetrics',
+    'hospital_analysis': 'HospitalAnalysis',
 }
 
 MODEL_MODULES = {
@@ -29,6 +34,11 @@ MODEL_MODULES = {
     'HospitalResources': 'hospital_resources',
     'Municipality': 'municipality',
     'MunicipalityDemographics': 'municipality_demographics',
+    'EducationCenterAnalysis': 'education_center_analysis',
+    'EducationCycleMetrics': 'education_cycle_metrics',
+    'MunicipalityEducationCoverage': 'municipality_education_coverage',
+    'MunicipalityCycleMetrics': 'municipality_cycle_metrics',
+    'HospitalAnalysis': 'hospital_analysis',
 }
 
 NORMALIZATION_PATH = os.path.join(os.path.dirname(__file__), '../downloads/normalizacion')

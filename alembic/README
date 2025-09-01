@@ -1,1 +1,11 @@
 Generic single-database configuration.
+
+To reset the database to the initial state, run:
+
+alembic downgrade base && alembic upgrade head
+
+to add a new migration, run:
+alembic revision --autogenerate -m "description of changes"
+
+to apply the latest migration, run:
+alembic upgrade head
