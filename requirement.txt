@@ -13,3 +13,5 @@ pyproj
 matplotlib
 numpy
 seaborn
+fastapi-crudrouter
+pydantic[email]
