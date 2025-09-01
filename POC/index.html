@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidad de Madrid - Mapa Interactivo</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥📚 Comunidad de Madrid</h1>
+            <p>Mapa interactivo de la Comunidad de Madrid con datos de salud y educación</p>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="layerSelect">Capa de datos:</label>
+                <select id="layerSelect">
+                    <option value="base">Mapa base</option>
+                    <option value="hospitals">Hospitales</option>
+                    <option value="education">Centros educativos</option>
+                    <option value="municipalities">Municipios</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <button id="resetView" class="btn">🔄 Centrar vista</button>
+                <button id="toggleInfo" class="btn">ℹ️ Información</button>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <div id="map"></div>
+
+            <div id="info-panel" class="info-panel">
+                <h3>Información</h3>
+                <div id="info-content">
+                    <p>Selecciona un elemento en el mapa para ver información detallada.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Hospitales:</span>
+                            <span class="stat-value" id="hospital-count">-</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Centros educativos:</span>
+                            <span class="stat-value" id="education-count">-</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Municipios:</span>
+                            <span class="stat-value" id="municipality-count">179</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="legend" id="legend">
+            <h4>Leyenda</h4>
+            <div class="legend-item">
+                <span class="legend-icon hospital">🏥</span>
+                <span>Hospitales</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-icon education">📚</span>
+                <span>Centros Educativos</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-icon municipality">🏛️</span>
+                <span>Municipios</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Análisis de Datos - Comunidad de Madrid</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
