@@ -38,6 +38,12 @@ from api.models.hospital_activity import Base as HospitalActivityBase
 from api.models.hospital_municipality import Base as HospitalMunicipalityBase
 from api.models.hospital_resources import Base as HospitalResourcesBase
 from api.models.municipality_demographics import Base as MunicipalityDemographicsBase
+from api.models.education_center_analysis import Base as EducationCenterAnalysisBase
+from api.models.education_cycle_metrics import Base as EducationCycleMetricsBase
+from api.models.municipality_education_coverage import Base as MunicipalityEducationCoverageBase
+from api.models.municipality_cycle_metrics import Base as MunicipalityCycleMetricsBase
+from api.models.hospital_analysis import Base as HospitalAnalysisBase
+
 from sqlalchemy import MetaData
 # target_metadata = mymodel.Base.metadata
 target_metadata = MunicipalityBase.metadata
@@ -67,6 +73,16 @@ for table in HospitalResourcesBase.metadata.tables.values():
     target_metadata._add_table(table.name, table.schema, table)
 # Merge municipality_demographics metadata
 for table in MunicipalityDemographicsBase.metadata.tables.values():
+    target_metadata._add_table(table.name, table.schema, table)
+for table in EducationCenterAnalysisBase.metadata.tables.values():
+    target_metadata._add_table(table.name, table.schema, table)
+for table in EducationCycleMetricsBase.metadata.tables.values():
+    target_metadata._add_table(table.name, table.schema, table)
+for table in MunicipalityEducationCoverageBase.metadata.tables.values():
+    target_metadata._add_table(table.name, table.schema, table)
+for table in MunicipalityCycleMetricsBase.metadata.tables.values():
+    target_metadata._add_table(table.name, table.schema, table)
+for table in HospitalAnalysisBase.metadata.tables.values():
     target_metadata._add_table(table.name, table.schema, table)
 
 # other values from the config, defined by the needs of env.py,
