@@ -121,201 +121,124 @@ Authorization: sk-fastapi-auto-crud-2025-secure-api-key-12345
 4. Ejecuta el servidor FastAPI:
    ```bash
    # Para desarrollo (con auto-reload)
-   cd ../ && uvicorn api.main:app --reload
-   ```
+   uvicorn api.main:app --reload
    
-   ```bash
-   # Para producción
-   uvicorn api.main:app --host 0.0.0.0 --port 8000
-   ```
+   # Para producción con múltiples workers
+   uvicorn api.main:app --workers 4 --host 0.0.0.0 --port 8000
    
-   ```bash
+   # Con Gunicorn + Uvicorn Workers (RECOMENDADO para producción)
+   gunicorn api.main:app -c gunicorn.conf.py
+   
+   # Gunicorn con configuración manual
+   gunicorn api.main:app \
+     --workers 4 \
+     --worker-class uvicorn.workers.UvicornWorker \
+     --bind 0.0.0.0:8000 \
+     --access-logfile - \
+     --error-logfile -
+   
    # En background (segundo plano)
-   nohup uvicorn api.main:app --host 0.0.0.0 --port 8000 > server.log 2>&1 &
+   nohup gunicorn api.main:app -c gunicorn.conf.py > server.log 2>&1 &
    ```
 
-### 🌐 Acceso a la API
-Una vez iniciado el servidor, puedes acceder a:
-- **API Principal**: http://localhost:8000/
-- **Documentación Swagger**: http://localhost:8000/docs
-- **Documentación ReDoc**: http://localhost:8000/redoc
-- **Lista de endpoints**: http://localhost:8000/endpoints
+### 🚀 Opciones de Escalabilidad
 
-### 📝 Ejemplos de uso
-
-#### Endpoints públicos (sin autenticación)
+#### **1. Uvicorn con Workers**
 ```bash
-# Listar todas las escuelas
-curl http://localhost:8000/education/
-
-# Obtener una escuela específica
-curl http://localhost:8000/education/123
-
-# Listar todos los hospitales
-curl http://localhost:8000/hospital/
+# Múltiples workers con uvicorn
+uvicorn api.main:app --workers 4 --host 0.0.0.0 --port 8000
 ```
 
-#### Endpoints protegidos (requieren Bearer Token)
-
-**⚠️ IMPORTANTE**: Todos estos comandos requieren el header `Authorization: Bearer {API_KEY}`
-
+#### **2. Gunicorn + Uvicorn (Recomendado para producción)**
 ```bash
-# Crear un nuevo centro educativo
-curl -X POST http://localhost:8000/education/ \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer sk-fastapi-auto-crud-2025-secure-api-key-12345" \
-  -d '{"id": "new_school", "name_short": "Nueva Escuela", "address": "Calle Principal 123"}'
+# Usando el archivo de configuración incluido
+gunicorn api.main:app -c gunicorn.conf.py
 
-# Actualizar un hospital
-curl -X PUT http://localhost:8000/hospital/HOSP001 \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer sk-fastapi-auto-crud-2025-secure-api-key-12345" \
-  -d '{"name": "Hospital Actualizado", "address": "Nueva Dirección"}'
-
-# Eliminar un registro
-curl -X DELETE http://localhost:8000/education_cycle_metrics/1 \
-  -H "Authorization: Bearer sk-fastapi-auto-crud-2025-secure-api-key-12345"
-
-# Ejemplo completo de DELETE que funcionó
-curl -X DELETE 'http://localhost:8000/education_cycle_metrics/1' \
-  -H 'accept: application/json' \
-  -H 'Authorization: Bearer sk-fastapi-auto-crud-2025-secure-api-key-12345'
+# O manualmente
+gunicorn api.main:app \
+  --workers 4 \
+  --worker-class uvicorn.workers.UvicornWorker \
+  --bind 0.0.0.0:8000
 ```
 
-#### Usando Swagger UI
-1. Ve a http://localhost:8000/docs
-2. Para endpoints protegidos, haz clic en el botón **"Authorize"** 🔒
-3. En el campo que aparece, ingresa SOLO la API Key (sin "Bearer"): 
-   ```
-   sk-fastapi-auto-crud-2025-secure-api-key-12345
-   ```
-4. Swagger UI automáticamente agregará "Bearer" al enviar las peticiones
-5. Ahora puedes probar todos los endpoints protegidos desde la interfaz
-
-## Cómo inicializar y correr migraciones
-
-1. Asegúrate de tener configurada la variable de entorno `DATABASE_URL` en tu archivo `.env`.
-
-2. Para crear las tablas en la base de datos (migración inicial), haz una petición POST a:
-   ```
-   POST /migrate
-   ```
-   Puedes usar herramientas como [test_main.http](../test_main.http), Postman o curl:
-   ```bash
-   curl -X POST http://localhost:8000/migrate
-   ```
-
-## 🔧 Arquitectura del Sistema
-
-### Archivos principales
-- **`main.py`** - Aplicación FastAPI principal
-- **`simple_auto_crud.py`** - Generador automático de APIs REST
-- **`auth.py`** - Sistema de autenticación con Bearer Token
-- **`database.py`** - Configuración de base de datos
-- **`models/`** - Modelos SQLAlchemy (se descubren automáticamente)
-
-### ⚡ Funcionamiento automático
-1. Al iniciar la aplicación, `SimpleAutoCRUD` escanea el directorio `api/models/`
-2. Detecta automáticamente todas las clases que heredan de modelos SQLAlchemy
-3. Genera 5 endpoints REST para cada modelo encontrado
-4. Aplica autenticación Bearer Token automáticamente a POST, PUT, DELETE
-5. Registra todos los endpoints en la aplicación FastAPI
-
-### 🔒 Sistema de Seguridad
-- **Lectura pública**: GET endpoints no requieren autenticación
-- **Escritura protegida**: POST, PUT, DELETE requieren Bearer Token válido
-- **Autenticación Bearer**: Usa el estándar HTTP Bearer Token (`Authorization: Bearer {token}`)
-- **Validación automática**: Verifica la API Key en cada request protegido
-- **Formato obligatorio**: Debe incluir "Bearer" antes de la API Key
-
-### 🎯 Modelos soportados automáticamente
-- Education (Centros educativos)
-- Hospital (Hospitales)
-- Municipality (Municipios)
-- EducationCycleMetrics (Métricas de ciclos educativos)
-- HospitalAnalysis (Análisis hospitalarios)
-- MunicipalityDemographics (Demografía municipal)
-- Y todos los demás modelos en `api/models/`
-
-## 🔍 Debugging y Logs
-
-### Ver logs del servidor
-Si ejecutaste el servidor en background:
+#### **3. Con Docker + Load Balancer**
 ```bash
-# Ver logs en tiempo real
-tail -f server.log
+# Escalar con Docker Compose (múltiples contenedores)
+docker-compose up --scale api=4
 
-# Ver los últimos logs
-tail -n 50 server.log
+# Con nginx como load balancer
+# Ver sección de Docker más abajo
 ```
 
-### Verificar que el sistema automático funciona
-```bash
-# Verificar cuántos endpoints se generaron
-curl http://localhost:8000/endpoints
+### 📊 Configuración de Workers
 
-# Probar un endpoint público
-curl http://localhost:8000/education/ | jq '.[0:3]'  # Primeros 3 registros
-
-# Probar autenticación (debería fallar sin Bearer Token)
-curl -X POST http://localhost:8000/education/ \
-  -H "Content-Type: application/json" \
-  -d '{"id": "test"}'
+**Fórmula recomendada para workers:**
+```
+workers = (2 x CPU cores) + 1
 ```
 
-### Errores comunes de autenticación
-```bash
-# Error 401: Bearer Token faltante o inválido
-{
-  "detail": "Invalid API Key"
-}
+**Ejemplo en tu máquina:**
+- 4 CPU cores = 9 workers recomendados
+- 8 CPU cores = 17 workers recomendados
 
-# Error 403: Endpoint requiere autenticación
-{
-  "detail": "Not authenticated"
-}
+### 🐳 Escalabilidad con Docker
 
-# Error común: Olvidar "Bearer" en el header
-# ❌ INCORRECTO:
-Authorization: sk-fastapi-auto-crud-2025-secure-api-key-12345
+#### **Dockerfile optimizado para producción:**
+```dockerfile
+FROM python:3.9-slim
 
-# ✅ CORRECTO:
-Authorization: Bearer sk-fastapi-auto-crud-2025-secure-api-key-12345
+WORKDIR /app
+
+COPY requirement.txt .
+RUN pip install --no-cache-dir -r requirement.txt
+
+COPY . .
+
+# Usar gunicorn con múltiples workers
+CMD ["gunicorn", "api.main:app", "-c", "gunicorn.conf.py"]
 ```
 
-## 📚 Recursos adicionales
+#### **Docker Compose con múltiples instancias:**
+```yaml
+version: '3.8'
+services:
+  api:
+    build: .
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - API_KEY=${API_KEY}
+    deploy:
+      replicas: 4  # 4 instancias de tu API
+    
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8000:80"
+    depends_on:
+      - api
+    # nginx.conf para load balancing
+```
 
-- **Swagger UI**: Documentación interactiva completa en `/docs`
-- **ReDoc**: Documentación alternativa en `/redoc`
-- **OpenAPI Schema**: Esquema completo en `/openapi.json`
+### ⚖️ Comparación de Opciones
 
----
+| Opción | Escalabilidad | Complejidad | Recomendado para |
+|--------|---------------|-------------|------------------|
+| **Uvicorn simple** | ❌ | Muy Baja | Desarrollo |
+| **Uvicorn + workers** | ⚡ | Baja | Desarrollo/Testing |
+| **Gunicorn + Uvicorn** | ⚡⚡ | Media | Producción simple |
+| **Docker + Load Balancer** | ⚡⚡⚡ | Alta | Producción enterprise |
+| **Kubernetes** | ⚡⚡⚡⚡ | Muy Alta | Microservicios |
 
-### 💡 Añadir nuevos modelos
+### 🎯 Recomendaciones por Escenario
 
-Para añadir un nuevo modelo al sistema automático:
+**Para tu proyecto actual:**
+```bash
+# Desarrollo
+uvicorn api.main:app --reload
 
-1. Crea tu modelo SQLAlchemy en `api/models/nuevo_modelo.py`
-2. Asegúrate de que tenga `__tablename__` y herede de `Base`
-3. Reinicia el servidor - automáticamente se generarán los 5 endpoints REST
-4. Los endpoints POST, PUT, DELETE requerirán automáticamente Bearer Token
+# Producción simple (1 servidor)
+gunicorn api.main:app -c gunicorn.conf.py
 
-### 🔐 Cambiar la API Key
-
-1. Modifica el valor en `.env`:
-   ```env
-   API_KEY=nueva-api-key-super-segura
-   ```
-2. Reinicia el servidor
-3. Actualiza tus clientes para usar la nueva API Key con formato Bearer:
-   ```bash
-   Authorization: Bearer nueva-api-key-super-segura
-   ```
-
-### 🚨 Recordatorio importante sobre autenticación
-
-**SIEMPRE usa el formato Bearer Token:**
-- ✅ `Authorization: Bearer {tu-api-key}`
-- ❌ `Authorization: {tu-api-key}`
-
-¡El sistema es completamente automático! No necesitas configuración adicional para seguridad o nuevos modelos.
+# Producción con alta carga
+docker-compose up --scale api=4
+```

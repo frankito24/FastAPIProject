@@ -15,3 +15,4 @@ numpy
 seaborn
 fastapi-crudrouter
 pydantic[email]
+gunicorn
