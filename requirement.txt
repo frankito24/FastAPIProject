@@ -13,6 +13,8 @@ pyproj
 matplotlib
 numpy
 seaborn
+plotly
+scipy
 fastapi-crudrouter
 pydantic[email]
 gunicorn
