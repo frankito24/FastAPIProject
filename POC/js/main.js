@@ -8,6 +8,7 @@ let mapManager;
 let layerManager;
 let uiController;
 let dataLoader;
+let educationManager; // Nueva variable para el EducationManager
 
 /**
  * Inicializa toda la aplicación
@@ -34,30 +35,40 @@ async function initializeApp() {
         layerManager = new LayerManager(mapManager);
         window.layerManager = layerManager;
 
-        // 4. Inicializar UIController
+        // 4. Inicializar EducationManager a través del LayerManager
+        layerManager.initializeEducationManager(dataLoader);
+        educationManager = layerManager.educationManager;
+
+        // 5. Inicializar UIController
         uiController = new UIController();
         window.uiController = uiController;
 
-        // 5. Pre-cargar datos importantes
+        // 6. Pre-cargar datos importantes
         await dataLoader.preloadData();
 
-        // 6. Cargar capa inicial de municipios
+        // 7. Cargar capa inicial de municipios
         await layerManager.loadMunicipalitiesLayer();
 
-        // 7. Mostrar la capa de municipios por defecto
+        // 8. Mostrar la capa de municipios por defecto
         layerManager.switchLayer('municipalities');
 
-        // 8. Actualizar el selector a "municipalities"
+        // 9. Actualizar el selector a "municipalities"
         const layerSelect = document.getElementById('layerSelect');
         if (layerSelect) {
             layerSelect.value = 'municipalities';
         }
 
-        // 9. Actualizar estadísticas
+        // 10. Actualizar estadísticas
         await updateStats();
 
-        // 10. Configurar event listeners globales
+        // 11. Configurar event listeners globales
         setupGlobalEventListeners();
+
+        // 12. Agregar estilos CSS para los iconos de educación (migrado desde app.js)
+        addCustomIconStyles();
+
+        // 13. Mostrar notificación de bienvenida (migrada desde app.js)
+        showWelcomeNotification();
 
         console.log('✅ Aplicación inicializada correctamente con capa de municipios activa');
 
@@ -65,6 +76,92 @@ async function initializeApp() {
         console.error('❌ Error inicializando aplicación:', error);
         showErrorMessage('Error al cargar la aplicación. Por favor, recarga la página.');
     }
+}
+
+/**
+ * Agrega estilos CSS personalizados (migrado desde app.js)
+ */
+function addCustomIconStyles() {
+    const customIconStyles = `
+        .custom-div-icon {
+            background: none !important;
+            border: none !important;
+            text-align: center;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .custom-div-icon:hover {
+            transform: scale(1.2);
+            filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+        }
+
+        .hospital-icon {
+            filter: drop-shadow(0 2px 4px rgba(255,107,107,0.5));
+        }
+
+        .education-icon {
+            filter: drop-shadow(0 2px 4px rgba(78,205,196,0.5));
+        }
+
+        .municipality-icon {
+            filter: drop-shadow(0 2px 4px rgba(69,183,209,0.5));
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateX(-50%) translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(-50%) translateY(0);
+                opacity: 1;
+            }
+        }
+    `;
+
+    const styleSheet = document.createElement('style');
+    styleSheet.textContent = customIconStyles;
+    document.head.appendChild(styleSheet);
+}
+
+/**
+ * Muestra notificación de bienvenida (migrada desde app.js)
+ */
+function showWelcomeNotification() {
+    setTimeout(() => {
+        console.log('✅ Mapa cargado correctamente');
+
+        const notification = document.createElement('div');
+        notification.innerHTML = `
+            <div style="
+                position: fixed;
+                top: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: linear-gradient(45deg, #667eea, #764ba2);
+                color: white;
+                padding: 15px 25px;
+                border-radius: 10px;
+                box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+                z-index: 10000;
+                font-weight: 600;
+                animation: slideDown 0.5s ease-out;
+            ">
+                🎉 ¡Mapa de Madrid cargado! Haz clic en cualquier municipio para cargar sus centros educativos.
+            </div>
+        `;
+
+        document.body.appendChild(notification);
+
+        setTimeout(() => {
+            if (notification.parentNode) {
+                notification.remove();
+            }
+        }, 5000);
+
+    }, 1000);
 }
 
 /**

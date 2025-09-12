@@ -5,6 +5,9 @@ class DataLoader {
     constructor() {
         this.cache = new Map();
         this.loadingStates = new Map();
+        // Configuración de la API migrada desde app.js
+        this.apiBaseUrl = 'http://127.0.0.1:8000';
+        this.loadingEducationCenters = false;
     }
 
     /**
@@ -160,6 +163,160 @@ class DataLoader {
             console.log('✅ Datos de municipios pre-cargados');
         } catch (error) {
             console.error('❌ Error pre-cargando datos:', error);
+        }
+    }
+
+    /**
+     * Obtiene IDs de centros educativos por municipio (solo ids únicos)
+     */
+    async getEducationCenterIdsByMunicipality(municipalityId) {
+        try {
+            const response = await fetch(`${this.apiBaseUrl}/education_municipality/search?id_municipality=${municipalityId}`);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            if (!data.items) return [];
+            // Filtrar para que solo se retornen items con id_education único
+            const seen = new Set();
+            const uniqueItems = [];
+            for (const item of data.items) {
+                if (item.id_education && !seen.has(item.id_education)) {
+                    seen.add(item.id_education);
+                    uniqueItems.push(item);
+                }
+            }
+            return uniqueItems;
+        } catch (error) {
+            console.error(`❌ Error obteniendo IDs de centros educativos para municipio ${municipalityId}:`, error);
+            return [];
+        }
+    }
+
+    /**
+     * Obtiene datos de un centro educativo por ID (migrado desde app.js)
+     */
+    async getEducationCenterById(centerId) {
+        try {
+            const response = await fetch(`${this.apiBaseUrl}/education/${centerId}`);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error(`❌ Error obteniendo datos del centro educativo ${centerId}:`, error);
+            return null;
+        }
+    }
+
+    /**
+     * Obtiene análisis de un centro educativo (migrado desde app.js)
+     */
+    async getEducationCenterAnalysis(centerId) {
+        try {
+            const response = await fetch(`${this.apiBaseUrl}/education_center_analysis/search?education_center_id=${centerId}`);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            return data.items && data.items.length > 0 ? data.items[0] : null;
+        } catch (error) {
+            console.error(`❌ Error obteniendo análisis del centro educativo ${centerId}:`, error);
+            return null;
+        }
+    }
+
+    /**
+     * Obtiene métricas de ciclos educativos (migrado desde app.js)
+     */
+    async getEducationCycleMetrics(centerId) {
+        try {
+            const response = await fetch(`${this.apiBaseUrl}/education_cycle_metrics/search?education_center_id=${centerId}`);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            return data.items || [];
+        } catch (error) {
+            console.error(`❌ Error obteniendo métricas de ciclos del centro educativo ${centerId}:`, error);
+            return [];
+        }
+    }
+
+    /**
+     * Carga centros educativos completos para un municipio (migrado desde app.js)
+     */
+    async loadEducationCentersForMunicipality(municipalityId) {
+        if (this.loadingEducationCenters) {
+            console.log('⏳ Ya hay una carga de centros educativos en progreso...');
+            return [];
+        }
+
+        this.loadingEducationCenters = true;
+
+        try {
+            console.log(`📚 Iniciando carga de centros educativos para municipio: ${municipalityId}`);
+
+            const educationIds = await this.getEducationCenterIdsByMunicipality(municipalityId);
+            console.log(`📊 Encontrados ${educationIds.length} centros educativos`);
+
+            if (educationIds.length === 0) {
+                return [];
+            }
+
+            const centersWithCompleteData = [];
+            let processedCount = 0;
+
+            for (const item of educationIds) {
+                const centerId = item.id_education;
+                processedCount++;
+
+                console.log(`🔍 Verificando centro ${processedCount}/${educationIds.length}: ${centerId}`);
+
+                const centerData = await this.getEducationCenterById(centerId);
+                if (!centerData) {
+                    console.log(`⚠️ No se encontraron datos básicos para el centro ${centerId}`);
+                    continue;
+                }
+
+                const analysisData = await this.getEducationCenterAnalysis(centerId);
+                if (!analysisData) {
+                    console.log(`⚠️ No se encontraron datos de análisis para el centro ${centerId}`);
+                    continue;
+                }
+
+                const cycleMetrics = await this.getEducationCycleMetrics(centerId);
+                if (!cycleMetrics || cycleMetrics.length === 0) {
+                    console.log(`⚠️ No se encontraron métricas de ciclos para el centro ${centerId}`);
+                    continue;
+                }
+
+                centersWithCompleteData.push({
+                    centerData,
+                    analysisData,
+                    cycleMetrics
+                });
+
+                console.log(`✅ Centro ${centerId} tiene datos completos`);
+            }
+
+            console.log(`📊 Centros con datos completos: ${centersWithCompleteData.length}/${educationIds.length}`);
+            return centersWithCompleteData;
+
+        } catch (error) {
+            console.error('❌ Error general cargando centros educativos:', error);
+            return [];
+        } finally {
+            this.loadingEducationCenters = false;
         }
     }
 }
