@@ -1,6 +1,7 @@
 # FastAPI main app
 from fastapi import FastAPI
 from fastapi.security import HTTPBearer
+from fastapi.middleware.cors import CORSMiddleware
 import os
 from sqlmodel import SQLModel, create_engine
 from dotenv import load_dotenv
@@ -21,6 +22,20 @@ app = FastAPI(
             "description": "Endpoints protegidos requieren Bearer Token en header Authorization"
         }
     ]
+)
+
+# Configurar CORS para permitir solicitudes desde el frontend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:8080",
+        "http://127.0.0.1:8080",
+        "http://localhost:3000",
+        "http://127.0.0.1:3000"
+    ],
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allow_headers=["*"],
 )
 
 # Definir esquema de seguridad Bearer Token para Swagger UI
