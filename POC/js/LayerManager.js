@@ -77,17 +77,19 @@ class LayerManager {
             <div class="popup-info">
                 <strong>Código:</strong> ${municipalityId || 'N/A'}<br>
                 <strong>Etiqueta:</strong> ${props.ETIQUETA || 'N/A'}<br>
-                <button onclick="window.layerManager.loadEducationCentersForMunicipality('${municipalityId}')" 
+                <button onclick="window.layerManager.loadEducationCentersForMunicipality('${municipalityId}')"
                         style="margin-top: 10px; padding: 8px 16px; background: #3b82f6; color: white; border: none; border-radius: 4px; cursor: pointer;">
                     📚 Cargar Centros Educativos
                 </button>
             </div>
         `);
 
-        layer.on('click', async (e) => {
-            if (municipalityId) {
-                console.log(`🎯 Clic en municipio: ${municipalityName} (ID: ${municipalityId})`);
-                await this.loadEducationCentersForMunicipality(municipalityId);
+        layer.on('click', () => {
+            console.log('[LayerManager] Municipio clicked:', municipalityName, municipalityId);
+            if (window.uiController && typeof window.uiController.setMunicipalityInfo === 'function') {
+                window.uiController.setMunicipalityInfo(municipalityName, municipalityId);
+            } else {
+                console.warn('[LayerManager] window.uiController or setMunicipalityInfo not available');
             }
         });
 

@@ -143,14 +143,13 @@ class EducationManager {
         if (!content) return;
 
         let html = `
-            <div style="padding: 15px;">
-                <h3 style="margin: 0 0 15px 0; color: #1e40af; border-bottom: 2px solid #3b82f6; padding-bottom: 8px;">
-                    📚 Análisis de Centros Educativos
-                </h3>
-                <div style="margin-bottom: 15px; padding: 10px; background: #f0f9ff; border-radius: 8px;">
-                    <strong>Total centros con análisis:</strong> ${centersWithCompleteData.length}
-                </div>
-                <div style="max-height: 70vh; overflow-y: auto;">
+            <h3 style="margin: 0 0 15px 0; color: #1e40af; border-bottom: 2px solid #3b82f6; padding-bottom: 8px;">
+                📚 Análisis de Centros Educativos
+            </h3>
+            <div style="margin-bottom: 15px; padding: 10px; background: #f0f9ff; border-radius: 8px;">
+                <strong>Total centros con análisis:</strong> ${centersWithCompleteData.length}
+            </div>
+            <div class="education-centers-list">
         `;
 
         centersWithCompleteData.forEach(({ centerData, analysisData, cycleMetrics }, index) => {
@@ -202,7 +201,7 @@ class EducationManager {
             `;
         });
 
-        html += '</div></div>';
+        html += '</div>';
         content.innerHTML = html;
     }
 

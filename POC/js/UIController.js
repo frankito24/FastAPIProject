@@ -193,7 +193,23 @@ class UIController {
             this.municipalityCount = document.getElementById('municipality-count');
         }
     }
+    /**
+     * Actualiza la información del municipio en el panel
+     */
+    setMunicipalityInfo(name, code) {
+        console.log('[UIController] setMunicipalityInfo called with:', name, code);
+        const nameElem = document.getElementById('municipality-name');
+        const codeElem = document.getElementById('municipality-code');
+        if (!nameElem || !codeElem) {
+            console.warn('[UIController] municipality-name or municipality-code element not found');
+        }
+        if (nameElem) nameElem.textContent = name || '-';
+        if (codeElem) codeElem.textContent = code || '-';
+    }
 }
+
+// Hacer disponible globalmente
+window.UIController = UIController;
 
 // Hacer disponible globalmente
 window.UIController = UIController;

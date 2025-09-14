@@ -31,11 +31,16 @@
             </div>
         </div>
 
-        <div class="map-container">
-            <div id="map"></div>
-
+        <div class="map-info-wrapper">
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
             <div id="info-panel" class="info-panel">
                 <h3>Información</h3>
+                <div id="municipality-info" style="margin-bottom: 15px;">
+                    <strong>Municipio:</strong> <span id="municipality-name">-</span><br>
+                    <strong>Código:</strong> <span id="municipality-code">-</span>
+                </div>
                 <div id="info-content">
                     <p>Selecciona un elemento en el mapa para ver información detallada.</p>
                     <div class="stats">
