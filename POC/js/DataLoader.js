@@ -319,6 +319,44 @@ class DataLoader {
             this.loadingEducationCenters = false;
         }
     }
+
+    /**
+     * Obtiene métricas de ciclos educativos por municipio
+     */
+    async getMunicipalityCycleMetrics(municipalityId) {
+        try {
+            const response = await fetch(`${this.apiBaseUrl}/municipality_cycle_metrics/search?municipality_id=${municipalityId}`);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            return data.items || [];
+        } catch (error) {
+            console.error(`❌ Error obteniendo métricas de ciclos del municipio ${municipalityId}:`, error);
+            return [];
+        }
+    }
+
+    /**
+     * Obtiene cobertura educativa del municipio
+     */
+    async getMunicipalityEducationCoverage(municipalityId) {
+        try {
+            const response = await fetch(`${this.apiBaseUrl}/municipality_education_coverage/search?municipality_id=${municipalityId}`);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            return data.items && data.items.length > 0 ? data.items[0] : null;
+        } catch (error) {
+            console.error(`❌ Error obteniendo cobertura educativa del municipio ${municipalityId}:`, error);
+            return null;
+        }
+    }
 }
 
 // Hacer disponible globalmente

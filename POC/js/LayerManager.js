@@ -84,12 +84,16 @@ class LayerManager {
             </div>
         `);
 
-        layer.on('click', () => {
+        // Actualiza el info-panel al hacer clic en el municipio
+        layer.on('click', async () => {
             console.log('[LayerManager] Municipio clicked:', municipalityName, municipalityId);
             if (window.uiController && typeof window.uiController.setMunicipalityInfo === 'function') {
                 window.uiController.setMunicipalityInfo(municipalityName, municipalityId);
-            } else {
-                console.warn('[LayerManager] window.uiController or setMunicipalityInfo not available');
+            }
+
+            // Mostrar análisis educativo municipal
+            if (window.uiController && typeof window.uiController.showMunicipalityEducationAnalysis === 'function') {
+                await window.uiController.showMunicipalityEducationAnalysis(municipalityId, municipalityName);
             }
         });
 

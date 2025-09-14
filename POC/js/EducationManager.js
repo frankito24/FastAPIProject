@@ -25,7 +25,6 @@ class EducationManager {
             console.log(`📚 Iniciando carga de centros educativos para municipio: ${municipalityId}`);
 
             this.clearEducationMarkers();
-            this.clearInfoPanel();
 
             const centersWithCompleteData = await this.dataLoader.loadEducationCentersForMunicipality(municipalityId);
 
@@ -48,8 +47,6 @@ class EducationManager {
                     this.mapManager.getMap().addLayer(educationLayer);
                 }
             }
-
-            this.showEducationAnalysisInPanel(centersWithCompleteData);
 
             this.showNotification(
                 `✅ Cargados ${centersWithCompleteData.length} centros educativos con análisis del municipio ${municipalityId}`,
