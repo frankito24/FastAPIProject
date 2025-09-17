@@ -30,27 +30,6 @@ class UIController {
      * Inicializa los event listeners de la UI
      */
     initializeEventListeners() {
-        // Selector de capas
-        if (this.layerSelect) {
-            this.layerSelect.addEventListener('change', (e) => {
-                this.handleLayerChange(e.target.value);
-            });
-        }
-
-        // Botón reset view
-        if (this.resetViewBtn) {
-            this.resetViewBtn.addEventListener('click', () => {
-                this.handleResetView();
-            });
-        }
-
-        // Botón toggle info
-        if (this.toggleInfoBtn) {
-            this.toggleInfoBtn.addEventListener('click', () => {
-                this.toggleInfoPanel();
-            });
-        }
-
         // Buscador de municipios
         if (this.searchInput) {
             this.searchInput.addEventListener('input', (e) => {
@@ -63,7 +42,7 @@ class UIController {
                 }
             });
 
-            this.searchInput.addEventListener('blur', (e) => {
+            this.searchInput.addEventListener('blur', () => {
                 // Delay para permitir clicks en resultados
                 setTimeout(() => {
                     this.searchResults.style.display = 'none';
@@ -88,165 +67,78 @@ class UIController {
     }
 
     /**
-     * Maneja el cambio de capa
-     */
-    handleLayerChange(layerType) {
-        console.log(`🔄 Cambiando a capa: ${layerType}`);
-
-        if (window.layerManager) {
-            window.layerManager.switchLayer(layerType);
-        }
-
-        this.updateLayerInfo(layerType);
-    }
-
-    /**
-     * Maneja el reset de la vista del mapa
-     */
-    handleResetView() {
-        console.log('🎯 Centrando vista del mapa');
-
-        if (window.mapManager) {
-            window.mapManager.resetView();
-        }
-    }
-
-    /**
-     * Alterna la visibilidad del panel de información
-     */
-    toggleInfoPanel() {
-        if (this.infoPanel) {
-            if (this.infoPanelVisible) {
-                this.infoPanel.style.display = 'none';
-                this.toggleInfoBtn.textContent = '👁️ Mostrar info';
-            } else {
-                this.infoPanel.style.display = 'block';
-                this.toggleInfoBtn.textContent = 'ℹ️ Información';
-            }
-            this.infoPanelVisible = !this.infoPanelVisible;
-        }
-    }
-
-    /**
-     * Actualiza el panel de información con datos de un feature
-     */
-    updateInfoPanel(feature) {
-        if (!this.infoContent || !feature) return;
-
-        // Usar las propiedades correctas del GeoJSON
-        const municipalityName = feature.properties?.DESCR || feature.properties?.ETIQUETA || 'Elemento desconocido';
-        const municipalityCode = feature.properties?.CMUN || feature.properties?.CMUN4 || 'N/A';
-
-        const infoHTML = `
-            <div class="selected-info">
-                <h4>📍 ${municipalityName}</h4>
-                <p><strong>Código:</strong> ${municipalityCode}</p>
-                <p><strong>Tipo:</strong> Municipio</p>
-                <p class="timestamp">Seleccionado: ${new Date().toLocaleTimeString()}</p>
-            </div>
-            <div class="stats">
-                <div class="stat-item">
-                    <span class="stat-label">Hospitales:</span>
-                    <span class="stat-value" id="hospital-count">-</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Centros educativos:</span>
-                    <span class="stat-value" id="education-count">-</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Municipios:</span>
-                    <span class="stat-value" id="municipality-count">179</span>
-                </div>
-            </div>
-        `;
-
-        this.infoContent.innerHTML = infoHTML;
-
-        // Actualizar referencias a los elementos de estadísticas
-        this.hospitalCount = document.getElementById('hospital-count');
-        this.educationCount = document.getElementById('education-count');
-        this.municipalityCount = document.getElementById('municipality-count');
-    }
-
-    /**
-     * Actualiza la información de la capa actual
-     */
-    updateLayerInfo(layerType) {
-        const layerNames = {
-            'base': 'Mapa Base',
-            'municipalities': 'Municipios',
-            'hospitals': 'Hospitales',
-            'education': 'Centros Educativos'
-        };
-
-        console.log(`ℹ️ Capa activa: ${layerNames[layerType] || layerType}`);
-    }
-
-    /**
-     * Actualiza los contadores de estadísticas
-     */
-    updateStats(stats) {
-        if (stats.hospitals !== undefined && this.hospitalCount) {
-            this.hospitalCount.textContent = stats.hospitals;
-        }
-
-        if (stats.education !== undefined && this.educationCount) {
-            this.educationCount.textContent = stats.education;
-        }
-
-        if (stats.municipalities !== undefined && this.municipalityCount) {
-            this.municipalityCount.textContent = stats.municipalities;
-        }
-    }
-
-    /**
-     * Muestra un mensaje de estado
-     */
-    showStatusMessage(message, type = 'info') {
-        console.log(`${type === 'error' ? '❌' : 'ℹ️'} ${message}`);
-    }
-
-    /**
      * Resetea el panel de información al estado inicial
      */
     resetInfoPanel() {
         if (this.infoContent) {
             this.infoContent.innerHTML = `
-                <p>Selecciona un elemento en el mapa para ver información detallada.</p>
-                <div class="stats">
-                    <div class="stat-item">
-                        <span class="stat-label">Hospitales:</span>
-                        <span class="stat-value" id="hospital-count">-</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Centros educativos:</span>
-                        <span class="stat-value" id="education-count">-</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Municipios:</span>
-                        <span class="stat-value" id="municipality-count">179</span>
-                    </div>
+                <div style="text-align: center; margin-bottom: 20px;">
+                    <h4 style="color: #1e40af; margin-bottom: 15px; font-size: 18px;">Trabajo de Fin de Máster</h4>
+                </div>
+                
+                <div style="background: #f8fafc; padding: 15px; border-radius: 8px; border-left: 4px solid #3b82f6; margin-bottom: 20px;">
+                    <h5 style="color: #1e40af; margin: 0 0 10px 0; font-size: 16px;">Determinación del nivel de prestación de los servicios públicos de ámbito local y comercial en la Comunidad de Madrid</h5>
+                    <p style="margin: 0 0 8px 0; font-size: 13px; color: #4b5563;"><strong>Máster:</strong> Ingeniería Informática 24/25</p>
+                    <p style="margin: 0; font-size: 13px; color: #4b5563;"><strong>Universidad:</strong> UC3M</p>
+                </div>
+                
+                <div style="background: #f0f9ff; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                    <h6 style="color: #0369a1; margin: 0 0 10px 0; font-size: 15px;">🎯 Objetivo del Visor</h6>
+                    <p style="margin: 0; font-size: 13px; color: #374151; line-height: 1.5;">
+                        Este visor interactivo permite analizar la cobertura y accesibilidad de servicios públicos 
+                        de educación y salud en los municipios de la Comunidad de Madrid.
+                    </p>
+                </div>
+                
+                <div style="background: #ecfdf5; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                    <h6 style="color: #059669; margin: 0 0 10px 0; font-size: 15px;">📋 Cómo usar el visor</h6>
+                    <ul style="margin: 0; padding-left: 16px; font-size: 13px; color: #374151;">
+                        <li style="margin-bottom: 5px;">🔍 Busca un municipio en el buscador superior</li>
+                        <li style="margin-bottom: 5px;">🗺️ Haz clic en cualquier municipio del mapa</li>
+                        <li style="margin-bottom: 5px;">📊 Visualiza análisis detallados de cobertura</li>
+                        <li>🏥📚 Explora centros de salud y educación</li>
+                    </ul>
                 </div>
             `;
 
             // Actualizar referencias
-            this.hospitalCount = document.getElementById('hospital-count');
-            this.educationCount = document.getElementById('education-count');
-            this.municipalityCount = document.getElementById('municipality-count');
+            this.hospitalCount = null;
+            this.educationCount = null;
+            this.municipalityCount = null;
+        }
+
+        // Ocultar información del municipio cuando se resetea el panel
+        const municipalityInfo = document.getElementById('municipality-info');
+        if (municipalityInfo) {
+            municipalityInfo.style.display = 'none';
         }
     }
+
     /**
      * Actualiza la información del municipio en el panel
      */
     setMunicipalityInfo(name, code) {
         console.log('[UIController] setMunicipalityInfo called with:', name, code);
+
+        const municipalityInfo = document.getElementById('municipality-info');
         const nameElem = document.getElementById('municipality-name');
         const codeElem = document.getElementById('municipality-code');
+
         if (!nameElem || !codeElem) {
             console.warn('[UIController] municipality-name or municipality-code element not found');
         }
+
         if (nameElem) nameElem.textContent = name || '-';
         if (codeElem) codeElem.textContent = code || '-';
+
+        // Mostrar u ocultar el elemento municipality-info según si hay municipio seleccionado
+        if (municipalityInfo) {
+            if (name && name !== '-') {
+                municipalityInfo.style.display = 'block';
+            } else {
+                municipalityInfo.style.display = 'none';
+            }
+        }
     }
 
     /**
@@ -322,7 +214,7 @@ class UIController {
                 `;
             }
 
-            // Sección de análisis por ciclos
+            // Análisis por ciclos educativos
             if (cycleMetrics && cycleMetrics.length > 0) {
                 html += `
                     <div style="margin-bottom: 15px;">
@@ -334,7 +226,6 @@ class UIController {
                     const isCovered = cycle.is_covered === 'True';
                     const deficit = parseFloat(cycle.deficit);
 
-                    // Traducir nombres de ciclos
                     const cycleNames = {
                         'infantil_i_ciclo': 'Infantil I Ciclo (0-3 años)',
                         'infantil_ii_ciclo': 'Infantil II Ciclo (3-6 años)',
@@ -387,7 +278,6 @@ class UIController {
                 html += '</div>';
             }
 
-            // Si no hay datos de ciclos pero sí de cobertura general
             if ((!cycleMetrics || cycleMetrics.length === 0) && coverageData) {
                 html += `
                     <div style="text-align: center; padding: 15px; background: #f3f4f6; border-radius: 8px; font-size: 13px; color: #6b7280;">
@@ -416,26 +306,21 @@ class UIController {
         const trimmedValue = value.trim();
         this.currentSearchTerm = trimmedValue;
 
-        // Mostrar/ocultar botón de limpiar
         if (trimmedValue.length > 0) {
             this.clearSearchBtn.style.display = 'block';
         } else {
             this.clearSearchBtn.style.display = 'none';
             this.searchResults.style.display = 'none';
-
-            // Si se borraron todos los caracteres, limpiar completamente
             if (trimmedValue.length === 0) {
                 this.clearSearchState();
             }
             return;
         }
 
-        // Limpiar timeout anterior
         if (this.searchTimeout) {
             clearTimeout(this.searchTimeout);
         }
 
-        // Si tiene menos de 3 caracteres, no buscar pero mostrar estado limpio
         if (trimmedValue.length < 3) {
             this.searchResults.style.display = 'none';
             return;
@@ -456,17 +341,13 @@ class UIController {
         }
 
         console.log(`🔍 Buscando municipios con término: "${searchTerm}"`);
-
-        // Mostrar loading
         this.showSearchLoading();
 
         try {
             const results = await window.dataLoader.searchMunicipalities(searchTerm);
-
             if (searchTerm !== this.currentSearchTerm) {
-                return; // La búsqueda cambió mientras esperábamos
+                return;
             }
-
             this.displaySearchResults(results);
         } catch (error) {
             console.error('❌ Error en búsqueda de municipios:', error);
@@ -474,25 +355,16 @@ class UIController {
         }
     }
 
-    /**
-     * Muestra el indicador de carga en los resultados
-     */
     showSearchLoading() {
         this.searchResults.innerHTML = '<div class="search-loading">🔄 Buscando municipios...</div>';
         this.searchResults.style.display = 'block';
     }
 
-    /**
-     * Muestra error en los resultados de búsqueda
-     */
     showSearchError() {
         this.searchResults.innerHTML = '<div class="search-no-results">❌ Error en la búsqueda</div>';
         this.searchResults.style.display = 'block';
     }
 
-    /**
-     * Muestra los resultados de búsqueda
-     */
     displaySearchResults(results) {
         if (results.length === 0) {
             this.searchResults.innerHTML = '<div class="search-no-results">No se encontraron municipios</div>';
@@ -504,7 +376,6 @@ class UIController {
                 </div>
             `).join('');
 
-            // Agregar event listeners a cada resultado
             this.searchResults.querySelectorAll('.search-result-item').forEach(item => {
                 item.addEventListener('click', (e) => {
                     e.preventDefault();
@@ -518,46 +389,27 @@ class UIController {
         this.searchResults.style.display = 'block';
     }
 
-    /**
-     * Maneja la selección de un municipio desde el buscador
-     */
     async selectMunicipalityFromSearch(municipalityId, municipalityName) {
         console.log(`📍 Municipio seleccionado desde búsqueda: ${municipalityName} (${municipalityId})`);
 
-        // Actualizar el input de búsqueda
         this.searchInput.value = municipalityName;
         this.searchResults.style.display = 'none';
 
-        // Actualizar info del municipio en el panel
         this.setMunicipalityInfo(municipalityName, municipalityId);
-
-        // Mostrar análisis educativo municipal
         await this.showMunicipalityEducationAnalysis(municipalityId, municipalityName);
 
-        // Seleccionar el municipio en el mapa (esto ya incluye el zoom)
         if (window.layerManager && window.layerManager.selectMunicipalityById) {
             window.layerManager.selectMunicipalityById(municipalityId);
-        } else {
-            console.warn('❌ layerManager o selectMunicipalityById no está disponible');
         }
 
-        // Cargar automáticamente centros de salud y educación
         await this.loadDataForMunicipality(municipalityId);
-
-        // Nota: No llamamos a zoomToMunicipality porque selectMunicipalityById ya hace el zoom
     }
 
-    /**
-     * Carga automáticamente los datos del municipio seleccionado
-     */
     async loadDataForMunicipality(municipalityId) {
         try {
-            // Cargar centros educativos
             if (window.layerManager && window.layerManager.loadEducationCentersForMunicipality) {
                 await window.layerManager.loadEducationCentersForMunicipality(municipalityId);
             }
-
-            // Cargar hospitales
             if (window.layerManager && window.layerManager.loadHospitalsForMunicipality) {
                 await window.layerManager.loadHospitalsForMunicipality(municipalityId);
             }
@@ -566,9 +418,6 @@ class UIController {
         }
     }
 
-    /**
-     * Limpia el buscador
-     */
     clearSearch() {
         this.searchInput.value = '';
         this.currentSearchTerm = '';
@@ -579,18 +428,14 @@ class UIController {
             clearTimeout(this.searchTimeout);
         }
 
-        // Resetear selección del municipio en el mapa
         if (window.layerManager && window.layerManager.resetPreviousSelection) {
             window.layerManager.resetPreviousSelection();
         }
 
-        // Resetear panel de información
         this.resetInfoPanel();
         this.setMunicipalityInfo('-', '-');
     }
-        /**
-     * Limpia solo el estado del buscador sin resetear el mapa
-     */
+
     clearSearchState() {
         this.currentSearchTerm = '';
         this.searchResults.innerHTML = '';
@@ -603,5 +448,6 @@ class UIController {
         console.log('🧹 Estado del buscador limpiado');
     }
 }
+
 // Hacer disponible globalmente
 window.UIController = UIController;
