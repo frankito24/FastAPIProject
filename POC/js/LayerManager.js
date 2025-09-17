@@ -12,17 +12,21 @@ class LayerManager {
         };
         this.currentLayer = 'base';
 
-        // Inicializar EducationManager después de que DataLoader esté disponible
+        // Inicializar managers después de que DataLoader esté disponible
         this.educationManager = null;
+        this.hospitalManager = null;
         this.municipalityGeoJSON = null;
+
     }
 
     /**
-     * Inicializa el EducationManager cuando DataLoader esté disponible
+     * Inicializa los managers cuando DataLoader esté disponible
      */
     initializeEducationManager(dataLoader) {
         this.educationManager = new EducationManager(this.mapManager, dataLoader);
+        this.hospitalManager = new HospitalManager(this.mapManager, dataLoader);
         window.educationManager = this.educationManager;
+        window.hospitalManager = this.hospitalManager;
     }
 
     /**
@@ -77,16 +81,29 @@ class LayerManager {
             <div class="popup-info">
                 <strong>Código:</strong> ${municipalityId || 'N/A'}<br>
                 <strong>Etiqueta:</strong> ${props.ETIQUETA || 'N/A'}<br>
-                <button onclick="window.layerManager.loadEducationCentersForMunicipality('${municipalityId}')"
-                        style="margin-top: 10px; padding: 8px 16px; background: #3b82f6; color: white; border: none; border-radius: 4px; cursor: pointer;">
-                    📚 Cargar Centros Educativos
-                </button>
+                <div style="display: flex; gap: 5px; margin-top: 10px;">
+                    <button onclick="window.layerManager.loadEducationCentersForMunicipality('${municipalityId}')"
+                            style="flex: 1; padding: 8px 12px; background: #3b82f6; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;">
+                        📚 Centros Educativos
+                    </button>
+                    <button onclick="window.layerManager.loadHospitalsForMunicipality('${municipalityId}')"
+                            style="flex: 1; padding: 8px 12px; background: #dc3545; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;">
+                        🏥 Hospitales
+                    </button>
+                </div>
             </div>
         `);
 
         // Actualiza el info-panel al hacer clic en el municipio
         layer.on('click', async () => {
             console.log('[LayerManager] Municipio clicked:', municipalityName, municipalityId);
+
+            // Resetear el estilo del municipio previamente seleccionado
+            this.resetPreviousSelection();
+
+            // Marcar el nuevo municipio como seleccionado
+            this.selectMunicipality(layer);
+
             if (window.uiController && typeof window.uiController.setMunicipalityInfo === 'function') {
                 window.uiController.setMunicipalityInfo(municipalityName, municipalityId);
             }
@@ -98,20 +115,56 @@ class LayerManager {
         });
 
         layer.on('mouseover', () => {
-            layer.setStyle({
-                fillOpacity: 0.5,
-                weight: 3,
-                color: '#dc2626'
-            });
+            // Solo aplicar hover si no es el municipio seleccionado
+            if (this.selectedMunicipality !== layer) {
+                layer.setStyle({
+                    fillOpacity: 0.5,
+                    weight: 3,
+                    color: '#dc2626'
+                });
+            }
         });
 
         layer.on('mouseout', () => {
-            layer.setStyle({
+            // Solo resetear hover si no es el municipio seleccionado
+            if (this.selectedMunicipality !== layer) {
+                layer.setStyle({
+                    fillOpacity: 0.2,
+                    weight: 2,
+                    color: '#1e40af'
+                });
+            }
+        });
+    }
+
+    /**
+     * Selecciona un municipio y lo marca en rojo
+     */
+    selectMunicipality(layer) {
+        this.selectedMunicipality = layer;
+        layer.setStyle({
+            fillColor: '#dc2626',
+            fillOpacity: 0.6,
+            weight: 3,
+            color: '#b91c1c',
+            opacity: 1
+        });
+    }
+
+    /**
+     * Resetea el estilo del municipio previamente seleccionado
+     */
+    resetPreviousSelection() {
+        if (this.selectedMunicipality) {
+            this.selectedMunicipality.setStyle({
+                fillColor: '#3b82f6',
                 fillOpacity: 0.2,
                 weight: 2,
-                color: '#1e40af'
+                color: '#1e40af',
+                opacity: 0.9
             });
-        });
+            this.selectedMunicipality = null;
+        }
     }
 
     /**
@@ -122,6 +175,17 @@ class LayerManager {
             await this.educationManager.loadEducationCentersForMunicipality(municipalityId);
         } else {
             console.error('❌ EducationManager no está inicializado');
+        }
+    }
+
+    /**
+     * Carga hospitales para un municipio (delegado al HospitalManager)
+     */
+    async loadHospitalsForMunicipality(municipalityId) {
+        if (this.hospitalManager) {
+            await this.hospitalManager.loadHospitalsForMunicipality(municipalityId);
+        } else {
+            console.error('❌ HospitalManager no está inicializado');
         }
     }
 
@@ -142,7 +206,7 @@ class LayerManager {
                 if (this.layers.municipalities) {
                     this.layers.municipalities.addTo(this.map);
                     // Ajustar vista a los límites de los municipios
-                    this.map.fitBounds(this.layers.municipalities.getBounds(), { padding: [20, 20] });
+                    this.map.fitBounds(this.layers.municipalities.getBounds(), {padding: [20, 20]});
                 }
                 break;
             case 'hospitals':
@@ -175,6 +239,11 @@ class LayerManager {
             this.map.removeLayer(this.educationManager.getEducationLayer());
         }
 
+        // Remover capa de hospitales si está activa
+        if (this.hospitalManager && this.map.hasLayer(this.hospitalManager.getHospitalLayer())) {
+            this.map.removeLayer(this.hospitalManager.getHospitalLayer());
+        }
+
         // NO remover la capa de municipios - siempre debe permanecer como base
     }
 
@@ -185,6 +254,8 @@ class LayerManager {
         // Placeholder para datos de hospitales
         console.log('📍 Cargando capa de hospitales...');
         // Aquí se cargarían los datos reales de hospitales
+
+
     }
 
     /**
@@ -201,7 +272,7 @@ class LayerManager {
     }
 
     /**
-     * Obtiene la capa actual
+     * Obtiene la capa currente
      */
     getCurrentLayer() {
         return this.currentLayer;

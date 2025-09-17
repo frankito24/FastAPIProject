@@ -357,6 +357,113 @@ class DataLoader {
             return null;
         }
     }
+
+    /**
+     * Obtiene IDs de hospitales por municipio
+     */
+    async getHospitalIdsByMunicipality(municipalityId) {
+        try {
+            const response = await fetch(`${this.apiBaseUrl}/hospital_municipality/search?municipality_id=${municipalityId}`);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            return data.items || [];
+        } catch (error) {
+            console.error(`❌ Error obteniendo IDs de hospitales para municipio ${municipalityId}:`, error);
+            return [];
+        }
+    }
+
+    /**
+     * Obtiene datos de un hospital por ID
+     */
+    async getHospitalById(hospitalId) {
+        try {
+            const response = await fetch(`${this.apiBaseUrl}/hospital/${hospitalId}`);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error(`❌ Error obteniendo datos del hospital ${hospitalId}:`, error);
+            return null;
+        }
+    }
+
+    /**
+     * Obtiene análisis de un hospital
+     */
+    async getHospitalAnalysis(hospitalId) {
+        try {
+            const response = await fetch(`${this.apiBaseUrl}/hospital_analysis/search?hospital_id=${hospitalId}`);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            return data.items && data.items.length > 0 ? data.items[0] : null;
+        } catch (error) {
+            console.error(`❌ Error obteniendo análisis del hospital ${hospitalId}:`, error);
+            return null;
+        }
+    }
+
+    /**
+     * Carga hospitales completos para un municipio
+     */
+    async loadHospitalsForMunicipality(municipalityId) {
+        try {
+            console.log(`🏥 Iniciando carga de hospitales para municipio: ${municipalityId}`);
+
+            const hospitalIds = await this.getHospitalIdsByMunicipality(municipalityId);
+            console.log(`📊 Encontrados ${hospitalIds.length} hospitales`);
+
+            if (hospitalIds.length === 0) {
+                return [];
+            }
+
+            const hospitalsWithCompleteData = [];
+
+            for (const item of hospitalIds) {
+                const hospitalId = item.hospital_id;
+
+                console.log(`🔍 Obteniendo datos para hospital: ${hospitalId}`);
+
+                const hospitalData = await this.getHospitalById(hospitalId);
+                if (!hospitalData) {
+                    console.log(`⚠️ No se encontraron datos básicos para el hospital ${hospitalId}`);
+                    continue;
+                }
+
+                const analysisData = await this.getHospitalAnalysis(hospitalId);
+                if (!analysisData) {
+                    console.log(`⚠️ No se encontraron datos de análisis para el hospital ${hospitalId}`);
+                    continue;
+                }
+
+                hospitalsWithCompleteData.push({
+                    hospitalData,
+                    analysisData
+                });
+
+                console.log(`✅ Hospital ${hospitalId} tiene datos completos`);
+            }
+
+            console.log(`📊 Hospitales con datos completos: ${hospitalsWithCompleteData.length}/${hospitalIds.length}`);
+            return hospitalsWithCompleteData;
+
+        } catch (error) {
+            console.error('❌ Error general cargando hospitales:', error);
+            return [];
+        }
+    }
 }
 
 // Hacer disponible globalmente
