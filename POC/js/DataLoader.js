@@ -464,6 +464,25 @@ class DataLoader {
             return [];
         }
     }
+
+    /**
+     * Busca municipios por nombre usando la API
+     */
+    async searchMunicipalities(searchTerm) {
+        try {
+            const response = await fetch(`${this.apiBaseUrl}/municipality/search?name=${encodeURIComponent(searchTerm)}`);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            return data.items || [];
+        } catch (error) {
+            console.error(`❌ Error buscando municipios con término: ${searchTerm}:`, error);
+            return [];
+        }
+    }
 }
 
 // Hacer disponible globalmente

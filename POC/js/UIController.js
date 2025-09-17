@@ -9,6 +9,13 @@ class UIController {
         this.resetViewBtn = document.getElementById('resetView');
         this.toggleInfoBtn = document.getElementById('toggleInfo');
 
+        // Buscador de municipios
+        this.searchInput = document.getElementById('municipalitySearch');
+        this.searchResults = document.getElementById('searchResults');
+        this.clearSearchBtn = document.getElementById('clearSearch');
+        this.searchTimeout = null;
+        this.currentSearchTerm = '';
+
         // Contadores
         this.hospitalCount = document.getElementById('hospital-count');
         this.educationCount = document.getElementById('education-count');
@@ -43,6 +50,41 @@ class UIController {
                 this.toggleInfoPanel();
             });
         }
+
+        // Buscador de municipios
+        if (this.searchInput) {
+            this.searchInput.addEventListener('input', (e) => {
+                this.handleSearchInput(e.target.value);
+            });
+
+            this.searchInput.addEventListener('focus', () => {
+                if (this.searchResults.children.length > 0) {
+                    this.searchResults.style.display = 'block';
+                }
+            });
+
+            this.searchInput.addEventListener('blur', (e) => {
+                // Delay para permitir clicks en resultados
+                setTimeout(() => {
+                    this.searchResults.style.display = 'none';
+                }, 200);
+            });
+        }
+
+        if (this.clearSearchBtn) {
+            this.clearSearchBtn.addEventListener('click', () => {
+                // Solo limpiar el estado del buscador, no resetear el mapa
+                this.searchInput.value = '';
+                this.clearSearchState();
+            });
+        }
+
+        // Cerrar resultados al hacer click fuera
+        document.addEventListener('click', (e) => {
+            if (!this.searchInput?.contains(e.target) && !this.searchResults?.contains(e.target)) {
+                this.searchResults.style.display = 'none';
+            }
+        });
     }
 
     /**
@@ -366,10 +408,200 @@ class UIController {
             `;
         }
     }
+
+    /**
+     * Maneja la entrada de texto en el buscador
+     */
+    handleSearchInput(value) {
+        const trimmedValue = value.trim();
+        this.currentSearchTerm = trimmedValue;
+
+        // Mostrar/ocultar botón de limpiar
+        if (trimmedValue.length > 0) {
+            this.clearSearchBtn.style.display = 'block';
+        } else {
+            this.clearSearchBtn.style.display = 'none';
+            this.searchResults.style.display = 'none';
+
+            // Si se borraron todos los caracteres, limpiar completamente
+            if (trimmedValue.length === 0) {
+                this.clearSearchState();
+            }
+            return;
+        }
+
+        // Limpiar timeout anterior
+        if (this.searchTimeout) {
+            clearTimeout(this.searchTimeout);
+        }
+
+        // Si tiene menos de 3 caracteres, no buscar pero mostrar estado limpio
+        if (trimmedValue.length < 3) {
+            this.searchResults.style.display = 'none';
+            return;
+        }
+
+        // Delay de 0.5 segundos antes de buscar
+        this.searchTimeout = setTimeout(() => {
+            this.performSearch(trimmedValue);
+        }, 500);
+    }
+
+    /**
+     * Realiza la búsqueda de municipios
+     */
+    async performSearch(searchTerm) {
+        if (searchTerm !== this.currentSearchTerm || searchTerm.length < 3) {
+            return;
+        }
+
+        console.log(`🔍 Buscando municipios con término: "${searchTerm}"`);
+
+        // Mostrar loading
+        this.showSearchLoading();
+
+        try {
+            const results = await window.dataLoader.searchMunicipalities(searchTerm);
+
+            if (searchTerm !== this.currentSearchTerm) {
+                return; // La búsqueda cambió mientras esperábamos
+            }
+
+            this.displaySearchResults(results);
+        } catch (error) {
+            console.error('❌ Error en búsqueda de municipios:', error);
+            this.showSearchError();
+        }
+    }
+
+    /**
+     * Muestra el indicador de carga en los resultados
+     */
+    showSearchLoading() {
+        this.searchResults.innerHTML = '<div class="search-loading">🔄 Buscando municipios...</div>';
+        this.searchResults.style.display = 'block';
+    }
+
+    /**
+     * Muestra error en los resultados de búsqueda
+     */
+    showSearchError() {
+        this.searchResults.innerHTML = '<div class="search-no-results">❌ Error en la búsqueda</div>';
+        this.searchResults.style.display = 'block';
+    }
+
+    /**
+     * Muestra los resultados de búsqueda
+     */
+    displaySearchResults(results) {
+        if (results.length === 0) {
+            this.searchResults.innerHTML = '<div class="search-no-results">No se encontraron municipios</div>';
+        } else {
+            this.searchResults.innerHTML = results.map(municipality => `
+                <div class="search-result-item" data-municipality-id="${municipality.id}">
+                    <span class="search-result-name">${municipality.name}</span>
+                    <span class="search-result-code">${municipality.id}</span>
+                </div>
+            `).join('');
+
+            // Agregar event listeners a cada resultado
+            this.searchResults.querySelectorAll('.search-result-item').forEach(item => {
+                item.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const municipalityId = item.dataset.municipalityId;
+                    const municipalityName = item.querySelector('.search-result-name').textContent;
+                    this.selectMunicipalityFromSearch(municipalityId, municipalityName);
+                });
+            });
+        }
+
+        this.searchResults.style.display = 'block';
+    }
+
+    /**
+     * Maneja la selección de un municipio desde el buscador
+     */
+    async selectMunicipalityFromSearch(municipalityId, municipalityName) {
+        console.log(`📍 Municipio seleccionado desde búsqueda: ${municipalityName} (${municipalityId})`);
+
+        // Actualizar el input de búsqueda
+        this.searchInput.value = municipalityName;
+        this.searchResults.style.display = 'none';
+
+        // Actualizar info del municipio en el panel
+        this.setMunicipalityInfo(municipalityName, municipalityId);
+
+        // Mostrar análisis educativo municipal
+        await this.showMunicipalityEducationAnalysis(municipalityId, municipalityName);
+
+        // Seleccionar el municipio en el mapa (esto ya incluye el zoom)
+        if (window.layerManager && window.layerManager.selectMunicipalityById) {
+            window.layerManager.selectMunicipalityById(municipalityId);
+        } else {
+            console.warn('❌ layerManager o selectMunicipalityById no está disponible');
+        }
+
+        // Cargar automáticamente centros de salud y educación
+        await this.loadDataForMunicipality(municipalityId);
+
+        // Nota: No llamamos a zoomToMunicipality porque selectMunicipalityById ya hace el zoom
+    }
+
+    /**
+     * Carga automáticamente los datos del municipio seleccionado
+     */
+    async loadDataForMunicipality(municipalityId) {
+        try {
+            // Cargar centros educativos
+            if (window.layerManager && window.layerManager.loadEducationCentersForMunicipality) {
+                await window.layerManager.loadEducationCentersForMunicipality(municipalityId);
+            }
+
+            // Cargar hospitales
+            if (window.layerManager && window.layerManager.loadHospitalsForMunicipality) {
+                await window.layerManager.loadHospitalsForMunicipality(municipalityId);
+            }
+        } catch (error) {
+            console.error('❌ Error cargando datos del municipio:', error);
+        }
+    }
+
+    /**
+     * Limpia el buscador
+     */
+    clearSearch() {
+        this.searchInput.value = '';
+        this.currentSearchTerm = '';
+        this.searchResults.style.display = 'none';
+        this.clearSearchBtn.style.display = 'none';
+
+        if (this.searchTimeout) {
+            clearTimeout(this.searchTimeout);
+        }
+
+        // Resetear selección del municipio en el mapa
+        if (window.layerManager && window.layerManager.resetPreviousSelection) {
+            window.layerManager.resetPreviousSelection();
+        }
+
+        // Resetear panel de información
+        this.resetInfoPanel();
+        this.setMunicipalityInfo('-', '-');
+    }
+        /**
+     * Limpia solo el estado del buscador sin resetear el mapa
+     */
+    clearSearchState() {
+        this.currentSearchTerm = '';
+        this.searchResults.innerHTML = '';
+        this.searchResults.style.display = 'none';
+
+        if (this.searchTimeout) {
+            clearTimeout(this.searchTimeout);
+        }
+
+        console.log('🧹 Estado del buscador limpiado');
+    }
 }
-
-// Hacer disponible globalmente
-window.UIController = UIController;
-
 // Hacer disponible globalmente
 window.UIController = UIController;

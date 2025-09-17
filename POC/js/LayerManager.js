@@ -277,6 +277,79 @@ class LayerManager {
     getCurrentLayer() {
         return this.currentLayer;
     }
+
+    /**
+     * Selecciona un municipio por su ID desde el buscador
+     */
+    selectMunicipalityById(municipalityId) {
+        console.log(`🔍 Buscando municipio con ID: "${municipalityId}"`);
+
+        if (!this.municipalityGeoJSON) {
+            console.warn('❌ municipalityGeoJSON no está cargado');
+            return;
+        }
+
+        let found = false;
+        // Buscar el layer del municipio por su ID
+        this.municipalityGeoJSON.eachLayer((layer) => {
+            const props = layer.feature.properties;
+            const layerMunicipalityId = props.CMUN || props.CMUN4;
+
+            console.log(`🔍 Comparando: "${layerMunicipalityId}" === "${municipalityId}"`);
+
+            // Comparar como strings para evitar problemas de tipo
+            if (String(layerMunicipalityId) === String(municipalityId)) {
+                console.log(`✅ Municipio encontrado: ${props.DESCR || props.ETIQUETA}`);
+
+                // Resetear selección anterior
+                this.resetPreviousSelection();
+
+                // Seleccionar este municipio
+                this.selectMunicipality(layer);
+
+                // Hacer zoom al municipio
+                this.map.fitBounds(layer.getBounds(), { padding: [50, 50] });
+
+                console.log(`✅ Municipio ${municipalityId} seleccionado y centrado en el mapa`);
+                found = true;
+                return; // Salir del loop
+            }
+        });
+
+        if (!found) {
+            console.warn(`❌ No se encontró municipio con ID: "${municipalityId}"`);
+        }
+    }
+
+    /**
+     * Hace zoom a un municipio específico por ID
+     */
+    zoomToMunicipality(municipalityId) {
+        console.log(`🎯 Aplicando zoom a municipio con ID: "${municipalityId}"`);
+
+        if (!this.municipalityGeoJSON) {
+            console.warn('❌ municipalityGeoJSON no está cargado para zoom');
+            return;
+        }
+
+        let found = false;
+        this.municipalityGeoJSON.eachLayer((layer) => {
+            const props = layer.feature.properties;
+            const layerMunicipalityId = props.CMUN || props.CMUN4;
+
+            // Comparar como strings para evitar problemas de tipo
+            if (String(layerMunicipalityId) === String(municipalityId)) {
+                this.map.fitBounds(layer.getBounds(), { padding: [50, 50] });
+                console.log(`🎯 Zoom aplicado al municipio ${municipalityId}`);
+                found = true;
+                return; // Salir del loop
+            }
+        });
+
+        if (!found) {
+            console.warn(`❌ No se pudo hacer zoom - municipio no encontrado: "${municipalityId}"`);
+        }
+    }
 }
 
 // Hacer disponible globalmente

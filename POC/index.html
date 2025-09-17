@@ -14,20 +14,17 @@
             <p>Mapa interactivo de la Comunidad de Madrid con datos de salud y educación</p>
         </header>
 
-        <div class="controls">
-            <div class="control-group">
-                <label for="layerSelect">Capa de datos:</label>
-                <select id="layerSelect">
-                    <option value="base">Mapa base</option>
-                    <option value="hospitals">Hospitales</option>
-                    <option value="education">Centros educativos</option>
-                    <option value="municipalities" selected>Municipios</option>
-                </select>
-            </div>
-
-            <div class="control-group">
-                <button id="resetView" class="btn">🔄 Centrar vista</button>
-                <button id="toggleInfo" class="btn">ℹ️ Información</button>
+        <div class="search-container">
+            <div class="search-wrapper">
+                <div class="search-input-container">
+                    <input type="text"
+                           id="municipalitySearch"
+                           class="search-input"
+                           placeholder="🔍 Buscar municipio..."
+                           autocomplete="off">
+                    <div id="searchResults" class="search-results"></div>
+                </div>
+                <button id="clearSearch" class="clear-search-btn" style="display: none;">×</button>
             </div>
         </div>
 
@@ -83,13 +80,13 @@
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <!-- Módulos JavaScript -->
-    <script src="js/MapManager.js"></script>
-    <script src="js/LayerManager.js"></script>
-    <script src="js/UIController.js"></script>
+    <!-- Módulos JavaScript - Orden correcto de dependencias -->
     <script src="js/DataLoader.js"></script>
+    <script src="js/MapManager.js"></script>
     <script src="js/EducationManager.js"></script>
     <script src="js/HospitalManager.js"></script>
+    <script src="js/LayerManager.js"></script>
+    <script src="js/UIController.js"></script>
     <script src="js/main.js"></script>
 <!--<script src="app.js"></script>-->
 </body>
