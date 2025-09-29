@@ -210,7 +210,7 @@ class HospitalManager {
                     </div>
                 </div>
 
-                <div style="margin-bottom: 20px;">
+                <div style="margin-bottom: 20px;display:none;">
                     <h3 style="color: #dc2626; margin-bottom: 10px;">📋 Puntuaciones de Rendimiento</h3>
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
                         <div style="padding: 10px; background: #f3f4f6; border-radius: 6px;">
